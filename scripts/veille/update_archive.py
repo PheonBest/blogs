@@ -10,8 +10,12 @@ Reads one JSON object (the entry) from stdin. Entry shape:
      "sources": [{"n": 1, "title": "...", "url": "...", "feed": "..."}]}
 
 Writes digests/<date>.json (one file per day, overwritten if the date already
-has an entry), and updates digests/index.json (newest first, lightweight
-{date,label,title} list used by search/listing without fetching every file).
+has an entry), updates digests/index.json (newest first, lightweight
+{date,label,title} list used by search/listing without fetching every file),
+and updates digests/latest.json (full content of the newest LATEST_CAP
+entries) — the Glance dashboard widget reads latest.json directly and
+unauthenticated (raw.githubusercontent.com), no per-file fetching needed for
+the common case of "show the last few digests".
 Commits and pushes directly to the current branch (this repo has no GitOps
 concerns, so no orphan-branch dance is needed like gitops-demo's `data`
 branch) — rebase + one retry on push conflict.
@@ -26,6 +30,8 @@ from pathlib import Path
 
 DIGESTS_DIR = "digests"
 INDEX_REL = "digests/index.json"
+LATEST_REL = "digests/latest.json"
+LATEST_CAP = 20
 
 
 def run(*args, cwd=None, check=True):
@@ -69,7 +75,21 @@ def main() -> int:
     index["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     index_path.write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n")
 
-    run("git", "add", str(digest_path.relative_to(repo)), INDEX_REL, cwd=repo)
+    latest_path = repo / LATEST_REL
+    latest_entries = []
+    for e in index["entries"][:LATEST_CAP]:
+        if e["date"] == entry["date"]:
+            latest_entries.append(entry)
+            continue
+        try:
+            latest_entries.append(json.loads((repo / DIGESTS_DIR / f"{e['date']}.json").read_text()))
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
+    latest_path.write_text(json.dumps(
+        {"updated_at": index["updated_at"], "entries": latest_entries},
+        ensure_ascii=False, indent=1) + "\n")
+
+    run("git", "add", str(digest_path.relative_to(repo)), INDEX_REL, LATEST_REL, cwd=repo)
     if not run("git", "diff", "--cached", "--quiet", cwd=repo, check=False).returncode:
         print("no change")
         return 0

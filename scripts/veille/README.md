@@ -32,5 +32,8 @@ digests/
                  # window to use. Edit the number to change cadence.
   index.json     # {date,label,title} per entry, newest first — cheap listing
                  # for search without fetching every digest file.
+  latest.json    # full content of the newest 20 entries — what the Glance
+                 # widget actually fetches (raw.githubusercontent.com, no
+                 # auth, no Flux/ConfigMap plumbing needed).
   <date>.json    # one full digest per day (schema: see veille-summary.md)
 ```
