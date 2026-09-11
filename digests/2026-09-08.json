@@ -1,0 +1,142 @@
+{
+ "date": "2026-09-08",
+ "label": "lundi 8 septembre 2026",
+ "title": "Récap — PostgreSQL Migrator en 1.0, Sidebery pour les gros porteurs d'onglets, et la semaine 36",
+ "sections": [
+  {
+   "name": "Dev & Ops",
+   "paragraphs": [
+    [
+     {
+      "t": "Dalibo sort la 1.0 stable de PostgreSQL Migrator, son outil de bascule vers Postgres "
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". La newsletter hebdo de RudeOps est dense cette fois : Kubernetes et le format KYAML, GitOps, la sécurité npm après la série d'attaques sur la chaîne d'approvisionnement, self-hosting et monitoring "
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Pour le tour d'horizon plus large, la revue de presse de l'April couvre la semaine 36 sur LinuxFr "
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", et le Journal du Hacker a publié sa sélection de liens du même créneau "
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": "."
+     }
+    ],
+    [
+     {
+      "t": "flozz raconte pourquoi Sidebery est devenu son extension Firefox de tous les jours pour tenir ses 300 onglets : arborescence verticale, sessions, panneaux "
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ". Si vous venez de Tree Style Tab, rien de neuf, mais le billet fait un bon argumentaire pour ceux qui hésitent encore à décoller la barre d'onglets du haut de l'écran."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Culture",
+   "paragraphs": [
+    [
+     {
+      "t": "Côté lecture du dimanche, Philosophie Magazine relaie l'appel d'Amélie Nothomb à « se soucier de son âme » "
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": " et va voir comment les humoristes trouvent le bon mot "
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ". Culturaddict continue sa série d'entretiens avec les réalisateurs de l'âge d'or Disney : après Kirk Wise, c'est Gary Trousdale, coréalisateur de La Belle et la Bête et du Bossu de Notre-Dame, qui répond "
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". Et Grise Bouille poursuit ses « Cases noisette » sur les contes, cette fois sur la gêne du prince qui vient « délivrer » une princesse endormie sans lui demander son avis "
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": "."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "PostgreSQL Migrator 1.0 stable",
+   "url": "https://blog.dalibo.com/2026/09/07/postgresql-migrator-1.html",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 2,
+   "title": "Newsletter du 07 Septembre 2026",
+   "url": "https://www.rudeops.com/newsletters/2026-09-07",
+   "feed": "RudeOps"
+  },
+  {
+   "n": 3,
+   "title": "Revue de presse de l'April pour la semaine 36 de l'année 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-36-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Liens intéressants Journal du hacker semaine #36",
+   "url": "https://blog.journalduhacker.net/index.php?article603/liens-interessants-journal-du-hacker-semaine-36-2026",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Sidebery, l'extension Firefox indispensable (pour moi et mes 300 onglets)",
+   "url": "https://blog.flozz.fr/2026/09/07/sidebery-lextension-firefox-indispensable-pour-moi-et-mes-300-onglets/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 6,
+   "title": "“Se soucier de son âme”, le vibrant appel d’Amélie Nothomb",
+   "url": "https://www.philomag.com/articles/se-soucier-de-son-ame-le-vibrant-appel-damelie-nothomb",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 7,
+   "title": "Comment trouver le bon mot ? Dans les coulisses des humoristes",
+   "url": "https://www.philomag.com/articles/comment-trouver-le-bon-mot-dans-les-coulisses-des-humoristes",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 8,
+   "title": "Rencontre avec Gary Trousdale, coréalisateur de « La Belle et la Bête », « Le Bossu de Notre-Dame » et « Atlantide, l’Empire Perdu » (partie 1)",
+   "url": "https://culturaddict.com/rencontre-avec-gary-trousdale-corealisateur-de-la-belle-et-la-bete-le-bossu-de-notre-dame-et-atlantide-lempire-perdu/",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 9,
+   "title": "Le bois dormant paisiblement",
+   "url": "https://grisebouille.net/le-bois-dormant-paisiblement",
+   "feed": "Grise Bouille"
+  }
+ ]
+}

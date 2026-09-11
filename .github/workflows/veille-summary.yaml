@@ -1,0 +1,111 @@
+name: veille-summary
+
+# Daily French AI digest of the francophone tech RSS feeds. Runs Claude Code on
+# a Claude subscription (CLAUDE_CODE_OAUTH_TOKEN, from `claude setup-token`),
+# no Anthropic API key. Toolchain: scripts/veille/. Output: one file per day
+# under digests/, plus digests/index.json (listing) and digests/config.json
+# (cadence in days, read by the guard step below).
+#
+# Moved here from Gloweet/gitops-demo on 2026-09-11 (that repo is GitOps-only;
+# this is the actual publish target — a public repo the fork's Glance widget
+# reads unauthenticated via raw.githubusercontent.com). The gitops-demo copy
+# never ran successfully: the claude-code-action step needs `id-token: write`
+# for its OIDC token exchange, which the old workflow's permissions block
+# omitted (`Could not fetch an OIDC token`, every scheduled run 09-08..09-10).
+# Fixed below.
+
+on:
+  schedule:
+    - cron: "37 5 * * *" # ~07:37 Europe/Paris (CEST); ~06:37 in winter (CET)
+  workflow_dispatch:
+
+concurrency:
+  group: veille-summary
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+      step_days: ${{ steps.check.outputs.step_days }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check cadence (digests/config.json step_days vs. last digest date)
+        id: check
+        run: |
+          step_days=$(jq -r '.step_days // 1' digests/config.json)
+          last_date=$(jq -r '.entries[0].date // empty' digests/index.json)
+          today=$(date -u +%Y-%m-%d)
+          if [ -z "$last_date" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            days_since=$(( ( $(date -u -d "$today" +%s) - $(date -u -d "$last_date" +%s) ) / 86400 ))
+            if [ "$days_since" -ge "$step_days" ]; then
+              echo "should_run=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "should_run=false" >> "$GITHUB_OUTPUT"
+              echo "skipping: last digest $last_date, step_days=$step_days, days_since=$days_since"
+            fi
+          fi
+          echo "step_days=$step_days" >> "$GITHUB_OUTPUT"
+
+  digest:
+    needs: guard
+    if: needs.guard.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: |
+            --allowedTools Bash,Read,Edit,Write,Glob,Grep
+            --max-turns 40
+          prompt: |
+            Génère le récap IA de veille tech francophone. Tout le toolchain
+            est dans ce dépôt sous scripts/veille/. Travaille depuis la racine
+            du checkout. N'ouvre AUCUNE pull request : le seul artefact attendu
+            est un commit + push sur la branche courante fait par
+            update_archive.py.
+
+            0. Fenêtre de récupération : lis digests/config.json, champ
+               step_days (nombre de jours depuis le dernier récap). Utilise
+               cette valeur comme fenêtre à l'étape 1 (au lieu de "1" fixe).
+
+            1. Articles depuis le dernier récap :
+               python3 scripts/veille/fetch_feeds.py <step_days> all
+               Sortie TSV : DATE, TITRE, LIEN, CATEGORIE, DESCRIPTION, SOURCE.
+               Ignore les lignes ERROR / WARNING / NOTE sur stderr (flux
+               indisponibles), n'en parle pas. Si zéro article : entrée
+               minimale décrite à l'étape 4 de scripts/veille/veille-summary.md.
+
+            2. Lis scripts/veille/veille-summary.md et applique ses étapes 2
+               (rédaction, groupée par sections thématiques nommées — 2 à 4
+               sections, ex: "Dev & Ops", "Culture" — chaque paragraphe est un
+               tableau de runs texte/citation) et 4 (construction de l'entrée
+               JSON). Date du jour = aujourd'hui (UTC).
+
+            3. Passe Boileau : lis scripts/veille/boileau.md et applique ses
+               règles au brouillon (titre + paragraphes) avant de finaliser.
+
+            4. Publie :
+               printf '%s' "$ENTRY_JSON" | python3 scripts/veille/update_archive.py "$(pwd)"
+               Le script écrit digests/<date>.json, met à jour
+               digests/index.json, commit et push. S'il échoue au push,
+               relance-le une fois.
+
+            5. Compte rendu bref : titre de l'entrée, nombre d'articles cités,
+               et la ligne de sortie du script (`pushed digest <date>`). Rien
+               d'autre.

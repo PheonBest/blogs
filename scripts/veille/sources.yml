@@ -1,0 +1,196 @@
+# Sources RSS pour la veille tech francophone
+# Ajouter une source : copier un bloc ci-dessous avec name + url + categories
+# categories : jeux-video, informatique, philosophie, societe, cinema, culture
+# (une source peut avoir plusieurs categories, separees par des virgules)
+
+sources:
+  # === Jeux Vidéo ===
+  - name: "PXLBBQ"
+    url: https://pxlbbq.com/feed/
+    site: https://pxlbbq.com/
+    categories: jeux-video
+    description:
+
+  - name: "Blogamer.fr"
+    url: https://www.blogamer.fr/feed/
+    site: https://www.blogamer.fr/
+    categories: jeux-video
+    description:
+
+  - name: "Je suis un gameur.com | Le jeu vidéo avec passion !"
+    url: https://jesuisungameur.com/feed/
+    site: https://jesuisungameur.com/
+    categories: jeux-video
+    description:
+
+  - name: "123geekos"
+    url: https://www.123geekos.fr/feed/
+    site: https://www.123geekos.fr/
+    categories: jeux-video
+    description:
+
+  - name: "Epic Games Store - Free Games"
+    url: https://rsshub.app/epicgames/freegames/en-US/US
+    site: https://store.epicgames.com/en-US/free-games?lang=en-US
+    categories: jeux-video
+    description:
+
+  # === Informatique  ===
+  - name: Journal du Hacker
+    url: https://www.journalduhacker.net/rss
+    site: https://www.journalduhacker.net
+    categories: informatique
+    description: Agrégateur communautaire de news tech francophones
+
+  - name: RudeOps
+    url: https://www.rudeops.com/feed.xml
+    site: https://www.rudeops.com/
+    categories: informatique
+    description: La newsletter dédiée à la tech en général et au devops en particulier.
+
+  - name: Dépêches LinuxFr.org
+    url: https://linuxfr.org/news.atom
+    site: https://linuxfr.org/
+    categories: informatique
+    description: Actualités du Libre et Open Source
+
+  - name: Blog de Stéphane Bortzmeyer
+    url: https://www.bortzmeyer.org/feed.atom
+    site: https://www.bortzmeyer.org/
+    categories: informatique
+    description: Billets argumentés sur internet, réseaux et gouvernance du numérique
+
+  - name: Pavillon rouge et noir
+    url: https://p4bl0.net/feed/rss2
+    site: https://p4bl0.net/
+    categories: informatique, societe
+    description: Blog personnel politique et libriste, opinions engagées
+
+  - name: "Pavillon rouge et noir"
+    url: https://p4bl0.net/feed/rss2
+    site: https://p4bl0.net/
+    categories: informatique, societe
+
+  - name: "Camille Roux"
+    url: https://www.camilleroux.com/rss/
+    site: https://www.camilleroux.com/
+    categories: informatique
+
+  - name: "Elena Rossini"
+    url: https://blog.elenarossini.com/rss/
+    site: https://blog.elenarossini.com/
+    categories: informatique
+    description:
+
+  - name: "selfh.st"
+    url: https://selfh.st/rss/
+    site: https://selfh.st/
+    categories: informatique
+    description:
+
+  # === Philosophie ===
+
+  - name: David Madore's WebLog
+    url: http://www.madore.org/~david/weblog/weblog.rss
+    site: http://www.madore.org/~david/weblog/
+    categories: philosophie
+    description: Digressions personnelles sur mathématiques, philosophie et société
+
+  - name: Ted écrit des trucs
+    url: https://desfontain.es/blogue/feed.xml
+    site: https://desfontain.es/blogue/
+    categories: philosophie, informatique
+    description: Blog sur la vie privée et la tech, écriture soignée et opinions claires
+
+  - name: Philosophie Magazine
+    url: https://www.philomag.com/rss-le-fil
+    site: https://www.philomag.com/
+    categories: philosophie
+    description: Articles, dossiers et blogs de philosophie
+
+  - name: Karine Wurtz
+    url: https://www.philo-du-bonheur.fr/feed/
+    site: https://www.philo-du-bonheur.fr/
+    categories: philosophie
+    description: Blog de philosophie centré sur le bonheur
+
+  # === Société ===
+
+  - name: Ploum.net
+    url: https://ploum.net/atom_fr.xml
+    site: https://ploum.net/
+    categories: societe, informatique
+    description: Billets longs sur tech, société et décroissance, très personnels et opinionnés
+
+  - name: Le Plongeoir
+    url: https://leplongeoir.substack.com/feed
+    site: https://leplongeoir.substack.com/
+    categories: societe
+    description: Newsletter francophone de réflexion longue
+
+  - name: "Le blog d'André Boyer"
+    url: https://andreboyer.over-blog.com/rss
+    site: https://andreboyer.over-blog.com/rss
+    categories: societe
+
+  - name: "Our Finite World"
+    url: https://ourfiniteworld.com/feed/
+    site: https://ourfiniteworld.com/
+    categories: societe
+    description:
+
+  - name: "Bluesky (@bsky.app) — Bluesky"
+    url: https://rsshub.app/bsky/profile/bsky.app
+    site: https://bsky.app/profile/bsky.app
+    categories: societe
+    description:
+
+  # === Cinéma ===
+  - name: "Le Blog Du Cinéma"
+    url: https://www.leblogducinema.com/feed/
+    site: https://www.leblogducinema.com/
+    categories: cinema
+    description:
+
+  - name: "Christoblog"
+    url: https://www.christoblog.net/rss
+    site: https://www.christoblog.net/rss
+    categories: cinema
+    description:
+
+  - name: "Le 7ème Café"
+    url: https://le7cafe.wordpress.com/feed/
+    site: https://le7cafe.wordpress.com/
+    categories: cinema
+    description:
+
+  - name: "Culturaddict"
+    url: https://culturaddict.com/feed/
+    site: https://culturaddict.com/
+    categories: cinema, culture
+    description:
+
+  # === Culture ===
+  - name: "Coze  -  Magazine et Agenda culturel alsacien"
+    url: https://www.coze.fr/feed/
+    site: https://www.coze.fr/
+    categories: culture
+    description:
+
+  - name: "David Revoy"
+    url: https://www.davidrevoy.com/feed/en/rss
+    site: https://www.davidrevoy.com/
+    categories: culture
+    description:
+
+  - name: "Les éditions lapin"
+    url: https://www.lapin.org/feed/
+    site: https://www.lapin.org/
+    categories: culture
+    description:
+
+  - name: "Grise Bouille"
+    url: https://grisebouille.net/feed.rss
+    site: https://grisebouille.net/
+    categories: culture, societe
+    description:
