@@ -78,5 +78,5 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }} # optional, defaults to anthropic/claude-sonnet-5
         run: |
-          python3 scripts/veille/generate_digest.py "$(pwd)" "${{ needs.guard.outputs.step_days }}" \
-            | python3 scripts/veille/update_archive.py "$(pwd)"
+          python3 scripts/veille/generate_digest.py "$(pwd)" "${{ needs.guard.outputs.step_days }}" > /tmp/entry.json
+          python3 scripts/veille/update_archive.py "$(pwd)" < /tmp/entry.json

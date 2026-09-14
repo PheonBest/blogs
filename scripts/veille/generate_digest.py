@@ -202,7 +202,10 @@ def main() -> int:
         return 0
 
     boileau_text = (Path(repo_root) / "scripts/veille/boileau.md").read_text()
-    model = os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL)
+    # `.get(..., DEFAULT_MODEL)` only falls back when the key is absent, but
+    # the workflow always sets OPENROUTER_MODEL (from an optional repo var)
+    # so an unset var arrives here as "" rather than missing entirely.
+    model = os.environ.get("OPENROUTER_MODEL") or DEFAULT_MODEL
     system = SYSTEM_PROMPT.format(boileau=boileau_text)
     user = build_user_prompt(article_lines)
 
