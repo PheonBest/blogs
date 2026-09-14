@@ -146,6 +146,11 @@ def call_openrouter(model: str, system: str, user: str) -> str:
         ],
         "temperature": 0.7,
         "max_tokens": 8000,
+        # Reasoning models (Claude Sonnet 5 included) can spend the entire
+        # max_tokens budget on hidden thinking tokens and return content:
+        # null with finish_reason: length. This is a one-shot structured
+        # JSON write, not a task that benefits from extended thinking.
+        "reasoning": {"enabled": False},
     }).encode()
     req = urllib.request.Request(
         OPENROUTER_URL, data=body,
@@ -161,9 +166,15 @@ def call_openrouter(model: str, system: str, user: str) -> str:
         print(f"OpenRouter API error {e.code}: {e.read().decode()}", file=sys.stderr)
         sys.exit(1)
     choice = data["choices"][0]
-    if choice.get("finish_reason") not in (None, "stop", "end_turn"):
-        print(f"WARNING: finish_reason={choice.get('finish_reason')}", file=sys.stderr)
-    return choice["message"]["content"]
+    content = choice.get("message", {}).get("content")
+    if not content:
+        print(
+            f"OpenRouter returned no content (finish_reason={choice.get('finish_reason')}): "
+            f"{json.dumps(choice)[:2000]}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    return content
 
 
 def extract_json(text: str) -> dict:
