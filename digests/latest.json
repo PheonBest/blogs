@@ -1,6 +1,211 @@
 {
- "updated_at": "2026-09-08T00:00:00Z",
+ "updated_at": "2026-09-14T20:47:43Z",
  "entries": [
+  {
+   "date": "2026-09-14",
+   "label": "lundi 14 septembre 2026",
+   "title": "L'Europe veut ses serveurs, la tech française veut ses conférences",
+   "sections": [
+    {
+     "name": "Souveraineté et infrastructure",
+     "paragraphs": [
+      [
+       {
+        "t": "Deux mouvements de fond cette semaine, et ils se répondent bien. D'un côté, le Cyber Resilience Act entre dans sa première phase concrète le 11 septembre, avec son lot d'obligations de cybersécurité pour tout ce qui contient du logiciel, et LinuxFr fait le bilan de ce que ça change pour le libre"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". De l'autre, on continue de voir des gens migrer leurs outils vers des alternatives européennes, comme ce retour d'expérience sur un passage de GitHub à une forge du continent"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ", ou ce guide très concret pour quitter Gmail"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ". Ce n'est plus un débat de tribune, c'est une checklist qu'on applique un service après l'autre."
+       }
+      ],
+      [
+       {
+        "t": "CalyxOS refait surface après presque un an de silence"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ", ce qui est plutôt une bonne nouvelle : un système mobile axé vie privée qui revient, c'est rare dans un paysage Android alternatif qui se réduit plutôt qu'il ne s'étoffe. Dalibo, de son côté, sort la version 1.0 stable de PostgreSQL Migrator"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ", un outil qui compte pour qui gère des bases de données et veut sortir d'Oracle ou SQL Server sans y laisser trois mois de sa vie. Et la newsletter RudeOps continue son travail de fond, avec cette semaine Kubernetes, KYAML, GitOps et sécurité au menu"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", après une édition centrée sur Nix, Argo CD et Forgejo la semaine précédente"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "IA : la lassitude s'installe",
+     "paragraphs": [
+      [
+       {
+        "t": "Ploum a écrit un texte qui tape juste sur le sujet du moment : pourquoi le moindre humain écrira toujours mieux qu'un chatbot"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": ". Ce n'est pas une charge anti-IA de plus, c'est un argument sur ce qu'est vraiment communiquer, et il arrive au bon moment. David Revoy, dans un tout autre registre, a compilé les expressions que l'IA générative répète en boucle"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": ", et ça résonne avec ce que Ploum décrit : un langage qui tourne en rond parce qu'il n'a rien à dire de personnel. Je vois de plus en plus ce genre de billets, et je pense que c'est sain. On a passé deux ans à s'émerveiller, on commence enfin à regarder ce que ça produit vraiment."
+       }
+      ],
+      [
+       {
+        "t": "Le fond libre continue quand même d'intégrer l'IA sans complexe quand c'est utile : Chamilo, la plateforme d'e-learning qui sert plus de 40 millions d'apprenants dans le monde, passe en version 3.0 et se connecte aux agents IA via le protocole MCP"
+       },
+       {
+        "cite": 10
+       },
+       {
+        "t": ". Ça illustre bien la différence entre l'IA comme gadget de communication et l'IA comme brique technique dans un outil qui a fait ses preuves depuis longtemps."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "La tech française s'inquiète pour ses événements",
+     "paragraphs": [
+      [
+       {
+        "t": "Cinquante-neuf organisateurs et associations tech ont cosigné une lettre ouverte pour alerter sur la survie des événements techniques en France"
+       },
+       {
+        "cite": 11
+       },
+       {
+        "t": ", relayée aussi sur le Journal du Hacker"
+       },
+       {
+        "cite": 12
+       },
+       {
+        "t": ". Le sujet n'est pas nouveau, mais le nombre de signataires donne un poids inhabituel à l'alerte. Les conférences communautaires vivent de sponsors, de bénévoles et de salles à prix raisonnable, et les trois semblent se raréfier en même temps. À mettre en regard avec la PyConFR 2026, qui elle tient bon et ouvre ses inscriptions pour son édition à Biarritz fin octobre"
+       },
+       {
+        "cite": 13
+       },
+       {
+        "t": " : la preuve qu'avec une communauté solide, on continue d'organiser, même dans un contexte tendu."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Cyber Resilience Act : première échéance au 11 septembre et bilan pour le logiciel libre",
+     "url": "https://linuxfr.org/news/cyber-resilience-act-premiere-echeance-au-11-septembre-et-bilan-pour-le-logiciel-libre",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 2,
+     "title": "Migration de Github vers une alternative européenne",
+     "url": "https://eventuallycoding.com/p/migration-de-github-vers-une-alternative-europeenne",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Quitter Gmail, ils l'ont fait : les conseils pour le grand saut",
+     "url": "https://reporterre.net/Quitter-Gmail-ils-l-ont-fait-les-conseils-pour-le-grand-saut",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 4,
+     "title": "CalyxOS est de retour",
+     "url": "https://linuxfr.org/news/calyxos-est-de-retour",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 5,
+     "title": "PostgreSQL Migrator 1.0 stable",
+     "url": "https://blog.dalibo.com/2026/09/07/postgresql-migrator-1.html",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 6,
+     "title": "Newsletter du 14 Septembre 2026",
+     "url": "https://www.rudeops.com/newsletters/2026-09-14",
+     "feed": "RudeOps"
+    },
+    {
+     "n": 7,
+     "title": "Newsletter du 07 Septembre 2026",
+     "url": "https://www.rudeops.com/newsletters/2026-09-07",
+     "feed": "RudeOps"
+    },
+    {
+     "n": 8,
+     "title": "Soyez humains, communiquez !",
+     "url": "https://ploum.net/2026-09-14-ecrire_et_ia.html",
+     "feed": "Ploum.net"
+    },
+    {
+     "n": 9,
+     "title": "AI Overused Expressions",
+     "url": "https://www.davidrevoy.com/article1171/ai-overused-expressions",
+     "feed": "David Revoy"
+    },
+    {
+     "n": 10,
+     "title": "Chamilo LMS passe à la 3.0 : le LMS libre se connecte aux agents IA via MCP",
+     "url": "https://linuxfr.org/news/chamilo-lms-passe-a-la-3-0-le-lms-libre-se-connecte-aux-agents-ia-via-mcp",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 11,
+     "title": "Des organisateurs, organisatrices et associations tech publient une lettre ouverte pour la survie des événements techniques en France",
+     "url": "https://linuxfr.org/news/des-organisateurs-organisatrices-et-associations-tech-publient-une-lettre-ouverte-pour-la-survie-des-evenements-techniques-en-france",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 12,
+     "title": "Lettre ouverte pour sauver les événements tech en France",
+     "url": "https://lettreouverte.afup.org/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 13,
+     "title": "PyConFR 2026, planning et inscriptions",
+     "url": "https://linuxfr.org/news/pyconfr-2026-planning-et-inscriptions",
+     "feed": "Dépêches LinuxFr.org"
+    }
+   ]
+  },
   {
    "date": "2026-09-08",
    "label": "lundi 8 septembre 2026",
