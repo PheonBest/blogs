@@ -1,0 +1,115 @@
+{
+ "date": "2026-09-16",
+ "label": "mercredi 16 septembre 2026",
+ "title": "PostgreSQL dans le navigateur, agents de code qui font peur, et Fedora qui demande à être testée",
+ "sections": [
+  {
+   "name": "Dev & Bases de données",
+   "paragraphs": [
+    [
+     {
+      "t": "LibreDB Studio débarque : un IDE SQL pour PostgreSQL, auto-hébergé, sous licence MIT, qui tourne entièrement dans le navigateur"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Rien de révolutionnaire dans le principe, des clients web pour bases de données il y en a déjà, mais le côté open source et self-hosted change la donne pour qui ne veut pas dépendre d'un service tiers pour interroger sa propre base. À suivre pour voir si le projet tient la distance après le pic d'attention du lancement."
+     },
+     {
+      "t": " Autre RFC qui vaut le détour sur le fond cryptographique : Bortzmeyer décortique la RFC 10033 sur la gestion d'état et de sauvegarde des signatures à base de hash"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Ces algorithmes ont une particularité qui complique tout : ils doivent se souvenir des exécutions précédentes, sous peine de failles de sécurité. Un sujet pointu, mais qui rappelle que la crypto post-quantique n'est pas qu'une histoire de nouveaux algorithmes, c'est aussi une histoire de gestion d'état, beaucoup moins glamour et beaucoup plus casse-tête."
+     }
+    ],
+    [
+     {
+      "t": "Fedora Linux 45 passe en bêta"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", et comme toujours l'appel est lancé pour la tester avant la sortie stable. Rien de spectaculaire à en dire tant que la liste des changements n'est pas encore digérée, mais c'est le genre de rendez-vous récurrent qui mérite d'être noté."
+     },
+     {
+      "t": " Sur un registre plus personnel, le journal de bord de flozz mélange Mass Effect 2, obsolescence logicielle et une vraie réflexion sur la sécurité des outils de code agentiques"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". C'est le genre de billet que j'aime : pas un post LinkedIn qui vend du rêve sur les agents IA, mais quelqu'un qui se pose la question de ce qui se passe quand on laisse un agent toucher à du code en autonomie. Ce doute-là, je le partage."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Web & bricolage logiciel",
+   "paragraphs": [
+    [
+     {
+      "t": "Deux billets qui se répondent bien sur l'idée de sortir des sentiers battus du web classique. D'un côté, quelqu'un étend un blog Hugo jusqu'au protocole Gemini, en générant des fichiers dédiés pour exister aussi dans le Geminispace"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ". C'est une démarche presque militante, minimaliste par choix plutôt que par contrainte, et ça fait du bien de voir que ce protocole a toujours ses irréductibles."
+     },
+     {
+      "t": " De l'autre, OpenRGB atteint sa version 1.0"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", un outil open source pour piloter les périphériques RGB sans passer par les usines à gaz propriétaires de chaque marque. Windows, Linux, macOS : la promesse est là depuis longtemps, mais un vrai numéro 1.0 donne enfin un signal de maturité à ceux qui hésitaient encore à s'y fier."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "LibreDB Studio : un IDE open source dans le navigateur pour PostgreSQL",
+   "url": "https://linuxfr.org/news/libredb-studio-un-ide-open-source-dans-le-navigateur-pour-postgresql",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "RFC 10033: Hash-based Signatures: State and Backup Management",
+   "url": "https://www.bortzmeyer.org/10033.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 3,
+   "title": "Venez tester Fedora Linux 45 Beta !",
+   "url": "https://linuxfr.org/news/venez-tester-fedora-linux-45-beta",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Mass Effect 2, obsolescence, et réflexions sur la sécurité des outils de code agentiques",
+   "url": "https://blog.flozz.fr/2026/09/15/journal-de-bord-8-mass-effect-2-obsolescence-et-reflexions-sur-la-securite-des-outils-de-code-agentiques/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Étendre un blog Hugo jusqu'au protocole Gemini",
+   "url": "https://olivier.dossmann.net/2026/09/etendre-blog-hugo-protocole-gemini/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 6,
+   "title": "OpenRGB 1.0 : cet outil open source pilote vos périphériques RGB",
+   "url": "https://www.it-connect.fr/openrgb-1-0-nouveautes-windows-linux-macos/",
+   "feed": "Journal du Hacker"
+  }
+ ]
+}

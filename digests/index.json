@@ -1,6 +1,11 @@
 {
- "updated_at": "2026-09-14T20:47:43Z",
+ "updated_at": "2026-09-16T10:16:43Z",
  "entries": [
+  {
+   "date": "2026-09-16",
+   "label": "mercredi 16 septembre 2026",
+   "title": "PostgreSQL dans le navigateur, agents de code qui font peur, et Fedora qui demande à être testée"
+  },
   {
    "date": "2026-09-14",
    "label": "lundi 14 septembre 2026",
