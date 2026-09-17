@@ -1,6 +1,226 @@
 {
- "updated_at": "2026-09-16T10:16:43Z",
+ "updated_at": "2026-09-17T10:23:31Z",
  "entries": [
+  {
+   "date": "2026-09-17",
+   "label": "jeudi 17 septembre 2026",
+   "title": "Un IDE Postgres dans le navigateur, et la question qui traîne : qui a le droit de lire vos données avec un LLM ?",
+   "sections": [
+    {
+     "name": "Dev & données",
+     "paragraphs": [
+      [
+       {
+        "t": "LibreDB Studio débarque avec une promesse simple : un IDE SQL complet pour PostgreSQL, auto-hébergé, MIT, qui tourne dans le navigateur"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Pas besoin d'installer un client lourd, pas de compte cloud imposé. C'est le genre d'outil qui gratte une vraie frustration (celle de devoir sortir pgAdmin ou DBeaver pour une requête de trente secondes) plutôt qu'une réponse à un problème inventé."
+       },
+       {
+        "t": " Autre lecture qui vaut le détour : Thibaud raconte pourquoi il a quitté un poste de management pour retourner coder"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ". Rien de spectaculaire dans le texte, mais ça sonne vrai, et ça fait du bien de lire un parcours qui va à contre-courant du \"il faut monter en grade\"."
+       }
+      ],
+      [
+       {
+        "t": "Question plus épineuse posée par un billet du Journal du Hacker : qu'est-ce qu'on doit concrètement faire signer à un client avant de balancer ses données confidentielles dans un LLM ?"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": " Pas de réponse magique dans le TSV, juste le constat que la question se pose enfin sérieusement, alors qu'elle aurait dû arriver avant l'usage massif des LLM en entreprise, pas après."
+       },
+       {
+        "t": " Dans un registre voisin, un billet interroge si Hermes est une vraie rupture ou une hype de plus"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Le titre pose la question sans trancher, ce qui est déjà plus honnête que la moitié des annonces IA du moment."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Auto-hébergement & Linux",
+     "paragraphs": [
+      [
+       {
+        "t": "selfh.st/apps ajoute enfin le SSO et des filtres de tendance à son annuaire d'apps self-hosted"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ", deux fonctionnalités réclamées depuis un moment par la communauté. Rien de renversant, mais c'est le genre d'amélioration qui rend un outil déjà utile un peu plus pratique au quotidien."
+       },
+       {
+        "t": " Fedora Linux 45 arrive en bêta"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", et comme toujours à ce stade, le message est \"venez tester, malgré les couacs habituels\". Rien d'excitant en soi, mais c'est le rituel qui compte."
+       },
+       {
+        "t": " Et pour les amateurs de veille en vrac, la liste de liens tech de septembre est sortie"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": ", sans détail sur le contenu cette fois."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Culture & réflexion",
+     "paragraphs": [
+      [
+       {
+        "t": "David Revoy signe un billet qui mérite d'être lu au calme : \"Too Used to Prompt\", sur le risque de s'habituer à prompter plutôt qu'à créer"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": ". Le titre seul suffit à planter le doute, familier à quiconque a remplacé un réflexe créatif par un raccourci IA."
+       },
+       {
+        "t": " Côté cinéma, Culturaddict a interviewé la compositrice Uèle Lamore (Les Femmes au balcon, Maigret, Ballroom), interrogée en pleines vacances sur son travail de musique de film"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": ". Et le même site donne 4,5/5 à Resident Evil Requiem, salué comme un vrai tournant pour la saga"
+       },
+       {
+        "cite": 10
+       },
+       {
+        "t": " (spoilers annoncés d'entrée, donc à lire après avoir fini le jeu)."
+       }
+      ],
+      [
+       {
+        "t": "Philosophie Magazine tire trois fils intéressants cette semaine : trois livres sur ménopause, chirurgie esthétique et pilosité pour repenser le rapport à nos corps"
+       },
+       {
+        "cite": 11
+       },
+       {
+        "t": ", une réflexion sur ce que le rajeunissement cellulaire pourrait faire au sens même du mot \"vieillir\""
+       },
+       {
+        "cite": 12
+       },
+       {
+        "t": ", et un article sur la façon dont \"mon frère\" en dit plus long qu'un simple lien de parenté"
+       },
+       {
+        "cite": 13
+       },
+       {
+        "t": ". Trois angles différents, un même fil : le corps et le langage comme lieux où se rejouent nos évidences."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "LibreDB Studio : un IDE open source dans le navigateur pour PostgreSQL",
+     "url": "https://linuxfr.org/news/libredb-studio-un-ide-open-source-dans-le-navigateur-pour-postgresql",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 2,
+     "title": "Pourquoi j'ai lâché le management pour redevenir dev",
+     "url": "https://thibaud.dev/fr/blog/pourquoi-jai-lache-le-management-pour-redevenir-dev/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Qu'est-ce que je dois faire signer à mes clients pour être autorisé à analyser leurs données confidentielles avec un LLM ?",
+     "url": "https://notes.sklein.xyz/2026-09-10_1758/zen/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 4,
+     "title": "Hermes : simple hype ou vraie révolution ?",
+     "url": "https://www.damyr.fr/p/hermes-simple-hype-ou-vraie-r%C3%A9volution/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 5,
+     "title": "selfh.st/apps Now Features SSO and Trending Filters",
+     "url": "https://selfh.st/post/apps-sso-trending/",
+     "feed": "selfh.st"
+    },
+    {
+     "n": 6,
+     "title": "Venez tester Fedora Linux 45 Beta !",
+     "url": "https://linuxfr.org/news/venez-tester-fedora-linux-45-beta",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 7,
+     "title": "Liens Tech - Septembre 2026",
+     "url": "https://domopi.eu/liens-tech-septembre-2026/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 8,
+     "title": "Too Used to Prompt",
+     "url": "https://www.davidrevoy.com/article1174/too-used-to-prompt",
+     "feed": "David Revoy"
+    },
+    {
+     "n": 9,
+     "title": "Rencontre avec la compositrice Uèle Lamore (« Les Femmes au Balcon », « Maigret », « Ballroom »,…)",
+     "url": "https://culturaddict.com/rencontre-avec-la-compositrice-uele-lamore/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-la-compositrice-uele-lamore",
+     "feed": "Culturaddict"
+    },
+    {
+     "n": 10,
+     "title": "Resident Evil Requiem : à la croisée des chemins (4,5/5)",
+     "url": "https://culturaddict.com/resident-evil-requiem-a-la-croisee-des-chemins-45-5/?utm_source=rss&utm_medium=rss&utm_campaign=resident-evil-requiem-a-la-croisee-des-chemins-45-5",
+     "feed": "Culturaddict"
+    },
+    {
+     "n": 11,
+     "title": "Ménopause, chirurgie esthétique, pilosité… 3 livres pour prendre le pouls de nos corps",
+     "url": "https://www.philomag.com/articles/menopause-chirurgie-esthetique-pilosite-3-livres-pour-prendre-le-pouls-de-nos-corps",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 12,
+     "title": "Le rajeunissement cellulaire va-t-il révolutionner ce que “vieillir” veut dire ?",
+     "url": "https://www.philomag.com/articles/le-rajeunissement-cellulaire-va-t-il-revolutionner-ce-que-vieillir-veut-dire",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 13,
+     "title": "“Mon frère” : quand le langage nous fait signe",
+     "url": "https://www.philomag.com/articles/mon-frere-quand-le-langage-nous-fait-signe",
+     "feed": "Philosophie Magazine"
+    }
+   ]
+  },
   {
    "date": "2026-09-16",
    "label": "mercredi 16 septembre 2026",

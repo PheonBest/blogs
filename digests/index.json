@@ -1,6 +1,11 @@
 {
- "updated_at": "2026-09-16T10:16:43Z",
+ "updated_at": "2026-09-17T10:23:31Z",
  "entries": [
+  {
+   "date": "2026-09-17",
+   "label": "jeudi 17 septembre 2026",
+   "title": "Un IDE Postgres dans le navigateur, et la question qui traîne : qui a le droit de lire vos données avec un LLM ?"
+  },
   {
    "date": "2026-09-16",
    "label": "mercredi 16 septembre 2026",
