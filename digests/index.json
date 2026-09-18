@@ -1,6 +1,11 @@
 {
- "updated_at": "2026-09-17T10:23:31Z",
+ "updated_at": "2026-09-18T10:02:18Z",
  "entries": [
+  {
+   "date": "2026-09-18",
+   "label": "vendredi 18 septembre 2026",
+   "title": "Cette semaine, PostgreSQL fait plus de bruit que l'IA"
+  },
   {
    "date": "2026-09-17",
    "label": "jeudi 17 septembre 2026",

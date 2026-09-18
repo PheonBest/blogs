@@ -1,0 +1,217 @@
+{
+ "date": "2026-09-18",
+ "label": "vendredi 18 septembre 2026",
+ "title": "Cette semaine, PostgreSQL fait plus de bruit que l'IA",
+ "sections": [
+  {
+   "name": "Dev & Postgres",
+   "paragraphs": [
+    [
+     {
+      "t": "Le vrai sujet dev de la semaine, c'est un billet sur la transpilation SQL"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", assez pointu pour ne pas plaire à tout le monde mais assez concret pour valoir le détour si on touche à des migrations de bases. À côté, deux vidéos plus grand public tournent sur YouTube : une sur les optimisations qui rapportent vraiment (le titre le dit bien : ce n'est pas la taille du code qui compte)"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", l'autre sur ce qui fait une bonne pull request"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". Rien de renversant, mais un rappel utile : la plupart des gains de perf et de qualité de code viennent de décisions ennuyeuses, pas de nouveaux frameworks."
+     }
+    ],
+    [
+     {
+      "t": "Un billet plus juridique mérite qu'on s'y arrête : que faire signer à ses clients avant d'envoyer leurs données confidentielles dans un LLM ?"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " C'est le genre de question que beaucoup d'équipes esquivent encore, en se disant que le sujet se réglera plus tard. Il ne se réglera pas plus tard. Le Journal du Hacker publie aussi son tour d'horizon hebdomadaire avec 33 liens"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", et sur l'IA justement, un article se demande si l'outil Hermes est une vraie avancée ou juste le prochain nom à la mode"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ". Le titre pose la question sans trancher, ce qui en dit long sur l'état de la hype ces temps-ci."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Communauté du Libre",
+   "paragraphs": [
+    [
+     {
+      "t": "LinuxFr fait sa rentrée avec sa revue de presse de septembre"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ", un rituel qui a le mérite de la régularité, et récompense les meilleures contributions de l'été"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". Rien de spectaculaire, mais c'est ce genre de rituel discret qui tient une communauté en vie sur la durée. Dans le même esprit, l'April a mis en ligne son émission Libre à vous avec Gee, la figure bien connue de Framasoft, qui revient sur son parcours de libriste"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ". Utile si on veut comprendre comment on devient militant du logiciel libre sans en faire un sacerdoce."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Cinéma & Culture",
+   "paragraphs": [
+    [
+     {
+      "t": "Culturaddict enchaîne deux entretiens qui sortent du lot. Le chef décorateur Tom Hammock raconte, une heure après la sortie de Resident Evil, son travail avec Adam Wingard sur ce film et sur Weapons"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": ", et la compositrice Uèle Lamore parle depuis ses vacances de ses musiques pour Les Femmes au balcon, Maigret et Ballroom"
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": ". Ce sont deux métiers de l'ombre qu'on interroge rarement en profondeur, et ça change de la promo formatée. Côté critique, Le Blog du Cinéma revient sur Dogma de Kevin Smith, qui a 27 ans mais dont le mélange de satire catholique et de blockbuster fauché n'a toujours pas vraiment d'équivalent"
+     },
+     {
+      "cite": 12
+     },
+     {
+      "t": "."
+     }
+    ],
+    [
+     {
+      "t": "Philosophie Magazine sort deux angles qui accrochent plus qu'on ne l'attendrait. D'un côté, un papier remet face à face Nietzsche et Schopenhauer sur le désir et l'ascèse"
+     },
+     {
+      "cite": 13
+     },
+     {
+      "t": ", opposition classique mais toujours efficace pour secouer les idées reçues sur le renoncement. De l'autre, trois livres sont convoqués pour parler ménopause, chirurgie esthétique et pilosité"
+     },
+     {
+      "cite": 14
+     },
+     {
+      "t": ", sujets encore trop peu traités sous cet angle-là dans la presse généraliste."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Transpiler SQL",
+   "url": "https://bersace.cae.li/posts/transpiler-sql/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 2,
+   "title": "Des fois, c'est la taille qui compte… Optimisations et gains réels",
+   "url": "https://www.youtube.com/watch?v=M85WdybGM_Y",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "C'est quoi une bonne PR ?",
+   "url": "https://www.youtube.com/watch?v=x9hVHtaAknk",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 4,
+   "title": "Qu'est-ce que je dois faire signer à mes clients pour être autorisé à analyser leurs données confidentielles avec un LLM ?",
+   "url": "https://notes.sklein.xyz/2026-09-10_1758/zen/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Veille #74 - 33 actus qu'il ne fallait pas rater cette semaine",
+   "url": "https://www.camilleroux.com/papra-mistral-firefox-rickub-veille-74/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 6,
+   "title": "Hermes : simple hype ou vraie révolution ?",
+   "url": "https://www.damyr.fr/p/hermes-simple-hype-ou-vraie-r%C3%A9volution/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 7,
+   "title": "📰 Revue de presse — septembre 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-septembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 8,
+   "title": "🏆 Meilleures contributions LinuxFr.org : les primées de l'été 2026",
+   "url": "https://linuxfr.org/news/meilleures-contributions-linuxfr-org-les-primees-de-l-ete-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 9,
+   "title": "Le Parcours libriste de Gee - « Libre à vous ! » du 8 septembre 2026",
+   "url": "https://linuxfr.org/news/le-parcours-libriste-de-gee-libre-a-vous-du-8-septembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 10,
+   "title": "Rencontre avec le chef décorateur Tom Hammock (Partie 1 : Resident Evil, Weapons et Adam Wingard)",
+   "url": "https://culturaddict.com/rencontre-avec-le-chef-decorateur-tom-hammock-partie-1-resident-evil-weapons-et-adam-wingard/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-le-chef-decorateur-tom-hammock-partie-1-resident-evil-weapons-et-adam-wingard",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 11,
+   "title": "Rencontre avec la compositrice Uèle Lamore (« Les Femmes au Balcon », « Maigret », « Ballroom »,…)",
+   "url": "https://culturaddict.com/rencontre-avec-la-compositrice-uele-lamore/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-la-compositrice-uele-lamore",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 12,
+   "title": "Dogma : ni tout à fait comédie, ni tout à fait film d'action",
+   "url": "https://www.leblogducinema.com/critique-film/dogma-avis-65540301/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 13,
+   "title": "Le désir ou l'ascèse ? Nietzsche face à Schopenhauer",
+   "url": "https://www.philomag.com/articles/le-desir-ou-lascese-nietzsche-face-schopenhauer",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 14,
+   "title": "Ménopause, chirurgie esthétique, pilosité… 3 livres pour prendre le pouls de nos corps",
+   "url": "https://www.philomag.com/articles/menopause-chirurgie-esthetique-pilosite-3-livres-pour-prendre-le-pouls-de-nos-corps",
+   "feed": "Philosophie Magazine"
+  }
+ ]
+}
