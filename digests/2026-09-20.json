@@ -1,0 +1,53 @@
+{
+ "date": "2026-09-20",
+ "label": "dimanche 20 septembre 2026",
+ "title": "AEGIS, une famille de chiffrement de plus, et Resident Evil 7 qui tient toujours la route",
+ "sections": [
+  {
+   "name": "Dev & Sécu",
+   "paragraphs": [
+    [
+     {
+      "t": "Bortzmeyer documente la RFC 10032, qui normalise AEGIS, une famille d'algorithmes de chiffrement authentifié construite sur AES"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Rien de révolutionnaire dans l'idée : la crypto avance par petites briques, pas par coups d'éclat. Mais ce genre de RFC, c'est le genre de lecture qui vaut le détour si on veut comprendre ce qui tourne sous le capot des protocoles qu'on utilise sans y penser."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Jeux vidéo",
+   "paragraphs": [
+    [
+     {
+      "t": "Culturaddict revient sur Resident Evil 7, dix ans après sa sortie, testé cette fois sur Switch 2 en portable"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Un jeu de cet âge qui mérite encore un test complet, ça dit quelque chose : la vue à la première personne et l'ambiance horrifique du titre ont visiblement mieux vieilli que la moyenne des survival-horrors de sa génération."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "RFC 10032: The AEGIS Family of Authenticated Encryption Algorithms",
+   "url": "https://www.bortzmeyer.org/10032.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 2,
+   "title": "Resident Evil 7 : une revitalisation nécessaire (4/5)",
+   "url": "https://culturaddict.com/resident-evil-7-une-revitalisation-necessaire-4-5/?utm_source=rss&utm_medium=rss&utm_campaign=resident-evil-7-une-revitalisation-necessaire-4-5",
+   "feed": "\"Culturaddict\""
+  }
+ ]
+}
