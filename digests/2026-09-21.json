@@ -1,0 +1,193 @@
+{
+ "date": "2026-09-21",
+ "label": "lundi 21 septembre 2026",
+ "title": "Un dimanche calme : du Frido, un Fediverse bavard et une haine tenace du téléphone",
+ "sections": [
+  {
+   "name": "Libre & Dev",
+   "paragraphs": [
+    [
+     {
+      "t": "Le Frido, ce pavé de maths libre qui part des entiers pour couvrir à peu près toute la discipline, sort sa version 2026"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". C'est le genre de projet qu'on oublie entre deux mises à jour et qu'on redécouvre chaque année avec le même étonnement : ça existe encore, et c'est toujours gratuit. Côté auto-hébergement, un billet détaille l'installation d'Immich sous Docker comme alternative à Google Photos"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", exactement le genre de tuto qu'on garde en favori sans jamais trouver le week-end pour le faire. Et pour les possesseurs de liseuses bon marché, un article explique comment flasher CrossPoint Reader sur la mini XTEINK X4 Classic avec esptool"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", preuve qu'il y a toujours un hacker prêt à sauver un gadget chinois à 30 balles de son firmware fermé."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Web & Communauté",
+   "paragraphs": [
+    [
+     {
+      "t": "Le Fediverse commente Hugo"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " : encore une brique qui s'ajoute à l'écosystème pour sortir des commentaires centralisés façon Disqus. Rien de renversant, mais ça confirme une tendance de fond chez les gens du static site generator, l'envie de garder la main sur chaque bout de la chaîne. Dans le même esprit décentralisé, l'agenda du Libre recense comme chaque semaine les événements, meetups et install parties du moment"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", et le Journal du hacker fait son tour d'horizon habituel des liens qui traînent"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ". Rien à en dire de plus, c'est un rituel plus qu'une actu, mais un rituel utile."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Culture & Cinéma",
+   "paragraphs": [
+    [
+     {
+      "t": "Grise Bouille remet une pièce dans sa haine du téléphone, cette fois via les dark patterns"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ". Sujet cent fois traité ailleurs, mais dit avec ce ton grinçant propre au blog, ça reste un des rares billets sur le sujet qui donne vraiment envie de désinstaller trois applis en le lisant. Côté cinéma, David Newman (compositeur derrière Anastasia, Matilda, L'Âge de glace) revient sur sa carrière et sa formation de musicien dans un entretien qui sort un peu du lot des interviews promo habituelles"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". Moins convaincant : Les Ensorceleuses 2, dont la critique parle d'un retour nostalgique mais sans magie, malgré Sandra Bullock et Nicole Kidman"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ". Bref, une suite qui existe surtout parce qu'elle pouvait exister."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Idées & Musique",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine s'interroge sur la popularité d'Edgar Morin en Amérique latine"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": ", et publie aussi un billet sur ce que les enfants répondent quand on leur demande si les animaux rient"
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": ". Deux angles différents mais un même réflexe : aller chercher la pensée là où on ne l'attend pas, chez un continent ou chez des gamins. Et pour finir sur une note locale, Coze relaie le nouveau clip du groupe alsacien Gravière, Barre de fer"
+     },
+     {
+      "cite": 12
+     },
+     {
+      "t": ", histoire de rappeler que la scène régionale tourne aussi, loin des radars."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Le Frido 2026 est disponible",
+   "url": "https://linuxfr.org/news/le-frido-2026-est-disponible",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "Immich sous Docker : l'alternative à Google Photos",
+   "url": "https://networkpulse.fr/installer-immich-docker-self-hosting/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "Flasher CrossPoint Reader sur la mini-liseuse XTEINK X4 Classic avec esptool",
+   "url": "https://blog.flozz.fr/2026/09/21/flasher-crosspoint-reader-sur-la-mini-liseuse-xteink-x4-classic-avec-esptool/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 4,
+   "title": "Le Fediverse commente Hugo",
+   "url": "https://doc.huc.fr.eu.org/fr/web/hugo/fediverse-comments-hugo/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Agenda du Libre pour la semaine 39 de l'année 2026",
+   "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-39-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 6,
+   "title": "Liens intéressants Journal du hacker semaine #38",
+   "url": "https://blog.journalduhacker.net/index.php?article605/liens-interessants-journal-du-hacker-semaine-38-2026",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 7,
+   "title": "Je hais (toujours) le téléphone",
+   "url": "https://grisebouille.net/je-hais-toujours-le-telephone?utm_source=GBRSS",
+   "feed": "Grise Bouille"
+  },
+  {
+   "n": 8,
+   "title": "Rencontre avec le compositeur David Newman (« Anastasia », « Matilda », « L'âge de Glace », …)",
+   "url": "https://culturaddict.com/rencontre-avec-le-compositeur-david-newman-anastasia-matilda-lage-de-glace/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-le-compositeur-david-newman-anastasia-matilda-lage-de-glace",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 9,
+   "title": "Les ensorceleuses 2, nostalgique mais pas magique",
+   "url": "https://www.leblogducinema.com/critique-film/les-ensorceleuses-2-65540309/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 10,
+   "title": "Pourquoi Edgar Morin est-il si populaire en Amérique latine ?",
+   "url": "https://www.philomag.com/articles/pourquoi-edgar-morin-est-il-si-populaire-en-amerique-latine",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 11,
+   "title": "\"Les humains rient, mais et les animaux ?\" Les enfants répondent… comme des grands !",
+   "url": "https://www.philomag.com/articles/les-humains-rient-mais-et-les-animaux-les-enfants-repondent-comme-des-grands",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 12,
+   "title": "Clip : Gravière – Barre de fer",
+   "url": "https://www.coze.fr/2026/09/clip-graviere-barre-de-fer/",
+   "feed": "Coze  -  Magazine et Agenda culturel alsacien"
+  }
+ ]
+}
