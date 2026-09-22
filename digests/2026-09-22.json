@@ -1,0 +1,221 @@
+{
+ "date": "2026-09-22",
+ "label": "mardi 22 septembre 2026",
+ "title": "Le numérique, entre fuite et réparation",
+ "sections": [
+  {
+   "name": "Tech & Internet",
+   "paragraphs": [
+    [
+     {
+      "t": "Ploum pose une question qui dérange"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": " : faut-il fuir le numérique ou le reconquérir ? Il répond à Sandra sur le minimalisme numérique en refusant la fausse alternative. Pas de nostalgie du sans-écran, pas de techno-optimisme béat non plus. Juste l'idée qu'on peut choisir ses outils au lieu de les subir. C'est le genre de billet qui remet les pieds sur terre après une semaine de notifications."
+     },
+     {
+      "t": " Dans un registre plus terre-à-terre, Grise Bouille s'attaque aux dark patterns du téléphone"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", et c'est toujours aussi drôle et juste : la haine ne vient pas de l'objet mais de tout ce qu'on a empilé dessus pour capter notre attention."
+     }
+    ],
+    [
+     {
+      "t": "Côté outillage, la newsletter RudeOps du 21 septembre couvre un menu copieux : Cilium, Kubernetes, OpenTofu, IPv6, SRE, IA"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". Rien de spectaculaire annoncé, mais c'est justement le genre de veille qu'on garde sous le coude. Unicode passe en version 18 avec 13 007 caractères de plus, dont son lot d'emojis inutiles"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " ; LinuxFr résume ça très bien en parlant de bocal à cornichons, sans prétendre que c'est révolutionnaire. Et si vous cherchez à flasher une liseuse chinoise à 30 balles avec esptool, un tuto existe déjà"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": "."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Libre & communauté",
+   "paragraphs": [
+    [
+     {
+      "t": "LinuxFr enchaîne les dépêches cette semaine : une revue de presse de rentrée bien fournie"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", celle de l'April sur l'actualité Internet"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ", et un appel à participer aux Journées Nationales de la Réparation du 15 au 18 octobre, portées par Make.org et HOP"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". Toujours la même mécanique bénévole qui tourne, semaine après semaine, sans faire de bruit."
+     },
+     {
+      "t": " Le podcast Projets Libres a profité du State of the Map à Paris pour interviewer l'association OpenStreetMap France"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ", et pour les amateurs de maths qui aiment le libre jusque dans les manuels, le Frido 2026 est sorti : toute la mathématique reprise depuis les entiers, sous licence FDL"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": ". Un projet d'une ambition presque folle, mené dans l'ombre depuis des années."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Écrans & culture",
+   "paragraphs": [
+    [
+     {
+      "t": "Le Blog du Cinéma signe une critique élogieuse de Primetime, avec un Robert Pattinson habité face à la mise en scène vertigineuse de Lance Oppenheim"
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": ". Widow's Bay, de son côté, rafle des Emmy et reprend logiquement la tête du classement streaming"
+     },
+     {
+      "cite": 12
+     },
+     {
+      "t": ", confirmation sans surprise que le prestige télévisuel continue de payer côté audience."
+     },
+     {
+      "t": " Culturaddict conclut sa série d'entretiens avec le chef décorateur Guy Hendrix Dyas, qui revient sur Steve Jobs, Passengers et Masters of the Universe"
+     },
+     {
+      "cite": 13
+     },
+     {
+      "t": ", et publie aussi une rencontre avec le compositeur David Newman, dont les partitions ont bercé pas mal d'enfances (Anastasia, Matilda, L'Âge de Glace)"
+     },
+     {
+      "cite": 14
+     },
+     {
+      "t": ". Deux formats longs, du genre qu'on garde pour un dimanche sans rien de prévu."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Fuir le numérique ou bien le reconquérir ?",
+   "url": "https://ploum.net/2026-09-21-fuir_ou_reconquerir.html",
+   "feed": "Ploum.net"
+  },
+  {
+   "n": 2,
+   "title": "Je hais (toujours) le téléphone",
+   "url": "https://grisebouille.net/je-hais-toujours-le-telephone?utm_source=GBRSS",
+   "feed": "Grise Bouille"
+  },
+  {
+   "n": 3,
+   "title": "Newsletter du 21 Septembre 2026",
+   "url": "https://www.rudeops.com/newsletters/2026-09-21",
+   "feed": "RudeOps"
+  },
+  {
+   "n": 4,
+   "title": "Bonjour les cornichons, Unicode vient de sortir en version 18",
+   "url": "https://linuxfr.org/news/bonjour-les-cornichons-unicode-vient-de-sortir-en-version-18",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 5,
+   "title": "Flasher CrossPoint Reader sur la mini-liseuse XTEINK X4 Classic avec esptool",
+   "url": "https://blog.flozz.fr/2026/09/21/flasher-crosspoint-reader-sur-la-mini-liseuse-xteink-x4-classic-avec-esptool/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 6,
+   "title": "📰 Revue de presse — septembre 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-septembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 7,
+   "title": "Revue de presse de l'April pour la semaine 38 de l'année 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-38-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 8,
+   "title": "L'April invite à participer avec des événements aux Journées Nationales de la Réparation, du 15 au 18 octobre 2026",
+   "url": "https://linuxfr.org/news/l-april-invite-a-participer-avec-des-evenements-aux-journees-nationales-de-la-reparation-du-15-au-18-octobre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 9,
+   "title": "L'association OpenStreetMap France - Podcast Projets Libres épisode 74",
+   "url": "https://linuxfr.org/news/l-association-openstreetmap-france-podcast-projets-libres-episode-74",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 10,
+   "title": "Le Frido 2026 est disponible",
+   "url": "https://linuxfr.org/news/le-frido-2026-est-disponible",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 11,
+   "title": "Primetime, une étude acérée du bien et du mal",
+   "url": "https://www.leblogducinema.com/critique-film/primetime-avis-65540321/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 12,
+   "title": "Widow's Bay sacré aux Emmy, la série reprend logiquement la tête du classement streaming",
+   "url": "https://www.leblogducinema.com/actualites/breves/classement-streaming-widows-bay-emmy-65540331/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 13,
+   "title": "Rencontre avec Guy Hendrix Dyas, chef décorateur (partie 3 : Steve Jobs, Passengers, Pablo Larraín et Masters of the Universe)",
+   "url": "https://culturaddict.com/rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 14,
+   "title": "Rencontre avec le compositeur David Newman (« Anastasia », « Matilda », « L'âge de Glace », …)",
+   "url": "https://culturaddict.com/rencontre-avec-le-compositeur-david-newman-anastasia-matilda-lage-de-glace/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-le-compositeur-david-newman-anastasia-matilda-lage-de-glace",
+   "feed": "Culturaddict"
+  }
+ ]
+}
