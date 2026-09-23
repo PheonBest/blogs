@@ -1,6 +1,168 @@
 {
- "updated_at": "2026-09-22T10:17:44Z",
+ "updated_at": "2026-09-23T10:16:15Z",
  "entries": [
+  {
+   "date": "2026-09-23",
+   "label": "mercredi 23 septembre 2026",
+   "title": "Cette semaine, la niche gagne : Linux avale l'Android, le vélo devient philosophie",
+   "sections": [
+    {
+     "name": "Linux, du sérieux et du bricolage",
+     "paragraphs": [
+      [
+       {
+        "t": "Valve continue son travail de sape sur l'écosystème fermé d'Android : avec Lepton, les jeux Android tournent maintenant sous Linux"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Ce n'est pas la fonctionnalité qui fait le plus de bruit chez Valve, mais c'est celle qui compte : c'est la même logique que Proton, appliquée à un nouveau silo. Dans un genre plus utilitaire, Repomanager s'attaque à un problème que tout admin sys connaît sans l'aimer, monter des dépôts deb et rpm sans y passer l'après-midi"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": "."
+       }
+      ],
+      [
+       {
+        "t": "Deux billets plus personnels aussi, du genre qu'on ne trouve que sur des blogs perso. Quelqu'un a redécouvert le protocole Gemini, l'a trouvé proche de Gopher, et a fini par recréer une navigation en 3D façon GopherVR"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ". Et un autre a monté sa liseuse Xteink X4 Pro entièrement sur une stack libre"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Rien de révolutionnaire, mais ça fait plaisir de voir que la culture du bidouillage n'a pas disparu avec les forums des années 2000."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Philo Mag creuse trois sujets qui n'ont rien à voir entre eux",
+     "paragraphs": [
+      [
+       {
+        "t": "Philosophie Magazine enchaîne trois angles improbables. D'abord Ivan Illich, présenté comme un pionnier du vélo"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ", ce qui sonne comme une private joke jusqu'à ce qu'on se souvienne que le bonhomme critiquait déjà la vitesse motorisée dans les années 70. Ensuite Julian Baggini qui revient sur l'école anglaise et son retour aux fondamentaux : bons résultats Pisa, mais à prendre avec des pincettes selon lui"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", ce qui est une façon polie de dire que les classements internationaux mentent souvent par omission."
+       }
+      ],
+      [
+       {
+        "t": "Le troisième, sur l'histoire culturelle de l'IA, cherche à retracer les origines d'un mythe moderne"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": ". Sujet casse-gueule tant l'IA charrie déjà son lot de discours emphatiques, mais l'angle historique plutôt que technique change la donne. Je n'ai pas le détail du contenu, seulement le titre, mais l'idée de traiter l'IA comme un objet mythologique plutôt qu'un simple outil me semble la bonne porte d'entrée."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Cinéma : un essai qui mord, une interview qui traîne",
+     "paragraphs": [
+      [
+       {
+        "t": "Culturaddict publie un essai sur Citizen Vigilante et ce que l'auteur appelle l'idiocratisation du cinéma « de droite » et de son public"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": ", avec un avertissement en préambule sur le caractère politique du texte. Rare de voir ce genre d'angle assumé sans détour dans la presse ciné francophone, ça change des papiers qui évitent soigneusement de se positionner."
+       }
+      ],
+      [
+       {
+        "t": "Même site, troisième et dernière partie de l'entretien avec le chef décorateur Guy Hendrix Dyas, sur Steve Jobs, Passengers, Pablo Larraín et Masters of the Universe"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": ". Une série d'entretiens longue, sans doute la plus riche du lot côté cinéma cette semaine, mais qui demande d'avoir suivi les deux parties précédentes pour en profiter pleinement."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Lepton : Valve fait tourner les jeux Android sous Linux",
+     "url": "https://www.it-connect.fr/valve-lepton-jeux-android-linux/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 2,
+     "title": "Créer facilement des repos deb et rpm avec Repomanager",
+     "url": "https://www.linuxdocs.net/guides/repomanager.html",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Geminispace VR",
+     "url": "https://olivier.dossmann.net/2026/09/geminispace-vr/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 4,
+     "title": "Ebook : la liseuse Xteink X4 Pro dans une stack libre",
+     "url": "https://www.fredix.xyz/2026/09/ebook-liseuse-xteink/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 5,
+     "title": "Pourquoi Ivan Illich est-il un pionnier du vélo ?",
+     "url": "https://www.philomag.com/articles/pourquoi-ivan-illich-est-il-un-pionnier-du-velo",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 6,
+     "title": "Julian Baggini : \"L'école anglaise a opéré un retour aux fondamentaux, mais ses bons résultats Pisa doivent être pris avec des pincettes\"",
+     "url": "https://www.philomag.com/articles/julian-baggini-lecole-anglaise-opere-un-retour-aux-fondamentaux-mais-ses-bons-resultats",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 7,
+     "title": "\"Histoire culturelle de l'IA\" : retracer les origines d'un mythe moderne",
+     "url": "https://www.philomag.com/articles/histoire-culturelle-de-lia-retracer-les-origines-dun-mythe-moderne",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 8,
+     "title": "Essai: Citizen Vigilante, De l'idiocratisation du cinéma « de droite » et de son public",
+     "url": "https://culturaddict.com/essai-citizen-vigilante-de-lidiocratisation-du-cinema-de-droite-et-de-son-public/?utm_source=rss&utm_medium=rss&utm_campaign=essai-citizen-vigilante-de-lidiocratisation-du-cinema-de-droite-et-de-son-public",
+     "feed": "Culturaddict"
+    },
+    {
+     "n": 9,
+     "title": "Rencontre avec Guy Hendrix Dyas, chef décorateur (partie 3 : Steve Jobs, Passengers, Pablo Larraín et Masters of the Universe)",
+     "url": "https://culturaddict.com/rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe",
+     "feed": "Culturaddict"
+    }
+   ]
+  },
   {
    "date": "2026-09-22",
    "label": "mardi 22 septembre 2026",
