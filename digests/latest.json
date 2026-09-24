@@ -1,6 +1,192 @@
 {
- "updated_at": "2026-09-23T10:16:15Z",
+ "updated_at": "2026-09-24T10:29:25Z",
  "entries": [
+  {
+   "date": "2026-09-24",
+   "label": "jeudi 24 septembre 2026",
+   "title": "CCleaner, 2,27 millions de PC infectés, et Ploum qui s'énerve (à raison)",
+   "sections": [
+    {
+     "name": "Sécurité & infra",
+     "paragraphs": [
+      [
+       {
+        "t": "L'histoire de la semaine, c'est cette mise à jour vérolée de CCleaner qui a touché 2,27 millions de machines"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Le chiffre donne le vertige, mais ce qui devrait inquiéter davantage, c'est la mécanique : un outil de confiance, installé partout, transformé en cheval de Troie via son propre canal de distribution. C'est le scénario qu'on redoute depuis SolarWinds, version grand public cette fois."
+       }
+      ],
+      [
+       {
+        "t": "Côté maison connectée, Canaletto continue sa série sur Home Assistant et les volets roulants"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ", sujet qui a l'air anodin jusqu'à ce qu'on essaie vraiment de synchroniser motorisation, capteurs de luminosité et scènes automatisées sans tout casser au premier redémarrage du hub. Et sur le web plus classique, Hugo documente ses hooks de rendu pour les images et vidéos"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ", du genre de doc qu'on met en favori et qu'on retrouve six mois plus tard en cherchant désespérément comment on avait fait la dernière fois."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Dev & le doute existentiel de Ploum",
+     "paragraphs": [
+      [
+       {
+        "t": "Laravel au Quotidien reste fidèle à son rythme avec un numéro qui couvre la 13.33, un piège sur Livewire et les nouveautés de Pest 5.1"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Rien de renversant, mais c'est le genre de veille qui évite de se faire surprendre par un breaking change un lundi matin."
+       }
+      ],
+      [
+       {
+        "t": "Le vrai texte à lire cette semaine, c'est Ploum. Son billet part d'un article tombé sous ses yeux pendant la dernière vague de chaleur et arrive à ce constat sec : \"on en est là\""
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ". Je ne sais pas trop comment le résumer sans trahir le ton, mais ça sent le coup de fatigue d'un développeur qui regarde où l'informatique grand public a fini par atterrir. Ça fait écho, d'une certaine façon, au billet de David Revoy sur la dégradation des moteurs de recherche"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", où l'outil censé nous aider à trouver de l'info devient lui-même une source de bruit. Deux billets, deux angles, même malaise de fond."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Jeux vidéo & cinéma",
+     "paragraphs": [
+      [
+       {
+        "t": "Wolverine chez Insomniac divise, et PXLBBQ prend le parti de ne pas trancher dans l'excès : ni bûcher ni lauriers"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": ". C'est reposant de lire un test qui refuse la polarisation habituelle des réseaux. Sur Switch 2, Resident Evil Village continue sa relecture en épisodes, celui-ci s'interrogeant sur sa nature de faux DLC ou de vrai chapitre"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": ", tandis que Mortal Kombat 2 s'offre sa propre critique dans la foulée des remous autour de l'adaptation de Resident Evil par Zach Cregger"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": "."
+       }
+      ],
+      [
+       {
+        "t": "Côté jeu vidéo grand public, Krafton mise sur cinq titres qui évitent sciemment de refaire du PUBG, du FPS cyber-noir au coopératif"
+       },
+       {
+        "cite": 10
+       },
+       {
+        "t": ", pari qu'on aimerait voir plus souvent chez un studio devenu riche grâce à une seule licence. Et pour ceux qui jouent encore à FC 27, un guide détaille quand dépenser ses crédits Ultimate Team plutôt que les garder au chaud"
+       },
+       {
+        "cite": 11
+       },
+       {
+        "t": "."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Comment une mise à jour de CCleaner a infecté 2,27 millions d'ordinateurs",
+     "url": "https://blog.shevarezo.fr/post/2026/09/23/comment-mise-a-jour-ccleaner-infecte-2-27-millions-ordinateurs",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 2,
+     "title": "Home Assistant et les volet roulants, next !",
+     "url": "https://www.canaletto.fr/home-assistant-et-les-volet-roulants-next/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Hugo : Render Hook Image & Video",
+     "url": "https://doc.huc.fr.eu.org/fr/web/hugo/render-hook-image-video/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 4,
+     "title": "Laravel 13.33, Piège Livewire, Pest 5.1 supercostaud — Laravel au Quotidien #065",
+     "url": "https://laravel-au-quotidien.happyto.dev/p/laravel-13-33-piege-livewire-pest-5-1-supercostaud-laravel-au-quotidien-065",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 5,
+     "title": "Ah ouais, quand même, on en est là !",
+     "url": "https://ploum.net/2026-09-23-on_en_est_la.html",
+     "feed": "Ploum.net"
+    },
+    {
+     "n": 6,
+     "title": "The Degraded Search Engine",
+     "url": "https://www.davidrevoy.com/article1175/the-degraded-search-engine",
+     "feed": "David Revoy"
+    },
+    {
+     "n": 7,
+     "title": "Test : Marvel's Wolverine – Fallait-il vraiment sortir les grilles ?",
+     "url": "https://pxlbbq.com/test-marvels-wolverine-fallait-il-vraiment-sortir-les-grilles/",
+     "feed": "PXLBBQ"
+    },
+    {
+     "n": 8,
+     "title": "Resident Evil Village : un faux épisode 4 en kit ou double ? (4/5)",
+     "url": "https://culturaddict.com/resident-evil-village-un-faux-episode-4-en-kit-ou-double-4-5/?utm_source=rss&utm_medium=rss&utm_campaign=resident-evil-village-un-faux-episode-4-en-kit-ou-double-4-5",
+     "feed": "Culturaddict"
+    },
+    {
+     "n": 9,
+     "title": "Mortal Kombat 2 : Fight ! (3/5)",
+     "url": "https://culturaddict.com/mortal-kombat-2-fight-3-5/?utm_source=rss&utm_medium=rss&utm_campaign=mortal-kombat-2-fight-3-5",
+     "feed": "Culturaddict"
+    },
+    {
+     "n": 10,
+     "title": "Ces cinq nouveaux jeux KRAFTON qui jouent la carte de la différence",
+     "url": "https://jesuisungameur.com/2026/09/23/nouveaux-jeux-krafton/",
+     "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+    },
+    {
+     "n": 11,
+     "title": "Guide FC 27 Ultimate Team : quand faut-il dépenser ses crédits ?",
+     "url": "https://jesuisungameur.com/2026/09/24/fc-27-ultimate-team-quand-depenser-credits/",
+     "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+    }
+   ]
+  },
   {
    "date": "2026-09-23",
    "label": "mercredi 23 septembre 2026",
