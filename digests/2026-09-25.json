@@ -1,0 +1,157 @@
+{
+ "date": "2026-09-25",
+ "label": "vendredi 25 septembre 2026",
+ "title": "Une IA qui s'aligne, une RFC qui recadre, et Village qui rejoue les hits",
+ "sections": [
+  {
+   "name": "Standards & Infra",
+   "paragraphs": [
+    [
+     {
+      "t": "Bortzmeyer décortique la RFC 10050, qui vient border JSContact"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". JSContact, c'est le format pensé pour stocker des infos de contact sur une personne ou une entité, mais la norme générique laissait trop de marge d'interprétation selon le protocole utilisé (CardDAV, JMAP...). Cette RFC pose des profils spécifiques pour combler les trous. Rien de spectaculaire, mais c'est le genre de travail de plomberie qui évite des incompatibilités silencieuses plus tard. Dans le même registre \"outils pour faire tourner des systèmes proprement\", Kaliop lance la première DevOps Experience Conf' le 15 octobre en ligne"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", avec du cloud souverain, de l'observabilité et du platform engineering au programme. Trois thèmes qui reviennent sans cesse cette année, la question étant toujours de savoir si le \"souverain\" reste un argument marketing ou une vraie contrainte d'architecture."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Dev au quotidien",
+   "paragraphs": [
+    [
+     {
+      "t": "La newsletter Laravel au Quotidien enchaîne les sorties : Laravel 13.33, un piège identifié sur Livewire, et Pest 5.1 qui monte en puissance"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". Rien d'individuellement renversant, mais c'est ce format court et régulier qui rend service : on sait qu'un piège Livewire vient d'être documenté sans avoir à fouiller un changelog de 200 lignes."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Corps, IA et autres objets philosophiques",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine sort son nouveau numéro sur \"Comment habiter mon corps ?\""
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ", et décline le thème sur plusieurs angles : l'édito d'Alexandre Lacroix file la métaphore du corps comme paysage"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", un article demande si on a plusieurs corps"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", pendant qu'un autre pose la question de l'alignement des IA comme enjeu du siècle"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ". Ce dernier papier m'intéresse plus que les autres : l'alignement, dans le débat IA, est souvent traité comme un problème d'ingénierie (faire en sorte que le modèle ne dise pas de bêtises), alors que la question posée ici semble plus large, presque politique. Reste à voir si le magazine va au-delà du cadrage habituel ou s'il ne fait que rejouer, en plus philosophique, le débat qu'on connaît déjà sur les réseaux."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Jeux et écrans",
+   "paragraphs": [
+    [
+     {
+      "t": "Culturaddict continue son test en plusieurs parties de Resident Evil Village sur Switch 2"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ", avec cette question centrale : le jeu est-il un vrai épisode 4 déguisé, ou une redite du virage plus resserré amorcé par la saga ? Sur un registre bien plus modeste, PXLBBQ démonte The Alighieri Circle: Dante's Bloodline, et le titre de leur papier dit tout : \"le poète a transmis un avertissement à sa descendance, le jeu transmet surtout des couloirs\""
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ". Une punchline méchante mais qui donne envie de lire la suite plutôt que le jeu."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "RFC 10050: Protocol-Specific Profiles for JSContact",
+   "url": "https://www.bortzmeyer.org/10050.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 2,
+   "title": "DevOps Experience Conf' : cloud souverain, observabilité et platform engineering, le 15 octobre en ligne",
+   "url": "https://linuxfr.org/news/devops-experience-conf-cloud-souverain-observabilite-et-platform-engineering-le-15-octobre-en-ligne",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Laravel 13.33, Piège Livewire, Pest 5.1 supercostaud — Laravel au Quotidien #065",
+   "url": "https://laravel-au-quotidien.happyto.dev/p/laravel-13-33-piege-livewire-pest-5-1-supercostaud-laravel-au-quotidien-065",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 4,
+   "title": "\"Comment habiter mon corps ?\" Le nouveau numéro de Philosophie magazine sort ce jeudi !",
+   "url": "https://www.philomag.com/articles/comment-habiter-mon-corps-le-nouveau-numero-de-philosophie-magazine-sort-ce-jeudi",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 5,
+   "title": "Notre corps est un paysage : l'édito d'Alexandre Lacroix",
+   "url": "https://www.philomag.com/articles/notre-corps-est-un-paysage-ledito-dalexandre-lacroix",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 6,
+   "title": "Avons-nous plusieurs corps ?",
+   "url": "https://www.philomag.com/articles/avons-nous-plusieurs-corps",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 7,
+   "title": "L'\"alignement\" des IA, enjeu du siècle ?",
+   "url": "https://www.philomag.com/articles/lalignement-des-ia-enjeu-du-siecle",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 8,
+   "title": "Resident Evil Village : un faux épisode 4 en kit ou double ? (4/5)",
+   "url": "https://culturaddict.com/resident-evil-village-un-faux-episode-4-en-kit-ou-double-4-5/?utm_source=rss&utm_medium=rss&utm_campaign=resident-evil-village-un-faux-episode-4-en-kit-ou-double-4-5",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 9,
+   "title": "Test : The Alighieri Circle: Dante's Bloodline – Visite guidée en enfer",
+   "url": "https://pxlbbq.com/test-the-alighieri-circle-dantes-bloodline-visite-guidee-en-enfer/",
+   "feed": "PXLBBQ"
+  }
+ ]
+}
