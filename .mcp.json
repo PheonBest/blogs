@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "postiz": {
+      "type": "http",
+      "url": "https://postiz.antoninmarxer.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${POSTIZ_BEARER_TOKEN}"
+      }
+    }
+  }
+}
