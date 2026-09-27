@@ -1,6 +1,103 @@
 {
- "updated_at": "2026-09-25T10:31:35Z",
+ "updated_at": "2026-09-27T10:43:02Z",
  "entries": [
+  {
+   "date": "2026-09-27",
+   "label": "dimanche 27 septembre 2026",
+   "title": "GNOME prépare Toulouse, PokerTH tient bon depuis vingt ans",
+   "sections": [
+    {
+     "name": "Libre & Communauté",
+     "paragraphs": [
+      [
+       {
+        "t": "La Fondation GNOME annonce sa présence au Capitole du Libre, à Toulouse, les 14 et 15 novembre"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Rien de fracassant dans l'annonce elle-même, mais c'est le genre de rendez-vous qui compte plus qu'il n'y paraît : dans un paysage où beaucoup de projets libres tournent en mode survie, voir une fondation se déplacer physiquement pour présenter sa dernière version dit quelque chose sur la vitalité de l'écosystème français du libre."
+       }
+      ],
+      [
+       {
+        "t": "Autre signe de longévité, plus inattendu : PokerTH s'approche de ses 20 ans"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ". Un projet de poker en ligne libre qui a traversé deux décennies, migré vers Qt/QML, ajouté Android et le web, tout en gardant une communauté active. Ce n'est pas le genre d'anniversaire qui fait les gros titres, mais ça mérite d'être noté : la plupart des projets de jeu indépendants meurent bien avant. Celui-là a visiblement trouvé son rythme."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Philosophie",
+     "paragraphs": [
+      [
+       {
+        "t": "Philosophie Magazine enchaîne trois angles ce coup-ci. D'abord un retour sur la façon dont Aristote a fini par éclipser Platon dans l'histoire de la pensée"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ", question classique mais toujours bonne à creuser. Ensuite un texte sur Cézanne comme influenceur philosophique"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ", association qui intrigue plus qu'elle ne convainc d'emblée, sans description pour en juger."
+       },
+       {
+        "t": " Et un dialogue entre Margaux Cassan et Claire Marin sur le rapport au corps"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ", sujet qui revient souvent chez Marin et qui, à en juger par son travail habituel, devrait éviter le développement personnel pour aller vers quelque chose de plus incarné."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "La fondation GNOME au Capitole du Libre (Toulouse, 14 et 15 novembre 2026)",
+     "url": "https://linuxfr.org/news/la-fondation-gnome-au-capitole-du-libre-toulouse-14-et-15-novembre-2026",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 2,
+     "title": "PokerTH approche ses 20 ans : QML, Android, Web et une communauté toujours active",
+     "url": "https://linuxfr.org/news/pokerth-approche-ses-20-ans-qml-android-web-et-une-communaute-toujours-active",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 3,
+     "title": "Comment Aristote a-t-il pris sa revanche sur Platon ?",
+     "url": "https://www.philomag.com/articles/comment-aristote-t-il-pris-sa-revanche-sur-platon",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 4,
+     "title": "Paul Cezanne, peintre et influenceur philosophique",
+     "url": "https://www.philomag.com/articles/paul-cezanne-peintre-et-influenceur-philosophique",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 5,
+     "title": "Bien dans son corps ? Dialogue entre Margaux Cassan et Claire Marin",
+     "url": "https://www.philomag.com/articles/bien-dans-son-corps-dialogue-entre-margaux-cassan-et-claire-marin",
+     "feed": "Philosophie Magazine"
+    }
+   ]
+  },
   {
    "date": "2026-09-25",
    "label": "vendredi 25 septembre 2026",
