@@ -1,0 +1,157 @@
+{
+ "date": "2026-09-28",
+ "label": "lundi 28 septembre 2026",
+ "title": "Cette semaine, le libre fait de la figuration à côté du cinéma d'horreur",
+ "sections": [
+  {
+   "name": "Libre & infra",
+   "paragraphs": [
+    [
+     {
+      "t": "L'agenda du Libre recense les rendez-vous de la semaine 40"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", et GNOME confirme sa présence au Capitole du Libre à Toulouse mi-novembre"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Deux annonces qui se ressemblent : pas de scoop, juste le rappel que la machine associative tourne, tranquille, sans avoir besoin de faire du bruit pour ça."
+     }
+    ],
+    [
+     {
+      "t": "Plus surprenant : PokerTH s'approche de ses 20 ans et a visiblement survécu à plusieurs générations de frameworks, avec un client Qt/QML repensé et des portages Android et web"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". C'est le genre de projet qu'on oublie puis qu'on retrouve, toujours vivant contre toute attente. Côté certifications, RudeOps propose de réviser KCNA et KCSA"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ", utile si Kubernetes fait partie du quotidien, moins passionnant si on cherche autre chose qu'une checklist d'examen."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Écrans et pages",
+   "paragraphs": [
+    [
+     {
+      "t": "Culturaddict s'entretient avec Caroline Fahrer, cheffe costumière sur Resident Evil"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", et c'est le genre d'angle qui manque souvent : le costume comme outil narratif, pas comme accessoire. Dans un registre plus queer et plus trash, Le Blog du Cinéma passe en revue Teenage Sex and Death at Camp Miasma, la relecture par Jane Schoenbrun du slasher eighties"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ". Deux façons de regarder l'horreur par le petit bout de la lorgnette, costumes d'un côté, réinvention de genre de l'autre, et les deux fonctionnent."
+     }
+    ],
+    [
+     {
+      "t": "Sur Steam, Shinjuku Anomaly promet un roman visuel d'horreur nocturne à Tokyo"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ", pile dans l'ambiance de saison. Rien d'inédit dans le concept, mais l'horreur japonaise en visual novel reste un filon qui fonctionne quand l'écriture suit."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Penser à côté",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine enchaîne deux textes utiles cette semaine : Charles Pépin répond à la question de l'ami qui fait fausse route"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ", et un article revient sur la façon dont Aristote a fini par prendre le dessus sur Platon dans l'histoire des idées"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ". Rien à voir avec la tech, et c'est justement pour ça que ça fait du bien dans un flux du jour dominé par les release notes."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Agenda du Libre pour la semaine 40 de l'année 2026",
+   "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-40-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "La fondation GNOME au Capitole du Libre (Toulouse, 14 et 15 novembre 2026)",
+   "url": "https://linuxfr.org/news/la-fondation-gnome-au-capitole-du-libre-toulouse-14-et-15-novembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "PokerTH approche ses 20 ans : QML, Android, Web et une communauté toujours active",
+   "url": "https://linuxfr.org/news/pokerth-approche-ses-20-ans-qml-android-web-et-une-communaute-toujours-active",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Réviser les certifications KCNA et KCSA",
+   "url": "https://www.rudeops.com/certifications",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Entretien avec Caroline Fahrer, cheffe costumière de « Resident Evil »",
+   "url": "https://culturaddict.com/entretien-avec-caroline-fahrer-cheffe-costumiere-de-resident-evil/?utm_source=rss&utm_medium=rss&utm_campaign=entretien-avec-caroline-fahrer-cheffe-costumiere-de-resident-evil",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 6,
+   "title": "Teenage Sex and Death at Camp Miasma : que vaut la revisite queer des films d'horreur des années 80 ?",
+   "url": "https://www.leblogducinema.com/critique-film/teenage-sex-death-camp-miasma-65540357/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 7,
+   "title": "Shinjuku Anomaly : le roman visuel d'horreur arrive sur Steam",
+   "url": "https://pxlbbq.com/shinjuku-anomaly-le-roman-visuel-dhorreur-arrive-sur-steam/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 8,
+   "title": "Que faire quand un ami vous semble faire fausse route ? Charles Pépin vous répond",
+   "url": "https://www.philomag.com/articles/que-faire-quand-un-ami-vous-semble-faire-fausse-route-charles-pepin-vous-repond",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 9,
+   "title": "Comment Aristote a-t-il pris sa revanche sur Platon ?",
+   "url": "https://www.philomag.com/articles/comment-aristote-t-il-pris-sa-revanche-sur-platon",
+   "feed": "Philosophie Magazine"
+  }
+ ]
+}
