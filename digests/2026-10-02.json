@@ -1,0 +1,68 @@
+{
+ "date": "2026-10-02",
+ "label": "vendredi 2 octobre 2026",
+ "title": "Un mois XMPP, un programme de bouille grise, et pas grand-chose d'autre",
+ "sections": [
+  {
+   "name": "Logiciel libre & fédération",
+   "paragraphs": [
+    [
+     {
+      "t": "La lettre d'information XMPP d'août vient de sortir en traduction française"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". C'est le genre de dépêche qu'on lit par fidélité plus que par scoop : pas d'annonce fracassante dedans, mais le protocole continue d'avancer à son rythme, loin du bruit des plateformes fermées. Dans un paysage où Matrix et Bluesky se disputent l'attention des amateurs de fédération, XMPP reste le vétéran discret qui tient depuis vingt ans. Ce n'est pas glamour, mais c'est du solide."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Culture & vie d'auteur",
+   "paragraphs": [
+    [
+     {
+      "t": "Grisebouille publie son programme d'octobre"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", avec le petit rituel habituel : bilan du mois passé, annonces du mois à venir. C'est un format qu'on suit plus pour le ton que pour le contenu en lui-même, une respiration dans le flux plutôt qu'une information capitale."
+     },
+     {
+      "t": " Autre ambiance chez Philosophie Magazine, qui consacre un article au pharmakon"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", ce concept grec qui veut dire à la fois poison et remède. Pas de résumé possible sans la description, mais le sujet a de quoi intriguer : on pense vite au numérique, où le même outil soigne et empoisonne selon le dosage."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Lettre d'information XMPP d'août 2026",
+   "url": "https://linuxfr.org/news/lettre-d-information-xmpp-d-aout-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "Programme d'octobre 2026",
+   "url": "https://grisebouille.net/programme-doctobre-2026?utm_source=GBRSS",
+   "feed": "Grise Bouille"
+  },
+  {
+   "n": 3,
+   "title": "Poison et remède : le pouvoir inégalé du \"pharmakon\"",
+   "url": "https://www.philomag.com/articles/poison-et-remede-le-pouvoir-inegale-du-pharmakon",
+   "feed": "Philosophie Magazine"
+  }
+ ]
+}
