@@ -1,6 +1,163 @@
 {
- "updated_at": "2026-10-02T11:18:53Z",
+ "updated_at": "2026-10-03T10:35:30Z",
  "entries": [
+  {
+   "date": "2026-10-03",
+   "label": "samedi 3 octobre 2026",
+   "title": "Un lundi à ranger ses serveurs (et ses morts)",
+   "sections": [
+    {
+     "name": "Auto-hébergement & infra",
+     "paragraphs": [
+      [
+       {
+        "t": "Trois retours d'expérience ce week-end, trois façons différentes de reprendre le contrôle de son infra. Le plus savoureux, c'est ce billet où l'auteur raconte être revenu sur Paperless-ngx après avoir testé Papra"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Pas un abandon raté, un vrai constat : l'herbe n'était pas plus verte ailleurs, mais Papra a quand même changé quelque chose dans sa façon de voir l'outil. C'est le genre d'aveu qu'on lit rarement dans la veille auto-hébergement, où tout le monde migre toujours vers le nouveau jouet sans jamais revenir en arrière."
+       }
+      ],
+      [
+       {
+        "t": "À côté, deux chantiers plus costauds. Une migration RAID 1 vers ZFS qui a pris 20 heures"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ", ce qui en dit long sur l'écart entre la promesse marketing du \"ça se fait en un clic\" et la réalité d'un NAS perso qu'on ne veut pas perdre. Et un montage FreeBSD en reverse proxy NGINX, intégré à toute une infra existante"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ", qui rappelle que FreeBSD reste un choix assumé chez une partie des bricoleurs du Journal du Hacker, loin de la domination Linux qu'on pourrait croire totale. Pour qui veut une vue d'ensemble de la semaine côté self-host, le résumé habituel fait aussi le tour"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ", et la veille hebdo généraliste liste 34 actus dev en vrac"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ", de Rails à Sonnet 5.5."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Internet, le vrai",
+     "paragraphs": [
+      [
+       {
+        "t": "Un coup de gueule bien senti sur VeriSign"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", parti d'un détour par un billet de Neil Fraser sur la terminaison des domaines en .name de troisième niveau. Le titre ne laisse pas de doute sur l'avis de l'auteur, et c'est justement ce qui rend le texte agréable : pas de neutralité de façade, juste quelqu'un qui en a assez des pratiques d'un acteur central du DNS."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Écrans et pensée",
+     "paragraphs": [
+      [
+       {
+        "t": "Deux textes qui n'ont rien à voir sur le papier, mais qui parlent tous les deux de ce qu'on fait avec ce qu'on a perdu ou ce qu'on refuse de voir. Philosophie Magazine se demande pourquoi on reste attaché à ceux qui nous ont quittés"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": ", question simple qui mérite mieux qu'une réponse toute faite sur le deuil. De son côté, Le Blog Du Cinéma compare Joker et A Normal Family à partir d'une scène de départ similaire"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": ", pour voir comment chaque film juge la valeur d'une vie selon le regard de la société. Deux approches, un même fond : ce qu'on fait des gens qu'on a mis de côté."
+       }
+      ],
+      [
+       {
+        "t": "Et pour la détente, Ace Combat 8 Wings of Theve a droit à un test enthousiaste après sept ans et demi d'attente depuis le septième épisode"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": ". \"On avait presque oublié à quel point voler pouvait être un plaisir\", dit le titre, et ça donne envie d'y croire."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Papra vs Paperless-ngx : le retour en arrière que je n'avais pas vu venir",
+     "url": "https://www.labdugeek.fr/je-reste-sur-paperless-ngx-mais-papra-a-change/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 2,
+     "title": "Du RAID 1 à ZFS – Retour d'expérience d'une migration de 20 heures",
+     "url": "https://spirio.fr/2026/10/02/du-raid-1-a-zfs-retour-dexperience-dune-migration-de-20-heures/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Un FreeBSD comme reverse proxy NGINX et son intégration complète à mon infra",
+     "url": "https://www.abyssproject.net/2026/10/un-freebsd-comme-reverse-proxy-nginx-et-son-integration-complete-a-mon-infra/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 4,
+     "title": "Self-Host Weekly (2 October 2026)",
+     "url": "https://selfh.st/weekly/2026-10-02/",
+     "feed": "selfh.st"
+    },
+    {
+     "n": 5,
+     "title": "Veille #76 - 34 actus qu'il ne fallait pas rater cette semaine",
+     "url": "https://www.camilleroux.com/rails-hey-gortex-sonnet-5-5-veille-76/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 6,
+     "title": "VeriSign is VeriShit",
+     "url": "https://p4bl0.net/post/2026/10/VeriSign-is-VeriShit",
+     "feed": "Pavillon rouge et noir"
+    },
+    {
+     "n": 7,
+     "title": "Pourquoi restons-nous si attachés à ceux qui nous ont quittés ?",
+     "url": "https://www.philomag.com/articles/pourquoi-restons-nous-si-attaches-ceux-qui-nous-ont-quittes",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 8,
+     "title": "Joker et A Normal Family : ce que vaut une vie selon la société",
+     "url": "https://www.leblogducinema.com/analyse/joker-a-normal-family-65540401/",
+     "feed": "Le Blog Du Cinéma"
+    },
+    {
+     "n": 9,
+     "title": "Test : Ace Combat 8 Wings of Theve – On avait presque oublié à quel point voler pouvait être un plaisir",
+     "url": "https://pxlbbq.com/test-ace-combat-8-wings-of-theve-on-avait-presque-oublie-a-quel-point-voler-pouvait-etre-un-plaisir/",
+     "feed": "PXLBBQ"
+    }
+   ]
+  },
   {
    "date": "2026-10-02",
    "label": "vendredi 2 octobre 2026",
