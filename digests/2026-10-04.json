@@ -1,0 +1,109 @@
+{
+ "date": "2026-10-04",
+ "label": "dimanche 4 octobre 2026",
+ "title": "Rails sous le feu des questions, rsync sous celui de l'IA",
+ "sections": [
+  {
+   "name": "Dev",
+   "paragraphs": [
+    [
+     {
+      "t": "Michael Bensoussan pose la question qui revient tous les deux ou trois ans dans l'écosystème Ruby : Rails est-il fini ?"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": " Le genre de titre qui fait cliquer, mais le sujet reste légitime : entre Node, Go et la montée des frameworks type Phoenix, Rails doit régulièrement justifier sa place. Dommage que le TSV ne donne pas plus de chair sur l'argumentaire, parce que ce débat mérite mieux qu'un simple titre."
+     }
+    ],
+    [
+     {
+      "t": "Côté système, LinuxFr se penche sur rsync, Debian et l'IA dans une même dépêche"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", un croisement qui sonne presque comme une private joke pour qui suit le vibe coding de près. rsync, c'est le genre d'outil increvable, présent partout, dont personne ne parle jusqu'à ce qu'un contexte le remette sur le devant de la scène. Voir Debian et le vibe coding dans la même phrase donne presque le vertige : deux mondes qui n'étaient pas censés se rencontrer."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Cinéma",
+   "paragraphs": [
+    [
+     {
+      "t": "Le Blog du Cinéma n'est pas tendre avec Digger, le dernier Iñárritu porté par un Tom Cruise méconnaissable : « fourre-tout esthétique mais indigeste », 125 minutes de satire qui semble avoir perdu le réalisateur en chemin"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". Sans avoir vu le film, difficile de ne pas sentir dans ce titre l'agacement classique devant un cinéaste qui en fait trop pour dire finalement peu."
+     }
+    ],
+    [
+     {
+      "t": "Même média, tonalité différente avec une comparaison entre Joker et A Normal Family"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " : deux films qui partent d'une scène quasi identique puis divergent totalement sur ce qu'ils racontent de la valeur d'une vie en société. L'angle est bon, le genre d'analyse qui donne envie de revoir les deux films côte à côte plutôt que séparément."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Idées",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine interroge l'arpentage, cette pratique de lecture collective qu'on ressort régulièrement comme remède à la désertion des livres"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ". La question posée dans le titre, « la solution miracle pour réapprendre à lire ? », sent le doute plus que l'adhésion, ce qui est plutôt rassurant : ce n'est jamais une seule méthode qui sauve la lecture, et se méfier des solutions miracles reste une bonne hygiène intellectuelle."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Rails est-il vraiment fini ?",
+   "url": "https://michaelbensoussan.com/posts/rails-est-il-fini/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 2,
+   "title": "Debian, IA, vibe coding & rsync : la croisée des chemins ?",
+   "url": "https://linuxfr.org/news/debian-ia-vibe-coding-rsync-la-croisee-des-chemins",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Digger, fourre-tout esthétique mais indigeste",
+   "url": "https://www.leblogducinema.com/critique-film/digger-inarritu-tom-cruise-65540413/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 4,
+   "title": "Joker et A Normal Family : ce que vaut une vie selon la société",
+   "url": "https://www.leblogducinema.com/analyse/joker-a-normal-family-65540401/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 5,
+   "title": "\"L'arpentage\", la solution miracle pour réapprendre à lire ?",
+   "url": "https://www.philomag.com/articles/larpentage-la-solution-miracle-pour-reapprendre-lire",
+   "feed": "Philosophie Magazine"
+  }
+ ]
+}
