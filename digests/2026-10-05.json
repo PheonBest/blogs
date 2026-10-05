@@ -1,0 +1,169 @@
+{
+ "date": "2026-10-05",
+ "label": "lundi 5 octobre 2026",
+ "title": "Markdown contre LLM, rsync contre vibe coding : la semaine où le libre se défend",
+ "sections": [
+  {
+   "name": "Dev & Sécu",
+   "paragraphs": [
+    [
+     {
+      "t": "Stéphane Bortzmeyer remet les pendules à l'heure sur Markdown"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Son argument : non, un traitement de texte n'est pas la seule façon civilisée d'écrire, et le texte brut structuré a encore toute sa place face au réflexe \"je demande à un LLM de me pondre ça\". C'est le genre de rappel sec et utile qu'on attend de lui, sans détour ni marketing."
+     }
+    ],
+    [
+     {
+      "t": "Sur LinuxFr, une dépêche interroge Debian à la croisée de l'IA, du vibe coding et de rsync"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", preuve que même les projets les plus établis du libre doivent composer avec la vague \"code généré\" qui arrive de toutes parts. Et pour s'y retrouver dans le jargon qui va avec, Hoppr publie un lexique prompt/tokens/MCP/harness"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": " qui tombe au bon moment : les mots s'empilent plus vite que les définitions stables."
+     }
+    ],
+    [
+     {
+      "t": "Côté sécu, un article explique comment auditer son Wi-Fi avec Kali et Wireshark en allant plus loin que la simple capture de poignée de main"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ", ce qui manquait effectivement dans le paysage francophone. Pratique, concret, pas de blabla."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Veille & agenda du libre",
+   "paragraphs": [
+    [
+     {
+      "t": "Le Journal du Hacker livre sa sélection hebdomadaire de liens"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", et LinuxFr son agenda du libre pour la semaine 41"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", avec en prime le best-of des journaux les mieux notés de septembre"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ". Rien de renversant, mais c'est le genre de rendez-vous qu'on est content de retrouver chaque semaine, justement parce qu'il ne cherche pas à être renversant."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Jeux, BD et culture du jour",
+   "paragraphs": [
+    [
+     {
+      "t": "Grise Bouille part en quête de l'Élu dans une BD fantasy qui recycle sciemment ses propres vannes"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ", et le test de Silent Hill Townfall sur PXLBBQ"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": " continue d'explorer cette idée que la série fait maintenant de la Brume avec la culpabilité collective. Pummel Party sur PS5 se contente d'être ce qu'il promet : un party game à l'ambiance sympa malgré des graphismes qui ont pris de l'âge"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": ", honnête pour 17 euros entre quatre manettes."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "From Markup to Markdown",
+   "url": "https://www.bortzmeyer.org/from-markup-to-markdown.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 2,
+   "title": "Debian, IA, vibe coding & rsync : la croisée des chemins ?",
+   "url": "https://linuxfr.org/news/debian-ia-vibe-coding-rsync-la-croisee-des-chemins",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Prompt, tokens, MCP, harness... le lexique IA à connaître en 2026",
+   "url": "https://blog.hoppr.tech/blogs/2026-08-19-prompt-tokens-mcp-harness-le-lexique-ia-a-connaitre-en-2026",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 4,
+   "title": "Kali et Wireshark : mettez votre Wi-Fi sur écoute avant les autres",
+   "url": "https://jurojin.net/auditer-son-reseau-wifi-avec-kali-et-wireshark/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Liens intéressants Journal du hacker semaine #40",
+   "url": "https://blog.journalduhacker.net/index.php?article607/liens-interessants-journal-du-hacker-semaine-40-2026",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 6,
+   "title": "Agenda du Libre pour la semaine 41 de l'année 2026",
+   "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-41-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 7,
+   "title": "🪶 Les journaux LinuxFr.org les mieux notés de septembre 2026",
+   "url": "https://linuxfr.org/news/les-journaux-linuxfr-org-les-mieux-notes-de-septembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 8,
+   "title": "En quête de l'Élu",
+   "url": "https://grisebouille.net/en-quete-de-lelu?utm_source=GBRSS",
+   "feed": "Grise Bouille"
+  },
+  {
+   "n": 9,
+   "title": "Test : Silent Hill Townfall – Quand le traumatisme de tous et la culpabilité de certains déclenchent la Brume",
+   "url": "https://pxlbbq.com/test-silent-hill-townfall-quand-le-traumatisme-de-tous-et-la-culpabilite-de-certains-declenchent-la-brume/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 10,
+   "title": "Test Pummel Party sur PS5 : le party game parfait pour vos soirées entre potes",
+   "url": "https://www.blogamer.fr/test-pummel-party-sur-ps5-le-party-game-parfait-pour-vos-soirees-entre-potes/",
+   "feed": "Blogamer.fr"
+  }
+ ]
+}

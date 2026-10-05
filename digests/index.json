@@ -1,6 +1,11 @@
 {
- "updated_at": "2026-10-04T11:16:18Z",
+ "updated_at": "2026-10-05T12:35:11Z",
  "entries": [
+  {
+   "date": "2026-10-05",
+   "label": "lundi 5 octobre 2026",
+   "title": "Markdown contre LLM, rsync contre vibe coding : la semaine où le libre se défend"
+  },
   {
    "date": "2026-10-04",
    "label": "dimanche 4 octobre 2026",
