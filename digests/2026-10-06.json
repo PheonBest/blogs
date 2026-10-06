@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-06",
+ "label": "mardi 6 octobre 2026",
+ "title": "L'IA a son dictionnaire, la DGFIP son rapport d'autopsie",
+ "sections": [
+  {
+   "name": "Sécu & infra : la France fuite, l'IA se standardise",
+   "paragraphs": [
+    [
+     {
+      "t": "Stéphane Bortzmeyer a lu le rapport de l'ANSSI sur le piratage de la DGFIP"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", et son constat résume bien l'ambiance du moment : "
+     },
+     {
+      "t": "« c'est la fête des fuites de données personnelles en France »"
+     },
+     {
+      "t": ". Le pire, c'est que ce n'est même plus une surprise, chacun y a déjà laissé quelque chose. Ce qui rend ce rapport intéressant, ce n'est pas l'incident en lui-même mais la rigueur de l'analyse technique derrière, assez rare pour être soulignée."
+     }
+    ],
+    [
+     {
+      "t": "Même auteur, même semaine : un compte-rendu de la conférence "
+     },
+     {
+      "t": "« Histories of Tracking »"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", qui a eu lieu fin septembre au Luxembourg. Le pistage numérique raconté par son histoire plutôt que par ses outils du moment, ça change de la litanie habituelle sur les cookies. Et côté newsletters techniques, RudeOps livre sa dose hebdomadaire"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": " : Terraform, Kubernetes, containerd, Claude Code, open source. Le genre de sommaire qui montre bien où se concentre le travail en ops cette année, entre infra classique et IA qui s'invite partout."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Le lexique IA, enfin rangé",
+   "paragraphs": [
+    [
+     {
+      "t": "Prompt, tokens, MCP, harness, compaction : le billet de Hoppr"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " fait ce que personne n'avait pris le temps de faire proprement, un vrai lexique du jargon IA qui s'est accumulé depuis fin 2022. Le papier note que ce vocabulaire reste "
+     },
+     {
+      "t": "« souvent en anglais, souvent confus »"
+     },
+     {
+      "t": ", ce qui est bien le problème : on l'emploie tous sans être sûr de parler de la même chose. Utile à garder sous la main plutôt qu'à lire en entier."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Lectures du week-end",
+   "paragraphs": [
+    [
+     {
+      "t": "La revue de presse de l'April"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": " et les liens du Journal du Hacker"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": " font leur office habituel de filet de sécurité pour tout ce qu'on a raté dans la semaine. Côté LinuxFr, le classement des journaux les mieux notés de septembre"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": " vaut le détour, ne serait-ce que pour voir ce que la communauté juge digne d'intérêt quand personne ne lui impose d'algorithme. Flozz, lui, continue son journal de bord personnel avec un billet sur Cover Thumbnailer et les dark patterns téléphoniques"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ", mélange qui résume bien le ton de ses notes : bricolage logiciel d'un côté, agacement contre les pratiques tordues des opérateurs de l'autre."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Le rapport de l'ANSSI sur le piratage de la DGFIP",
+   "url": "https://www.bortzmeyer.org/anssi-dgfip.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 2,
+   "title": "La conférence « Histories of tracking » 2026",
+   "url": "https://www.bortzmeyer.org/histories-tracking-2026.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 3,
+   "title": "Newsletter du 05 Octobre 2026",
+   "url": "https://www.rudeops.com/newsletters/2026-10-05",
+   "feed": "RudeOps"
+  },
+  {
+   "n": 4,
+   "title": "Prompt, tokens, MCP, harness... le lexique IA à connaître en 2026",
+   "url": "https://blog.hoppr.tech/blogs/2026-08-19-prompt-tokens-mcp-harness-le-lexique-ia-a-connaitre-en-2026",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Revue de presse de l'April pour la semaine 40 de l'année 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-40-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 6,
+   "title": "Liens intéressants Journal du hacker semaine #40",
+   "url": "https://blog.journalduhacker.net/index.php?article607/liens-interessants-journal-du-hacker-semaine-40-2026",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 7,
+   "title": "🪶 Les journaux LinuxFr.org les mieux notés de septembre 2026",
+   "url": "https://linuxfr.org/news/les-journaux-linuxfr-org-les-mieux-notes-de-septembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 8,
+   "title": "Où il sera question de Cover Thumbnailer et de dark patterns téléphoniques",
+   "url": "https://blog.flozz.fr/2026/10/06/journal-de-bord-9-ou-il-sera-question-de-cover-thumbnailer-et-de-dark-patterns-telephoniques/",
+   "feed": "Journal du Hacker"
+  }
+ ]
+}
