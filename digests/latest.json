@@ -1,6 +1,169 @@
 {
- "updated_at": "2026-10-06T12:12:33Z",
+ "updated_at": "2026-10-07T11:59:05Z",
  "entries": [
+  {
+   "date": "2026-10-07",
+   "label": "mercredi 7 octobre 2026",
+   "title": "Wikipédia sous le feu des bots OpenAI, et le Markdown a gagné sans qu'on le remarque",
+   "sections": [
+    {
+     "name": "IA : la mécanique dérape",
+     "paragraphs": [
+      [
+       {
+        "t": "L'info qui pique ce jour : des agents d'OpenAI tapent sur Wikipédia et Wikidata de façon incontrôlée"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Pas une intégration pensée, pas un partenariat annoncé, juste des bots qui scrapent sans égard pour l'encyclopédie en face. C'est exactement le genre d'histoire qui devrait calmer l'enthousiasme sur les "
+       },
+       {
+        "t": "agents autonomes"
+       },
+       {
+        "t": " tant qu'ils tournent sans supervision réelle. Pendant ce temps, Gravitek propose son concept de System One Models, où le modèle décide au lieu de répondre"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": " — une idée qui mérite d'être creusée, mais qui tombe un peu à côté après la nouvelle du matin."
+       }
+      ],
+      [
+       {
+        "t": "Et puis il y a le quotidien moins glamour du dev avec l'IA : un développeur galère avec Codex, llama.cpp et Qwen3.8 sur une banale erreur 500, \"System message must be at the beginning\""
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ". Ce genre de post vaut plus que dix articles sur les LLM qui vont \"transformer l'industrie\" : c'est la réalité de qui essaie de faire tourner ces outils en local, confronté à des API qui ne s'entendent pas entre elles."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Web, libre et vie privée",
+     "paragraphs": [
+      [
+       {
+        "t": "Le README a gagné : Markdown est devenu le format par défaut de tout ce qu'on écrit en dev, et jatniel.dev retrace comment on en est arrivé là"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Rien de révolutionnaire dans le constat, mais ça fait du bien de remettre un nom sur une évidence qu'on ne questionne plus."
+       }
+      ],
+      [
+       {
+        "t": "Sur la vie privée, eventuallycoding démonte l'idée de lever l'anonymat en ligne pour lutter contre le harcèlement ou la désinformation"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": " — fausse bonne idée, et l'article prend le temps d'expliquer pourquoi plutôt que de trancher à la hache. Brennan, lui, se demande si l'IndieWeb a sa place en français québécois"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", question presque militante dans un web dominé par l'anglais et les plateformes fermées. Et flozz continue son journal de bord perso, cette fois autour de son outil Cover Thumbnailer et des dark patterns dans les interfaces téléphoniques"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": ", toujours ce ton journal intime qui fait du bien à lire au milieu des annonces produit."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Société et débat",
+     "paragraphs": [
+      [
+       {
+        "t": "Dans Philosophie Magazine, Omri Boehm propose de réinventer un point d'Archimède entre Israéliens et Palestiniens"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": ", formule qui sonne bien mais qu'il faudrait lire en entier pour juger si elle tient la route. Sur LinuxFr, un échange avec la députée Cyrielle Chatelain autour de son rapport est repris dans le podcast Libre à vous de l'April"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": " — toujours intéressant de voir le logiciel libre entrer dans l'arène parlementaire plutôt que de rester cantonné aux cercles militants."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Wikipédia sous pression : des agents d'OpenAI hors de contrôle ciblent l'encyclopédie",
+     "url": "https://goodtech.info/wikipedia-agents-ia-openai-hors-de-controle-attaques-wikidata/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 2,
+     "title": "jev et les System One Models : quand l'IA décide au lieu de parler",
+     "url": "https://www.gravitek.io/blog/jev-typesafe-system-one-models",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Codex, llama.cpp, Qwen3.8 : erreur 500 System message must be at the beginning",
+     "url": "https://www.linuxtricks.fr/news/10-logiciels-libres/609-codex-llama-cpp-qwen3-8-erreur-500-system-message-must-be-at-the-beginning/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 4,
+     "title": "Markdown est partout, et ça a commencé par un README",
+     "url": "https://jatniel.dev/fr/bytes/markdown-est-partout-et-ca-a-commence-par-un-readme",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 5,
+     "title": "Lever l'anonymat en ligne : la fausse bonne idée",
+     "url": "https://eventuallycoding.com/p/anonymat-sur-internet",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 6,
+     "title": "L'IndieWeb en français québécois?",
+     "url": "https://brennan.day/l-indieweb-en-francais-quebecois/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 7,
+     "title": "Où il sera question de Cover Thumbnailer et de dark patterns téléphoniques",
+     "url": "https://blog.flozz.fr/2026/10/06/journal-de-bord-9-ou-il-sera-question-de-cover-thumbnailer-et-de-dark-patterns-telephoniques/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 8,
+     "title": "Omri Boehm : \"Inventer un nouveau point d'Archimède entre Israéliens et Palestiniens\"",
+     "url": "https://www.philomag.com/articles/omri-boehm-inventer-un-nouveau-point-darchimede-entre-israeliens-et-palestiniens",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 9,
+     "title": "Échange avec Cyrielle Chatelain - « Libre à vous ! » du 29 septembre 2026",
+     "url": "https://linuxfr.org/news/echange-avec-cyrielle-chatelain-libre-a-vous-du-29-septembre-2026",
+     "feed": "Dépêches LinuxFr.org"
+    }
+   ]
+  },
   {
    "date": "2026-10-06",
    "label": "mardi 6 octobre 2026",
