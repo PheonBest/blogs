@@ -21,7 +21,7 @@ name: veille-summary
 
 on:
   schedule:
-    - cron: "37 5 * * *" # ~07:37 Europe/Paris (CEST); ~06:37 in winter (CET)
+    - cron: "0 4 * * *" # 06:00 Europe/Paris (CEST)
   workflow_dispatch:
 
 concurrency:
