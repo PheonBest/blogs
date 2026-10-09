@@ -1,6 +1,112 @@
 {
- "updated_at": "2026-10-07T11:59:05Z",
+ "updated_at": "2026-10-09T11:06:32Z",
  "entries": [
+  {
+   "date": "2026-10-09",
+   "label": "vendredi 9 octobre 2026",
+   "title": "ArchLinux fête ses 20 ans, l'ICANN ouvre un nouveau round de TLD, et David Revoy ferme la porte à l'IA",
+   "sections": [
+    {
+     "name": "Infra & Internet",
+     "paragraphs": [
+      [
+       {
+        "t": "Vingt ans. C'est le temps qu'Olivier Dossmann a passé avec ArchLinux depuis sa première installation, et son billet d'anniversaire"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": " vaut le détour autant pour le rétro que pour l'easter egg caché dedans. Ce genre de billet me rappelle pourquoi certaines distros fidélisent autant : pas de marketing, juste une philosophie qui tient dans le temps. À l'opposé du spectre, Stéphane Bortzmeyer couvre deux dossiers bien plus nerveux sur la gouvernance du DNS. D'abord l'ICANN qui vient de publier la liste des candidatures pour le prochain cycle de nouveaux TLD"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ", un marathon administratif qui ne concerne qu'une poignée d'acteurs mais qui redessine un peu le paysage d'Internet à chaque fois. Ensuite, plus inquiétant, le piratage de trois registres de ccTLD fin septembre"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ", avec son lot habituel de commentaires erronés qu'il prend soin de corriger. Bortzmeyer reste la référence quand il faut remettre les choses en perspective sans céder à la panique."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "IA, création et contrôle",
+     "paragraphs": [
+      [
+       {
+        "t": "David Revoy ferme une porte explicitement : mise à jour de licence, dérivation par IA interdite sur tout son travail, art, lore, histoires, comics"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Rien d'étonnant venant de lui, mais le geste compte : un artiste qui a longtemps défendu les outils libres pose une limite nette face aux modèles génératifs. Ça dit quelque chose du moment qu'on traverse, où même les créateurs les plus ouverts sentent le besoin de clarifier ce qui reste à eux."
+       }
+      ],
+      [
+       {
+        "t": "Dans un tout autre registre, Erreur 403 fait son point hebdo cybersécurité"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": " avec en tête d'affiche l'ANSSI qui publie un premier bilan de 99 fuites visant l'État, plus une faille Metabase qui a touché l'agence elle-même. Le genre de chiffre qui donne le vertige une fois posé noir sur blanc. Et pour la petite histoire triste, Margaret Hamilton nous a quittés à 90 ans"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ". La dépêche LinuxFr rappelle qu'elle a conçu le logiciel de navigation des missions Apollo, à une époque où personne n'appelait encore ça du génie logiciel."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Découverte d'ArchLinux, 20 ans déjà !",
+     "url": "https://olivier.dossmann.net/2026/10/2026_archlinux_20_ans/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 2,
+     "title": "La liste des candidatures pour des nouveaux domaines de premier niveau a été publiée",
+     "url": "https://www.bortzmeyer.org/candidatures-tlds.html",
+     "feed": "Blog de Stéphane Bortzmeyer"
+    },
+    {
+     "n": 3,
+     "title": "Piratage de trois domaines de premier niveau",
+     "url": "https://www.bortzmeyer.org/piratage-trois-cctld.html",
+     "feed": "Blog de Stéphane Bortzmeyer"
+    },
+    {
+     "n": 4,
+     "title": "License update: AI derivation prohibited on all my art, lore, stories, and comics.",
+     "url": "https://www.davidrevoy.com/article1178/license-update-ai-derivation-prohibited-on-all-my-art-lore-stories-and-comics",
+     "feed": "David Revoy"
+    },
+    {
+     "n": 5,
+     "title": "Actualité Cybersécurité de la semaine du 05/10/2026",
+     "url": "https://erreur403.fr/p/erreur-403-96-l-anssi-publie-un-premier-bilan-de-99-fuites-visant-l-etat/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 6,
+     "title": "Margaret Hamilton (1936-2026)",
+     "url": "https://linuxfr.org/news/margaret-hamilton-1936-2026",
+     "feed": "Dépêches LinuxFr.org"
+    }
+   ]
+  },
   {
    "date": "2026-10-07",
    "label": "mercredi 7 octobre 2026",
