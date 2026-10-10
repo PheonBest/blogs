@@ -1,0 +1,193 @@
+{
+ "date": "2026-10-10",
+ "label": "samedi 10 octobre 2026",
+ "title": "Un script sans nom, une légende du code, et la question de savoir ce qu'on écoute vraiment",
+ "sections": [
+  {
+   "name": "Dev & Ops",
+   "paragraphs": [
+    [
+     {
+      "t": "LinuxFr a un vrai sens de la mise en scène cette semaine : d'un côté l'outil "
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": " qui promet d'en finir avec "
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", de l'autre l'hommage à Margaret Hamilton, la femme derrière le logiciel de navigation d'Apollo, morte à 90 ans "
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". Deux façons de parler du même sujet : le code qui tient debout trente ans après, et celui qui pourrit sur un serveur parce que personne n'a pris deux minutes pour le nommer correctement. Scrippy s'attaque frontalement à ce fléau très identifiable de l'admin sys : le script sans logs, sans historique, avec un mot de passe planqué dedans, que tout le monde a croisé un jour et que personne n'ose toucher. Pas glamour, mais concret, et c'est bien le genre de problème qui mérite un outil plutôt qu'un article de blog."
+     }
+    ],
+    [
+     {
+      "t": "Côté veille pure, le numéro 77 de "
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " et le "
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": " font leur travail habituel de curation sans grande surprise. On y trouve aussi un petit tuto bien net sur la génération de QR codes avec Hugo "
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", le genre de billet qu'on garde en favori sans jamais être certain de le relire."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Philosophie",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine enchaîne les questions qui piquent un peu, et c'est ce qui fait leur force. Peut-on se détacher de son corps "
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": " ? Faut-il dompter ses désirs ou leur faire confiance "
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": " ? Deux variations sur le même vieux conflit entre la raison qui voudrait maîtriser et le corps qui réclame son dû. Rien de neuf dans la question, mais c'est précisément pour ça qu'elle revient : personne n'a jamais vraiment tranché."
+     }
+    ],
+    [
+     {
+      "t": "Plus intéressant à mes yeux, le texte sur la sincérité comme rempart "
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": " arrive à point nommé dans un monde saturé de discours calibrés. Et l'angle sur Anne Carson et le paradoxe de l'amour "
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": " sort du lot de ces articles trop généraux : convoquer une poète plutôt qu'un concept abstrait, ça change tout."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Culture & jeux",
+   "paragraphs": [
+    [
+     {
+      "t": "PXLBBQ repère deux sorties qui jouent sur le même registre sombre, à l'opposé l'une de l'autre dans l'exécution. The Polar Darkness mise sur l'horreur folk lovecraftienne version nuit polaire finlandaise, avec un journaliste qui débarque dans un village isolé pour couvrir un réveil religieux "
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": " : le pitch sent bon l'ambiance qui prend son temps. The Road of Dust and Sorrow, annoncé pour le 3 décembre, part sur un post-apocalyptique où l'amour reste la seule lumière contre l'obscurité "
+     },
+     {
+      "cite": 12
+     },
+     {
+      "t": ". Formule plus attendue sur le papier, mais Painted Black Games et Silver Lining Interactive ont de quoi surprendre si l'écriture suit."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Nouveautés d'octobre 2026 de la communauté Scenari",
+   "url": "https://linuxfr.org/news/nouveautes-d-octobre-2026-de-la-communaute-scenari",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "Scrippy : en finir avec script_final_old_v3_OK_last.py",
+   "url": "https://linuxfr.org/news/scrippy-en-finir-avec-script_final_old_v3_ok_last-py",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Margaret Hamilton (1936-2026)",
+   "url": "https://linuxfr.org/news/margaret-hamilton-1936-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Veille #77 - 22 actus qu'il ne fallait pas rater cette semaine",
+   "url": "https://www.camilleroux.com/crafting-apps-claude-haiku-mistral-large-veille-77/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Self-Host Weekly (9 October 2026)",
+   "url": "https://selfh.st/weekly/2026-10-09/",
+   "feed": "selfh.st"
+  },
+  {
+   "n": 6,
+   "title": "Hugo fabrique à QRCode",
+   "url": "https://it-log.fr.eu.org/fr/web/hugo/hugo_qrcode/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 7,
+   "title": "Peut-on se détacher de son corps ?",
+   "url": "https://www.philomag.com/articles/peut-se-detacher-de-son-corps",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 8,
+   "title": "Faut-il maîtriser ses désirs ou les écouter ?",
+   "url": "https://www.philomag.com/articles/faut-il-maitriser-ses-desirs-ou-les-ecouter",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 9,
+   "title": "La sincérité, notre nouveau rempart",
+   "url": "https://www.philomag.com/articles/la-sincerite-notre-nouveau-rempart",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 10,
+   "title": "Anne Carson, le paradoxe de l'amour",
+   "url": "https://www.philomag.com/articles/anne-carson-le-paradoxe-de-lamour",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 11,
+   "title": "The Polar Darkness : horreur folk lovecraftienne en Finlande",
+   "url": "https://pxlbbq.com/the-polar-darkness-horreur-folk-lovecraftienne-en-finlande/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 12,
+   "title": "The Road of Dust and Sorrow sort le 3 décembre 2026",
+   "url": "https://pxlbbq.com/the-road-of-dust-and-sorrow-sort-le-3-decembre-2026/",
+   "feed": "PXLBBQ"
+  }
+ ]
+}
