@@ -1,0 +1,157 @@
+{
+ "date": "2026-10-11",
+ "label": "dimanche 11 octobre 2026",
+ "title": "Un mardi calme : LinuxFr fait ses comptes, le reste attendra demain",
+ "sections": [
+  {
+   "name": "Communauté & outils libres",
+   "paragraphs": [
+    [
+     {
+      "t": "LinuxFr publie ses primées de septembre"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", rituel mensuel sympa mais sans surprise : on récompense dépêches, commentaires et logos du mois passé. Plus intéressant, la communauté Scenari liste ses nouveautés d'octobre"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", cette suite d'outils open source pour produire et diffuser des documents multi-support. C'est le genre de projet qui tourne depuis des années sans faire de bruit, et qui mérite qu'on s'y arrête deux minutes plutôt que de le croiser en passant."
+     }
+    ],
+    [
+     {
+      "t": "Côté auto-hébergement, Carbure propose une appli de gestion de budget gratuite et open source"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", dans la lignée de tout ce qui permet de sortir ses finances perso des mains de Bankin ou autres. Et pour ceux qui veulent publier un site statique sans dépendre de GitHub, un billet explique comment héberger ses pages Hugo sur Codeberg Pages"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". Rien de révolutionnaire, mais c'est le genre de tuto qu'on garde en favori pour le jour où on en a besoin."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Sécurité",
+   "paragraphs": [
+    [
+     {
+      "t": "Un article sur John the Ripper part d'un constat agaçant : presque tous les tutos francophones sur l'outil se contentent de montrer comment casser un mot de passe, sans jamais expliquer ce qui se passe derrière"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ". L'auteur a donc écrit la page qui manquait. C'est exactement le genre de contenu qui vaut le détour, pas une resucée de commande copier-collée mais une vraie tentative de combler un trou dans la doc francophone."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Philo, corps et fiction",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine enchaîne trois articles sur le corps et le désir ce jour-là : l'expérience différente qu'en ont hommes et femmes"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", la possibilité de s'en détacher"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ", et un texte sur Anne Carson et le paradoxe de l'amour"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". Sans les descriptions, difficile de juger la profondeur, mais le triptyque dessine une vraie ligne éditoriale du jour plutôt qu'un hasard de flux RSS."
+     }
+    ],
+    [
+     {
+      "t": "Côté écran, Dix pour cent revient en film sur Netflix, avec ASK (Fanny Herrero) qui passe de la série à la caméra"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ". Le titre de la critique donne déjà le ton : la bande revient, mais l'étincelle, elle, semble être restée en coulisses."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "🏆 Meilleures contributions LinuxFr.org : les primées de septembre 2026",
+   "url": "https://linuxfr.org/news/meilleures-contributions-linuxfr-org-les-primees-de-septembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "Nouveautés d'octobre 2026 de la communauté Scenari",
+   "url": "https://linuxfr.org/news/nouveautes-d-octobre-2026-de-la-communaute-scenari",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Carbure : une application de gestion de budget gratuite, open source et auto-hébergée",
+   "url": "https://www.geeek.org/carbure-gestion-budget-open-source/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 4,
+   "title": "Hugo : publier ses pages avec la forge Codeberg Pages",
+   "url": "https://it-log.fr.eu.org/fr/web/hugo/hugo_codeberg_pages/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Craquer un mot de passe avec John The Ripper",
+   "url": "https://jurojin.net/craquer-un-mot-de-passe-avec-john-the-ripper/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 6,
+   "title": "Homme-femme : une expérience différente du corps ?",
+   "url": "https://www.philomag.com/articles/homme-femme-une-experience-differente-du-corps",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 7,
+   "title": "Peut-on se détacher de son corps ?",
+   "url": "https://www.philomag.com/articles/peut-se-detacher-de-son-corps",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 8,
+   "title": "Anne Carson, le paradoxe de l'amour",
+   "url": "https://www.philomag.com/articles/anne-carson-le-paradoxe-de-lamour",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 9,
+   "title": "Dix pour cent, le film : ASK passe derrière la caméra, la magie reste en coulisses",
+   "url": "https://www.leblogducinema.com/critique-film/dix-pour-cent-avis-netflix-65540514/",
+   "feed": "Le Blog Du Cinéma"
+  }
+ ]
+}
