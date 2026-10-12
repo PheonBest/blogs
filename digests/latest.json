@@ -1,6 +1,165 @@
 {
- "updated_at": "2026-10-11T10:33:08Z",
+ "updated_at": "2026-10-12T11:37:55Z",
  "entries": [
+  {
+   "date": "2026-10-12",
+   "label": "lundi 12 octobre 2026",
+   "title": "La racine du DNS change de clé, personne ne panique (et c'est très bien comme ça)",
+   "sections": [
+    {
+     "name": "Infra & système",
+     "paragraphs": [
+      [
+       {
+        "t": "La racine du DNS a changé de clé DNSSEC : la 20326 cède sa place à la 38696"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Stéphane Bortzmeyer documente l'opération dans son style habituel, sec et précis, et c'est le genre d'événement qui ne fait aucun bruit tant qu'il se passe bien. Ce qui est justement le but : si vous n'avez rien remarqué sur vos résolveurs, c'est que tout fonctionne. On oublie trop souvent que des bouts entiers d'Internet reposent sur des rotations de clés planifiées des années à l'avance, sans communiqué de presse."
+       },
+       {
+        "t": " Dans un registre plus terre à terre, le blog de flozz détaille un bug AppArmor sur Ubuntu 26.04 qui bloque l'activation d'un tunnel WireGuard via wg-quick"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ". Rien d'exotique : un profil AppArmor trop strict, une permission refusée, et il faut aller fouiller pour comprendre pourquoi un outil qui marchait hier ne marche plus après une mise à jour. Ce genre de billet vaut de l'or le jour où ça vous tombe dessus."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Libre et communauté",
+     "paragraphs": [
+      [
+       {
+        "t": "LinuxFr publie son agenda du libre pour la semaine 42"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": " et récompense les meilleures contributions de septembre"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Rien de spectaculaire, mais c'est ce genre de rituel mensuel qui fait tenir une communauté sur la durée, bien plus que n'importe quel lancement produit."
+       },
+       {
+        "t": " Le Journal du Hacker livre sa sélection de liens de la semaine 41"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ", toujours utile pour rattraper ce qu'on a loupé."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Culture et à côté",
+     "paragraphs": [
+      [
+       {
+        "t": "Grise Bouille règle ses comptes avec le patron du MEDEF dans un « petit traité de macroéconomie à l'usage des abrutis »"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ". Le ton annoncé par l'auteur lui-même (« je vais encore dire des bêtises ») donne le programme : une BD qui tacle plus qu'elle n'explique, mais qui fait du bien après une sortie médiatique stupide."
+       },
+       {
+        "t": " Philosophie Magazine pose une question qui sort du flux tech habituel : y a-t-il une expérience du corps différente entre hommes et femmes"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": " ? Pas de résumé possible sans en savoir plus, mais le sujet tranche avec le reste de la journée."
+       },
+       {
+        "t": " Côté jeux vidéo, Blogamer liste les sorties d'octobre à ne pas rater avant GTA 6"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": " et détaille tout ce qu'il faut savoir sur Castlevania Belmont's Curse avant sa sortie du 15 octobre"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": ". Deux articles qui font leur travail de guide d'achat, sans plus."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Remplacement de la clé DNSSEC de la racine",
+     "url": "https://www.bortzmeyer.org/remplacement-cle-dnssec-2026.html",
+     "feed": "Blog de Stéphane Bortzmeyer"
+    },
+    {
+     "n": 2,
+     "title": "wg-quick sous Ubuntu 26.04 : permission refusée lors de l'activation d'un tunnel WireGuard (AppArmor)",
+     "url": "https://blog.flozz.fr/2026/10/12/wg-quick-sous-ubuntu-2604-permission-refusee-lors-de-lactivation-dun-tunnel-wireguard-apparmor/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Agenda du Libre pour la semaine 42 de l'année 2026",
+     "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-42-de-l-annee-2026",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 4,
+     "title": "🏆 Meilleures contributions LinuxFr.org : les primées de septembre 2026",
+     "url": "https://linuxfr.org/news/meilleures-contributions-linuxfr-org-les-primees-de-septembre-2026",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 5,
+     "title": "Liens intéressants Journal du hacker semaine #41",
+     "url": "https://blog.journalduhacker.net/index.php?article608/liens-interessants-journal-du-hacker-semaine-41-2026",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 6,
+     "title": "Petit traité de macroéconomie à l'usage des abrutis",
+     "url": "https://grisebouille.net/petit-traite-de-macroeconomie-a-lusage-des-abrutis?utm_source=GBRSS",
+     "feed": "Grise Bouille"
+    },
+    {
+     "n": 7,
+     "title": "Homme-femme : une expérience différente du corps ?",
+     "url": "https://www.philomag.com/articles/homme-femme-une-experience-differente-du-corps",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 8,
+     "title": "Sorties jeux vidéo octobre 2026 : les 8 jeux à ne pas rater",
+     "url": "https://www.blogamer.fr/sorties-jeux-video-octobre-2026-les-8-jeux-a-ne-pas-rater/",
+     "feed": "Blogamer.fr"
+    },
+    {
+     "n": 9,
+     "title": "Castlevania Belmont's Curse : tout savoir avant la sortie",
+     "url": "https://www.blogamer.fr/castlevania-belmonts-curse-date-sortie-gameplay/",
+     "feed": "Blogamer.fr"
+    }
+   ]
+  },
   {
    "date": "2026-10-11",
    "label": "dimanche 11 octobre 2026",
@@ -2938,121 +3097,6 @@
      "title": "“Mon frère” : quand le langage nous fait signe",
      "url": "https://www.philomag.com/articles/mon-frere-quand-le-langage-nous-fait-signe",
      "feed": "Philosophie Magazine"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-16",
-   "label": "mercredi 16 septembre 2026",
-   "title": "PostgreSQL dans le navigateur, agents de code qui font peur, et Fedora qui demande à être testée",
-   "sections": [
-    {
-     "name": "Dev & Bases de données",
-     "paragraphs": [
-      [
-       {
-        "t": "LibreDB Studio débarque : un IDE SQL pour PostgreSQL, auto-hébergé, sous licence MIT, qui tourne entièrement dans le navigateur"
-       },
-       {
-        "cite": 1
-       },
-       {
-        "t": ". Rien de révolutionnaire dans le principe, des clients web pour bases de données il y en a déjà, mais le côté open source et self-hosted change la donne pour qui ne veut pas dépendre d'un service tiers pour interroger sa propre base. À suivre pour voir si le projet tient la distance après le pic d'attention du lancement."
-       },
-       {
-        "t": " Autre RFC qui vaut le détour sur le fond cryptographique : Bortzmeyer décortique la RFC 10033 sur la gestion d'état et de sauvegarde des signatures à base de hash"
-       },
-       {
-        "cite": 2
-       },
-       {
-        "t": ". Ces algorithmes ont une particularité qui complique tout : ils doivent se souvenir des exécutions précédentes, sous peine de failles de sécurité. Un sujet pointu, mais qui rappelle que la crypto post-quantique n'est pas qu'une histoire de nouveaux algorithmes, c'est aussi une histoire de gestion d'état, beaucoup moins glamour et beaucoup plus casse-tête."
-       }
-      ],
-      [
-       {
-        "t": "Fedora Linux 45 passe en bêta"
-       },
-       {
-        "cite": 3
-       },
-       {
-        "t": ", et comme toujours l'appel est lancé pour la tester avant la sortie stable. Rien de spectaculaire à en dire tant que la liste des changements n'est pas encore digérée, mais c'est le genre de rendez-vous récurrent qui mérite d'être noté."
-       },
-       {
-        "t": " Sur un registre plus personnel, le journal de bord de flozz mélange Mass Effect 2, obsolescence logicielle et une vraie réflexion sur la sécurité des outils de code agentiques"
-       },
-       {
-        "cite": 4
-       },
-       {
-        "t": ". C'est le genre de billet que j'aime : pas un post LinkedIn qui vend du rêve sur les agents IA, mais quelqu'un qui se pose la question de ce qui se passe quand on laisse un agent toucher à du code en autonomie. Ce doute-là, je le partage."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Web & bricolage logiciel",
-     "paragraphs": [
-      [
-       {
-        "t": "Deux billets qui se répondent bien sur l'idée de sortir des sentiers battus du web classique. D'un côté, quelqu'un étend un blog Hugo jusqu'au protocole Gemini, en générant des fichiers dédiés pour exister aussi dans le Geminispace"
-       },
-       {
-        "cite": 5
-       },
-       {
-        "t": ". C'est une démarche presque militante, minimaliste par choix plutôt que par contrainte, et ça fait du bien de voir que ce protocole a toujours ses irréductibles."
-       },
-       {
-        "t": " De l'autre, OpenRGB atteint sa version 1.0"
-       },
-       {
-        "cite": 6
-       },
-       {
-        "t": ", un outil open source pour piloter les périphériques RGB sans passer par les usines à gaz propriétaires de chaque marque. Windows, Linux, macOS : la promesse est là depuis longtemps, mais un vrai numéro 1.0 donne enfin un signal de maturité à ceux qui hésitaient encore à s'y fier."
-       }
-      ]
-     ]
-    }
-   ],
-   "sources": [
-    {
-     "n": 1,
-     "title": "LibreDB Studio : un IDE open source dans le navigateur pour PostgreSQL",
-     "url": "https://linuxfr.org/news/libredb-studio-un-ide-open-source-dans-le-navigateur-pour-postgresql",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 2,
-     "title": "RFC 10033: Hash-based Signatures: State and Backup Management",
-     "url": "https://www.bortzmeyer.org/10033.html",
-     "feed": "Blog de Stéphane Bortzmeyer"
-    },
-    {
-     "n": 3,
-     "title": "Venez tester Fedora Linux 45 Beta !",
-     "url": "https://linuxfr.org/news/venez-tester-fedora-linux-45-beta",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 4,
-     "title": "Mass Effect 2, obsolescence, et réflexions sur la sécurité des outils de code agentiques",
-     "url": "https://blog.flozz.fr/2026/09/15/journal-de-bord-8-mass-effect-2-obsolescence-et-reflexions-sur-la-securite-des-outils-de-code-agentiques/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 5,
-     "title": "Étendre un blog Hugo jusqu'au protocole Gemini",
-     "url": "https://olivier.dossmann.net/2026/09/etendre-blog-hugo-protocole-gemini/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 6,
-     "title": "OpenRGB 1.0 : cet outil open source pilote vos périphériques RGB",
-     "url": "https://www.it-connect.fr/openrgb-1-0-nouveautes-windows-linux-macos/",
-     "feed": "Journal du Hacker"
     }
    ]
   }
