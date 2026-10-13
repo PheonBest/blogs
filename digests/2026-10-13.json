@@ -1,0 +1,141 @@
+{
+ "date": "2026-10-13",
+ "label": "mardi 13 octobre 2026",
+ "title": "Entre rétro-gaming libre et VHDL du CERN, la vraie veille se cache dans les dépêches LinuxFr",
+ "sections": [
+  {
+   "name": "Libre & matériel",
+   "paragraphs": [
+    [
+     {
+      "t": "Deux dépêches LinuxFr qui valent le détour aujourd'hui. D'abord "
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", un fork du flipper mythique de Windows, repris par Creatiel à partir du travail de rétro-ingénierie d'Andrey : de quoi faire tourner Space Cadet nativement sur Linux et Windows, sans émulation bancale. Ensuite, plus sérieux, le CERN publie "
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", une bibliothèque VHDL-2008 indépendante du matériel sous licence CERN-OHL-W-2.0. C'est le genre de brique qu'on ne voit jamais citée nulle part ailleurs mais qui va simplifier la vie de pas mal d'ingénieurs FPGA pendant des années. Et pour les enseignants, "
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": " continue son petit bonhomme de chemin : un logiciel de géométrie dynamique qui a l'air modeste mais qui tourne dans des salles de classe depuis des lustres."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Sécu & infra, le quotidien qui pique",
+   "paragraphs": [
+    [
+     {
+      "t": "Rien de révolutionnaire côté sécurité aujourd'hui, mais deux rappels utiles. "
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " revient sur les fondamentaux (pas grand-chose de neuf, mais ça ne fait jamais de mal de le redire), pendant qu'un article plus ciblé explique "
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": " : le credential stuffing qui recycle vos vieux mots de passe pour vider un compte Steam ou PlayStation. Le problème n'est pas nouveau, mais il touche un public qui pense souvent, à tort, être à l'abri sur ces plateformes."
+     },
+     {
+      "t": " Côté infra, un billet de blog très concret sur "
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": " : une permission refusée par AppArmor au moment d'activer un tunnel WireGuard sur Ubuntu 26.04. Exactement le genre de post qu'on sauvegarde en favori parce qu'on sait qu'on retombera dessus dans six mois en jurant devant le même message d'erreur."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Cloud et vieux débats de fond",
+   "paragraphs": [
+    [
+     {
+      "t": "Sur le cloud, "
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": " propose une approche qui change la donne côté facturation : un vrai serveur HTTP qui tourne sur AWS Lambda, mais facturé seulement au CPU réellement actif. L'idée mérite qu'on s'y attarde, parce qu'elle attaque un vrai irritant du serverless : payer pour du temps d'attente plutôt que pour du calcul."
+     },
+     {
+      "t": " Dans un registre plus politique, un billet revient sur la façon dont "
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": " expose, par construction, les noms complets, nationalités et détails personnels de ses utilisateurs vérifiés sur le web ouvert. « Public by design » plutôt que « private by default » : le choix est assumé, mais il mérite d'être lu en détail avant de s'y inscrire les yeux fermés."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Space Cadet Talking : un fork du flipper classique pour Linux et Windows",
+   "url": "https://linuxfr.org/news/space-cadet-talking-un-fork-du-flipper-classique-pour-linux-et-windows",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "Colibri, enfin une bibliothèque VHDL libre utilisable par tous",
+   "url": "https://linuxfr.org/news/colibri-enfin-une-bibliotheque-vhdl-libre-utilisable-par-tous",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Dr. Geo 26.06",
+   "url": "https://linuxfr.org/news/dr-geo-26-06",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Cyberattaques : les bonnes pratiques à adopter pour éviter d'en être victime",
+   "url": "https://domopi.eu/cyberattaques-les-bonnes-pratiques-a-adopter-pour-eviter-den-etre-victime/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Credential stuffing : comment bien protéger ses comptes de jeu ?",
+   "url": "https://jesuisungameur.com/2026/10/12/credential-stuffing-comptes-gaming/",
+   "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+  },
+  {
+   "n": 6,
+   "title": "wg-quick sous Ubuntu 26.04 : permission refusée lors de l'activation d'un tunnel WireGuard (AppArmor)",
+   "url": "https://blog.flozz.fr/2026/10/12/wg-quick-sous-ubuntu-2604-permission-refusee-lors-de-lactivation-dun-tunnel-wireguard-apparmor/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 7,
+   "title": "Lambda Web Functions : un vrai serveur HTTP sur Lambda, facturé au CPU actif",
+   "url": "https://loud-technology.com/insight/aws-lambda-web-functions-serveur-http-cpu-actif/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 8,
+   "title": "Public by Design: How W Social Makes Their Verified Users' Personal Details Visible on the Open Web",
+   "url": "https://blog.elenarossini.com/public-by-design-how-w-social-makes-their-verified-users-personal-details-visible-on-the-open-web/",
+   "feed": "Elena Rossini"
+  }
+ ]
+}
