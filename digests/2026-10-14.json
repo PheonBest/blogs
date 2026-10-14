@@ -1,0 +1,126 @@
+{
+ "date": "2026-10-14",
+ "label": "mercredi 14 octobre 2026",
+ "title": "Un peu de rigueur temporelle, beaucoup de bricolage autour",
+ "sections": [
+  {
+   "name": "Infra & protocoles",
+   "paragraphs": [
+    [
+     {
+      "t": "Stéphane Bortzmeyer décortique le RFC 10049 sur Roughtime"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", et le nom résume bien l'ambition : pas une synchronisation d'horloge précise à la nanoseconde comme NTP essaie de l'être, mais un protocole qui accepte l'approximation en échange d'une propriété plus intéressante, la possibilité de détecter et prouver qu'un serveur a menti sur l'heure. Le protocole reste officiellement expérimental, ce qui n'empêche pas l'article d'entrer dans le détail des mécanismes de preuve. C'est le genre de lecture austère en apparence qui rappelle, une fois qu'on y entre, à quel point synchroniser des horloges sur un réseau est un problème de confiance autant que de précision."
+     }
+    ],
+    [
+     {
+      "t": "Côté cloud, Loud Technology repère une offre AWS qui mérite qu'on s'y arrête : Lambda Web Functions"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", un vrai serveur HTTP qui tourne sur Lambda mais facturé au CPU réellement actif plutôt qu'au temps d'exécution brut. Sur le papier, ça change la donne pour tout ce qui attend (des I/O, des appels externes) sans consommer de calcul. Reste à voir si la facturation tient ses promesses à l'usage, parce que ce genre de nuance de pricing AWS cache parfois des surprises au moment de la facture."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Sécurité & vie privée en ligne",
+   "paragraphs": [
+    [
+     {
+      "t": "Elena Rossini documente un cas concret et assez gênant : le réseau social W Social publie en clair, sur le web ouvert, les noms complets, nationalités et localisations approximatives de ses utilisateurs vérifiés"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". \"Public by design\", dit le titre, et c'est bien le problème : ce n'est pas une fuite, c'est une décision d'architecture. Dans un contexte où la vérification d'identité sert justement à rassurer, exposer ces données par défaut est le genre de choix qui mérite d'être documenté publiquement, précisément parce qu'il est invisible pour la plupart des utilisateurs concernés."
+     }
+    ],
+    [
+     {
+      "t": "En écho plus générique, le Journal du Hacker relaie un article sur les bonnes pratiques face aux cyberattaques"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". Rien de nouveau sous le soleil a priori, mais ça fait un contraste utile avec l'article précédent : on apprend à se protéger des attaquants extérieurs pendant que certains services sapent la vie privée de l'intérieur, sans qu'aucune bonne pratique n'y change grand-chose."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Logiciel libre & culture",
+   "paragraphs": [
+    [
+     {
+      "t": "LinuxFr publie une dépêche sur Kateryna Iouchtchenko, fondatrice de la programmation théorique en Ukraine, à l'occasion de la journée Ada Lovelace"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ". Ce genre de portrait a le mérite de sortir des figures archi-connues du panthéon informatique et de rappeler que l'histoire de la discipline ne s'est pas écrite qu'aux États-Unis."
+     }
+    ],
+    [
+     {
+      "t": "Dans un tout autre registre, LinuxFr signale aussi Space Cadet Talking, un fork du flipper 3D Pinball sous Linux et Windows"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", réalisé par Creatiel à partir du travail de rétro-ingénierie d'Andrey. C'est le genre de projet sans prétention qui fait plaisir à voir vivre : un bout de nostalgie Windows 95 maintenu par passion, loin des enjeux de plateforme et de vie privée du reste de l'actualité du jour."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "RFC 10049: Roughtime: A Protocol for Rough Time Synchronization",
+   "url": "https://www.bortzmeyer.org/10049.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 2,
+   "title": "Lambda Web Functions : un vrai serveur HTTP sur Lambda, facturé au CPU actif",
+   "url": "https://loud-technology.com/insight/aws-lambda-web-functions-serveur-http-cpu-actif/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "Public by Design: How W Social Makes Their Verified Users' Personal Details Visible on the Open Web",
+   "url": "https://blog.elenarossini.com/public-by-design-how-w-social-makes-their-verified-users-personal-details-visible-on-the-open-web/",
+   "feed": "Elena Rossini"
+  },
+  {
+   "n": 4,
+   "title": "Cyberattaques : les bonnes pratiques à adopter pour éviter d'en être victime",
+   "url": "https://domopi.eu/cyberattaques-les-bonnes-pratiques-a-adopter-pour-eviter-den-etre-victime/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Kateryna Iouchtchenko, fondatrice de la programmation théorique en Ukraine",
+   "url": "https://linuxfr.org/news/kateryna-iouchtchenko-fondatrice-de-la-programmation-theorique-en-ukraine",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 6,
+   "title": "Space Cadet Talking : un fork du flipper classique pour Linux et Windows",
+   "url": "https://linuxfr.org/news/space-cadet-talking-un-fork-du-flipper-classique-pour-linux-et-windows",
+   "feed": "Dépêches LinuxFr.org"
+  }
+ ]
+}

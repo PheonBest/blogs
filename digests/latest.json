@@ -1,6 +1,132 @@
 {
- "updated_at": "2026-10-13T11:22:45Z",
+ "updated_at": "2026-10-14T09:15:36Z",
  "entries": [
+  {
+   "date": "2026-10-14",
+   "label": "mercredi 14 octobre 2026",
+   "title": "Un peu de rigueur temporelle, beaucoup de bricolage autour",
+   "sections": [
+    {
+     "name": "Infra & protocoles",
+     "paragraphs": [
+      [
+       {
+        "t": "Stéphane Bortzmeyer décortique le RFC 10049 sur Roughtime"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ", et le nom résume bien l'ambition : pas une synchronisation d'horloge précise à la nanoseconde comme NTP essaie de l'être, mais un protocole qui accepte l'approximation en échange d'une propriété plus intéressante, la possibilité de détecter et prouver qu'un serveur a menti sur l'heure. Le protocole reste officiellement expérimental, ce qui n'empêche pas l'article d'entrer dans le détail des mécanismes de preuve. C'est le genre de lecture austère en apparence qui rappelle, une fois qu'on y entre, à quel point synchroniser des horloges sur un réseau est un problème de confiance autant que de précision."
+       }
+      ],
+      [
+       {
+        "t": "Côté cloud, Loud Technology repère une offre AWS qui mérite qu'on s'y arrête : Lambda Web Functions"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ", un vrai serveur HTTP qui tourne sur Lambda mais facturé au CPU réellement actif plutôt qu'au temps d'exécution brut. Sur le papier, ça change la donne pour tout ce qui attend (des I/O, des appels externes) sans consommer de calcul. Reste à voir si la facturation tient ses promesses à l'usage, parce que ce genre de nuance de pricing AWS cache parfois des surprises au moment de la facture."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Sécurité & vie privée en ligne",
+     "paragraphs": [
+      [
+       {
+        "t": "Elena Rossini documente un cas concret et assez gênant : le réseau social W Social publie en clair, sur le web ouvert, les noms complets, nationalités et localisations approximatives de ses utilisateurs vérifiés"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ". \"Public by design\", dit le titre, et c'est bien le problème : ce n'est pas une fuite, c'est une décision d'architecture. Dans un contexte où la vérification d'identité sert justement à rassurer, exposer ces données par défaut est le genre de choix qui mérite d'être documenté publiquement, précisément parce qu'il est invisible pour la plupart des utilisateurs concernés."
+       }
+      ],
+      [
+       {
+        "t": "En écho plus générique, le Journal du Hacker relaie un article sur les bonnes pratiques face aux cyberattaques"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Rien de nouveau sous le soleil a priori, mais ça fait un contraste utile avec l'article précédent : on apprend à se protéger des attaquants extérieurs pendant que certains services sapent la vie privée de l'intérieur, sans qu'aucune bonne pratique n'y change grand-chose."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Logiciel libre & culture",
+     "paragraphs": [
+      [
+       {
+        "t": "LinuxFr publie une dépêche sur Kateryna Iouchtchenko, fondatrice de la programmation théorique en Ukraine, à l'occasion de la journée Ada Lovelace"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ". Ce genre de portrait a le mérite de sortir des figures archi-connues du panthéon informatique et de rappeler que l'histoire de la discipline ne s'est pas écrite qu'aux États-Unis."
+       }
+      ],
+      [
+       {
+        "t": "Dans un tout autre registre, LinuxFr signale aussi Space Cadet Talking, un fork du flipper 3D Pinball sous Linux et Windows"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", réalisé par Creatiel à partir du travail de rétro-ingénierie d'Andrey. C'est le genre de projet sans prétention qui fait plaisir à voir vivre : un bout de nostalgie Windows 95 maintenu par passion, loin des enjeux de plateforme et de vie privée du reste de l'actualité du jour."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "RFC 10049: Roughtime: A Protocol for Rough Time Synchronization",
+     "url": "https://www.bortzmeyer.org/10049.html",
+     "feed": "Blog de Stéphane Bortzmeyer"
+    },
+    {
+     "n": 2,
+     "title": "Lambda Web Functions : un vrai serveur HTTP sur Lambda, facturé au CPU actif",
+     "url": "https://loud-technology.com/insight/aws-lambda-web-functions-serveur-http-cpu-actif/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Public by Design: How W Social Makes Their Verified Users' Personal Details Visible on the Open Web",
+     "url": "https://blog.elenarossini.com/public-by-design-how-w-social-makes-their-verified-users-personal-details-visible-on-the-open-web/",
+     "feed": "Elena Rossini"
+    },
+    {
+     "n": 4,
+     "title": "Cyberattaques : les bonnes pratiques à adopter pour éviter d'en être victime",
+     "url": "https://domopi.eu/cyberattaques-les-bonnes-pratiques-a-adopter-pour-eviter-den-etre-victime/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 5,
+     "title": "Kateryna Iouchtchenko, fondatrice de la programmation théorique en Ukraine",
+     "url": "https://linuxfr.org/news/kateryna-iouchtchenko-fondatrice-de-la-programmation-theorique-en-ukraine",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 6,
+     "title": "Space Cadet Talking : un fork du flipper classique pour Linux et Windows",
+     "url": "https://linuxfr.org/news/space-cadet-talking-un-fork-du-flipper-classique-pour-linux-et-windows",
+     "feed": "Dépêches LinuxFr.org"
+    }
+   ]
+  },
   {
    "date": "2026-10-13",
    "label": "mardi 13 octobre 2026",
@@ -2801,223 +2927,6 @@
      "title": "Resident Evil 7 : une revitalisation nécessaire (4/5)",
      "url": "https://culturaddict.com/resident-evil-7-une-revitalisation-necessaire-4-5/?utm_source=rss&utm_medium=rss&utm_campaign=resident-evil-7-une-revitalisation-necessaire-4-5",
      "feed": "\"Culturaddict\""
-    }
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "label": "vendredi 18 septembre 2026",
-   "title": "Cette semaine, PostgreSQL fait plus de bruit que l'IA",
-   "sections": [
-    {
-     "name": "Dev & Postgres",
-     "paragraphs": [
-      [
-       {
-        "t": "Le vrai sujet dev de la semaine, c'est un billet sur la transpilation SQL"
-       },
-       {
-        "cite": 1
-       },
-       {
-        "t": ", assez pointu pour ne pas plaire à tout le monde mais assez concret pour valoir le détour si on touche à des migrations de bases. À côté, deux vidéos plus grand public tournent sur YouTube : une sur les optimisations qui rapportent vraiment (le titre le dit bien : ce n'est pas la taille du code qui compte)"
-       },
-       {
-        "cite": 2
-       },
-       {
-        "t": ", l'autre sur ce qui fait une bonne pull request"
-       },
-       {
-        "cite": 3
-       },
-       {
-        "t": ". Rien de renversant, mais un rappel utile : la plupart des gains de perf et de qualité de code viennent de décisions ennuyeuses, pas de nouveaux frameworks."
-       }
-      ],
-      [
-       {
-        "t": "Un billet plus juridique mérite qu'on s'y arrête : que faire signer à ses clients avant d'envoyer leurs données confidentielles dans un LLM ?"
-       },
-       {
-        "cite": 4
-       },
-       {
-        "t": " C'est le genre de question que beaucoup d'équipes esquivent encore, en se disant que le sujet se réglera plus tard. Il ne se réglera pas plus tard. Le Journal du Hacker publie aussi son tour d'horizon hebdomadaire avec 33 liens"
-       },
-       {
-        "cite": 5
-       },
-       {
-        "t": ", et sur l'IA justement, un article se demande si l'outil Hermes est une vraie avancée ou juste le prochain nom à la mode"
-       },
-       {
-        "cite": 6
-       },
-       {
-        "t": ". Le titre pose la question sans trancher, ce qui en dit long sur l'état de la hype ces temps-ci."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Communauté du Libre",
-     "paragraphs": [
-      [
-       {
-        "t": "LinuxFr fait sa rentrée avec sa revue de presse de septembre"
-       },
-       {
-        "cite": 7
-       },
-       {
-        "t": ", un rituel qui a le mérite de la régularité, et récompense les meilleures contributions de l'été"
-       },
-       {
-        "cite": 8
-       },
-       {
-        "t": ". Rien de spectaculaire, mais c'est ce genre de rituel discret qui tient une communauté en vie sur la durée. Dans le même esprit, l'April a mis en ligne son émission Libre à vous avec Gee, la figure bien connue de Framasoft, qui revient sur son parcours de libriste"
-       },
-       {
-        "cite": 9
-       },
-       {
-        "t": ". Utile si on veut comprendre comment on devient militant du logiciel libre sans en faire un sacerdoce."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Cinéma & Culture",
-     "paragraphs": [
-      [
-       {
-        "t": "Culturaddict enchaîne deux entretiens qui sortent du lot. Le chef décorateur Tom Hammock raconte, une heure après la sortie de Resident Evil, son travail avec Adam Wingard sur ce film et sur Weapons"
-       },
-       {
-        "cite": 10
-       },
-       {
-        "t": ", et la compositrice Uèle Lamore parle depuis ses vacances de ses musiques pour Les Femmes au balcon, Maigret et Ballroom"
-       },
-       {
-        "cite": 11
-       },
-       {
-        "t": ". Ce sont deux métiers de l'ombre qu'on interroge rarement en profondeur, et ça change de la promo formatée. Côté critique, Le Blog du Cinéma revient sur Dogma de Kevin Smith, qui a 27 ans mais dont le mélange de satire catholique et de blockbuster fauché n'a toujours pas vraiment d'équivalent"
-       },
-       {
-        "cite": 12
-       },
-       {
-        "t": "."
-       }
-      ],
-      [
-       {
-        "t": "Philosophie Magazine sort deux angles qui accrochent plus qu'on ne l'attendrait. D'un côté, un papier remet face à face Nietzsche et Schopenhauer sur le désir et l'ascèse"
-       },
-       {
-        "cite": 13
-       },
-       {
-        "t": ", opposition classique mais toujours efficace pour secouer les idées reçues sur le renoncement. De l'autre, trois livres sont convoqués pour parler ménopause, chirurgie esthétique et pilosité"
-       },
-       {
-        "cite": 14
-       },
-       {
-        "t": ", sujets encore trop peu traités sous cet angle-là dans la presse généraliste."
-       }
-      ]
-     ]
-    }
-   ],
-   "sources": [
-    {
-     "n": 1,
-     "title": "Transpiler SQL",
-     "url": "https://bersace.cae.li/posts/transpiler-sql/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 2,
-     "title": "Des fois, c'est la taille qui compte… Optimisations et gains réels",
-     "url": "https://www.youtube.com/watch?v=M85WdybGM_Y",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 3,
-     "title": "C'est quoi une bonne PR ?",
-     "url": "https://www.youtube.com/watch?v=x9hVHtaAknk",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 4,
-     "title": "Qu'est-ce que je dois faire signer à mes clients pour être autorisé à analyser leurs données confidentielles avec un LLM ?",
-     "url": "https://notes.sklein.xyz/2026-09-10_1758/zen/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 5,
-     "title": "Veille #74 - 33 actus qu'il ne fallait pas rater cette semaine",
-     "url": "https://www.camilleroux.com/papra-mistral-firefox-rickub-veille-74/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 6,
-     "title": "Hermes : simple hype ou vraie révolution ?",
-     "url": "https://www.damyr.fr/p/hermes-simple-hype-ou-vraie-r%C3%A9volution/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 7,
-     "title": "📰 Revue de presse — septembre 2026",
-     "url": "https://linuxfr.org/news/revue-de-presse-septembre-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 8,
-     "title": "🏆 Meilleures contributions LinuxFr.org : les primées de l'été 2026",
-     "url": "https://linuxfr.org/news/meilleures-contributions-linuxfr-org-les-primees-de-l-ete-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 9,
-     "title": "Le Parcours libriste de Gee - « Libre à vous ! » du 8 septembre 2026",
-     "url": "https://linuxfr.org/news/le-parcours-libriste-de-gee-libre-a-vous-du-8-septembre-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 10,
-     "title": "Rencontre avec le chef décorateur Tom Hammock (Partie 1 : Resident Evil, Weapons et Adam Wingard)",
-     "url": "https://culturaddict.com/rencontre-avec-le-chef-decorateur-tom-hammock-partie-1-resident-evil-weapons-et-adam-wingard/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-le-chef-decorateur-tom-hammock-partie-1-resident-evil-weapons-et-adam-wingard",
-     "feed": "Culturaddict"
-    },
-    {
-     "n": 11,
-     "title": "Rencontre avec la compositrice Uèle Lamore (« Les Femmes au Balcon », « Maigret », « Ballroom »,…)",
-     "url": "https://culturaddict.com/rencontre-avec-la-compositrice-uele-lamore/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-la-compositrice-uele-lamore",
-     "feed": "Culturaddict"
-    },
-    {
-     "n": 12,
-     "title": "Dogma : ni tout à fait comédie, ni tout à fait film d'action",
-     "url": "https://www.leblogducinema.com/critique-film/dogma-avis-65540301/",
-     "feed": "Le Blog Du Cinéma"
-    },
-    {
-     "n": 13,
-     "title": "Le désir ou l'ascèse ? Nietzsche face à Schopenhauer",
-     "url": "https://www.philomag.com/articles/le-desir-ou-lascese-nietzsche-face-schopenhauer",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 14,
-     "title": "Ménopause, chirurgie esthétique, pilosité… 3 livres pour prendre le pouls de nos corps",
-     "url": "https://www.philomag.com/articles/menopause-chirurgie-esthetique-pilosite-3-livres-pour-prendre-le-pouls-de-nos-corps",
-     "feed": "Philosophie Magazine"
     }
    ]
   }
