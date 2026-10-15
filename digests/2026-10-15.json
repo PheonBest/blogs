@@ -1,0 +1,174 @@
+{
+ "date": "2026-10-15",
+ "label": "jeudi 15 octobre 2026",
+ "title": "Des frigos piratés aux horloges truquées, l'infra prend cher cette semaine",
+ "sections": [
+  {
+   "name": "Sécu & Réseaux",
+   "paragraphs": [
+    [
+     {
+      "t": "Les frigos connectés de supermarchés piratés, ce n'est pas un scénario de hackathon, c'est une faille documentée depuis 2022 sur les systèmes Danfoss qui refait surface"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Le genre d'histoire qui rappelle que l'IoT industriel traîne ses vulnérabilités pendant des années sans que personne ne corrige, jusqu'au jour où quelqu'un s'y intéresse pour de mauvaises raisons."
+     }
+    ],
+    [
+     {
+      "t": "Stéphane Bortzmeyer décortique le RFC Roughtime, un protocole de synchronisation d'horloges encore expérimental"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". L'idée : permettre de vérifier qu'un serveur de temps ne ment pas, sans dépendre aveuglément de NTP. Un sujet aussi austère que crucial, puisque toute la sécurité cryptographique (certificats, signatures) s'écroule si l'horloge d'une machine dérive. Pas glamour, mais c'est exactement le genre de brique qu'on ne remarque que quand elle casse."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Énergie & Communs numériques",
+   "paragraphs": [
+    [
+     {
+      "t": "Tempo, l'offre tarifaire d'EDF, ouvre ses prévisions de couleurs en accès libre pour la saison 2026-2027, sans jeton d'API ni inscription"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". LinuxFr précise bien le contexte : il s'agit ici des flux de données ouverts qui permettent de connaître et d'anticiper ces fameux jours rouges, pas d'une dépêche sponsorisée par EDF. C'est le genre de détail qui compte pour qui bricole des scripts domotiques ou des dashboards perso : moins de friction pour accéder à une donnée publique, c'est toujours bon à prendre."
+     }
+    ],
+    [
+     {
+      "t": "Dans un tout autre registre de veille communautaire, la revue de presse hebdomadaire de l'April continue son travail de fond sur le logiciel libre"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ", pendant que LinuxFr consacre une dépêche à Kateryna Iouchtchenko, à l'occasion de la journée Ada Lovelace qui célèbre les femmes dans les sciences et la tech"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ". Deux rappels utiles que l'histoire de l'informatique ne se résume pas aux figures qu'on cite en boucle."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Culture & Marges",
+   "paragraphs": [
+    [
+     {
+      "t": "David Revoy publie un billet sur le dessin, « Drawing the Line »"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", et Philosophie Magazine tente de résumer Foucault en sept punchlines"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ". Format un peu gadget sur le papier, mais Foucault compressé en punchlines, c'est aussi le signe que la pensée complexe cherche sa place dans un flux où tout doit être digestible en quinze secondes. Reste à voir si la vulgarisation va jusqu'au bout ou si elle s'arrête au slogan."
+     }
+    ],
+    [
+     {
+      "t": "Le cinéma a droit à son lot d'actualités avec le projet Paoliwood, qui vise excessivement haut en espérant que Ridley Scott filme enfin Pasquale Paoli"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ", et une analyse du dernier Hong Sang-soo, « Le Jour de son retour », décrit comme un film au visage intact mais à l'âme en ruine"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ". Deux façons opposées de parler de cinéma d'auteur : l'une rêve encore d'un casting hollywoodien pour une histoire corse, l'autre creuse l'intime avec trois fois rien. Et pour clore la semaine sur une note locale, les Hopl'Awards 2026 ont sacré leurs lauréats alsaciens"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": "."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Frigos de supermarchés piratés : une attaque annoncée depuis 2022",
+   "url": "https://ostraca.fr/blog/cyberattaque-frigos-supermarches-danfoss-2026/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 2,
+   "title": "RFC 10049: Roughtime: A Protocol for Rough Time Synchronization",
+   "url": "https://www.bortzmeyer.org/10049.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 3,
+   "title": "Tempo, saison 2026‑2027 : couleurs et prévisions en accès libre, sans jeton",
+   "url": "https://linuxfr.org/news/tempo-saison-2026-2027-couleurs-et-previsions-en-acces-libre-sans-jeton",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Revue de presse de l'April pour la semaine 41 de l'année 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-41-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 5,
+   "title": "Kateryna Iouchtchenko, fondatrice de la programmation théorique en Ukraine",
+   "url": "https://linuxfr.org/news/kateryna-iouchtchenko-fondatrice-de-la-programmation-theorique-en-ukraine",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 6,
+   "title": "Drawing the Line",
+   "url": "https://www.davidrevoy.com/article1179/drawing-the-line",
+   "feed": "David Revoy"
+  },
+  {
+   "n": 7,
+   "title": "Michel Foucault en 7 \"punchlines\" expliquées",
+   "url": "https://www.philomag.com/articles/michel-foucault-en-7-punchlines-expliquees",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 8,
+   "title": "Paoliwood saison 2 : et si Ridley Scott filmait enfin Pasquale Paoli ?",
+   "url": "https://www.leblogducinema.com/actualites/breves/paoliwood-saison-2-65540531/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 9,
+   "title": "Le Jour de son retour : le visage intact, l'âme en ruine",
+   "url": "https://www.leblogducinema.com/analyse/le-jour-de-son-retour-hong-sang-soo-65540525/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 10,
+   "title": "Hopl'Awards 2026 : découvrez les lauréat.e.s de la 15e édition !",
+   "url": "https://www.coze.fr/2026/10/hoplawards-2026-decouvrez-les-laureat-e-s-de-la-15e-edition/",
+   "feed": "Coze - Magazine et Agenda culturel alsacien"
+  }
+ ]
+}
