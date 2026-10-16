@@ -1,0 +1,222 @@
+{
+ "date": "2026-10-16",
+ "label": "vendredi 16 octobre 2026",
+ "title": "Les frigos piégés depuis 2022, et un Grinch qui se rachète une conduite",
+ "sections": [
+  {
+   "name": "Sécurité : la panne annoncée",
+   "paragraphs": [
+    [
+     {
+      "t": "Le fait le plus intéressant de la semaine n'est pas qu'on ait piraté les frigos de 700 supermarchés"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", c'est que la faille était connue depuis 2022"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Ostraca retrace comment un bug Danfoss identifié il y a quatre ans a fini par saboter des chaînes du froid entières, et ça dit quelque chose d'assez déprimant sur la vitesse à laquelle l'industrie corrige ses trous. Le récap hebdo d'Erreur 403 ajoute aussi une pile de zero-days Ivanti Connect Secure, histoire de rappeler que ce genre d'exploit continue de pleuvoir pendant qu'on répare le précédent."
+     }
+    ],
+    [
+     {
+      "t": "À l'opposé, il y a PandoraBox"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", une borne libre de décontamination de clés USB, et c'est le genre de projet qui redonne un peu d'espoir. Le principe tient en une phrase : on insère sa clé, la borne l'analyse avec plusieurs antivirus avant de la laisser passer. Rien de révolutionnaire techniquement, mais c'est exactement le type d'outil concret et open source qu'on voudrait voir plus souvent face à des menaces qui, elles, dorment rarement quatre ans avant de frapper."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Libre et communauté : des archives à la grille électrique",
+   "paragraphs": [
+    [
+     {
+      "t": "LinuxFr sort trois sujets qui n'ont l'air de rien pris séparément, mais qui racontent la même chose : le libre s'infiltre partout où on ne l'attend pas. Tempo"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ", l'offre tarifaire d'EDF, a maintenant ses API et flux de données ouverts pour prédire les couleurs des jours à venir, sans jeton ni inscription. Les Journées Nationales de la Réparation"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", couvertes dans le podcast de l'April, rappellent que le logiciel libre a un rôle à jouer jusque dans l'électroménager qu'on répare soi-même."
+     }
+    ],
+    [
+     {
+      "t": "Et puis il y a cette dépêche sur Kateryna Iouchtchenko"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", fondatrice de la programmation théorique en Ukraine, publiée pour la journée Ada Lovelace. C'est le genre d'article qu'on lit en diagonale par habitude et qu'on regrette ensuite de ne pas avoir pris le temps de creuser : une figure complètement absente des récits occidentaux de l'informatique, remise à sa place par une communauté qui prend ce jour-là au sérieux plutôt que comme un prétexte."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Jeu vidéo : le calendrier se remplit, la qualité varie",
+   "paragraphs": [
+    [
+     {
+      "t": "Semaine chargée côté sorties. Onimusha: Way of the Sword"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": " reçoit un test plutôt flatteur, combats nerveux et héros attachant à l'appui. Final Fantasy Resonance"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": " arrive le 22 octobre en HD-2D et tour par tour, format qui a fait ses preuves ailleurs. GTA 6"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": " continue son teasing avec un morceau inédit de Justice dans la bande-annonce de lancement, ce qui n'étonnera personne vu le soin mis dans la promo depuis des mois. Edge of Memories"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": " décale sa sortie et ressort une démo actualisée, pendant que Deck13 Spotlight dévoile Lair of the Leviathan"
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": ", un RPG au tour par tour qui revendique l'étiquette old-school sans complexe. Et When Sirens Fall Silent"
+     },
+     {
+      "cite": 12
+     },
+     {
+      "t": " se confirme sur PS5 et Xbox Series, porté par Wired Productions et le studio LKA, habitués du survival horror psychologique."
+     }
+    ],
+    [
+     {
+      "t": "Côté tests matériels et curiosités, Le Grinch 2 : À la rescousse de Noël"
+     },
+     {
+      "cite": 13
+     },
+     {
+      "t": " se fait tester avec un scepticisme amusé assumé par PXLBBQ : la bestiole verte sauve Noël, et même un vieux cynique y trouve son compte. L'appui-tête Razer Clio"
+     },
+     {
+      "cite": 14
+     },
+     {
+      "t": " repart avec un avis plus mitigé : poser une enceinte sur son dossier de chaise et l'appeler « immersive cushion », ça prête à sourire, et visiblement le produit ne convainc qu'à certaines conditions."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Actualité Cybersécurité de la semaine du 12/10/2026",
+   "url": "https://erreur403.fr/p/erreur-403-97-cyberattaque-contre-les-frigos-de-700-supermarch-s-et-zero-days-ivanti-connect-secure/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 2,
+   "title": "Frigos de supermarchés piratés : une attaque annoncée depuis 2022",
+   "url": "https://ostraca.fr/blog/cyberattaque-frigos-supermarches-danfoss-2026/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "PandoraBox : la borne de décontamination USB",
+   "url": "https://linuxfr.org/news/pandorabox-la-borne-de-decontamination-usb",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Tempo, saison 2026‑2027 : couleurs et prévisions en accès libre, sans jeton",
+   "url": "https://linuxfr.org/news/tempo-saison-2026-2027-couleurs-et-previsions-en-acces-libre-sans-jeton",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 5,
+   "title": "Journées Nationales de la Réparation - « Libre à vous ! » du 6 octobre 2026 - Podcasts et références",
+   "url": "https://linuxfr.org/news/journees-nationales-de-la-reparation-libre-a-vous-du-6-octobre-2026-podcasts-et-references",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 6,
+   "title": "Kateryna Iouchtchenko, fondatrice de la programmation théorique en Ukraine",
+   "url": "https://linuxfr.org/news/kateryna-iouchtchenko-fondatrice-de-la-programmation-theorique-en-ukraine",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 7,
+   "title": "Onimusha: Way of the Sword sur PS5, test du jeu qui fait Musha !",
+   "url": "https://jesuisungameur.com/2026/10/15/test-onimusha-way-of-the-sword/",
+   "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+  },
+  {
+   "n": 8,
+   "title": "Final Fantasy Resonance : date, prix et infos avant la sortie",
+   "url": "https://www.blogamer.fr/final-fantasy-resonance-date-prix-et-infos-avant-la-sortie/",
+   "feed": "Blogamer.fr"
+  },
+  {
+   "n": 9,
+   "title": "GTA 6 : Justice dévoile un nouveau morceau dans la bande-annonce de lancement",
+   "url": "https://pxlbbq.com/gta-6-justice-devoile-un-nouveau-morceau-dans-la-bande-annonce-de-lancement/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 10,
+   "title": "Edge of Memories annonce sa nouvelle date de sortie et une démo actualisée",
+   "url": "https://pxlbbq.com/edge-of-memories-annonce-sa-nouvelle-date-de-sortie-et-une-demo-actualisee/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 11,
+   "title": "Lair of the Leviathan : nouvel old school RPG édité par Deck13 Spotlight",
+   "url": "https://pxlbbq.com/lair-of-the-leviathan-nouvel-old-school-rpg-edite-par-deck13-spotlight/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 12,
+   "title": "When Sirens Fall Silent confirmé sur PS5 et Xbox Series",
+   "url": "https://pxlbbq.com/when-sirens-fall-silent-confirme-sur-ps5-et-xbox-series/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 13,
+   "title": "Test : Le Grinch 2 À la rescousse de Noël – la bestiole verte se rachète une conduite",
+   "url": "https://pxlbbq.com/test-le-grinch-2-a-la-rescousse-de-noel-la-bestiole-verte-se-rachete-une-conduite/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 14,
+   "title": "Test : Appuie-tête Razer Clio – S'envelopper de son, oui mais à certaines conditions",
+   "url": "https://pxlbbq.com/test-appuie-tete-razer-clio-senvelopper-de-son-oui-mais-a-certaines-conditions/",
+   "feed": "PXLBBQ"
+  }
+ ]
+}
