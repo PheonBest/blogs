@@ -1,6 +1,204 @@
 {
- "updated_at": "2026-10-16T08:43:27Z",
+ "updated_at": "2026-10-17T08:14:13Z",
  "entries": [
+  {
+   "date": "2026-10-17",
+   "label": "samedi 17 octobre 2026",
+   "title": "Un RFC sur l'ECN, des guillemets zalgo qui cassent l'URL, et beaucoup de JRPG sur la pile",
+   "sections": [
+    {
+     "name": "Réseaux & auto-hébergement",
+     "paragraphs": [
+      [
+       {
+        "t": "Stéphane Bortzmeyer décortique le RFC 10055"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ", et c'est le genre de texte que j'aime particulièrement chez lui : pas un protocole de plus, mais un mode d'emploi. Le document explique comment activer la notification de congestion explicite (ECN) sur les sockets UDP, selon les plateformes. Rien de spectaculaire, mais c'est exactement ce qui manque souvent dans les RFC : du concret, plateforme par plateforme, pour un mécanisme qui existe depuis longtemps mais reste mal activé par défaut."
+       }
+      ],
+      [
+       {
+        "t": "Côté veille plus large, Ostraca détaille le circuit des signalements sur les messageries européennes et le rôle de Palantir et du NCMEC là-dedans"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ". Un sujet qui mérite qu'on s'y attarde vu le retour permanent de Chat Control sur la table. Et pour ceux qui gèrent leur propre infra, le Self-Host Weekly du 16 octobre résume bien l'ambiance du moment avec sa punchline en intro"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": " : tu meurs open source, ou tu vis assez longtemps pour devenir open core. Ça fait sourire jaune, mais ça décrit pas mal de projets qu'on suit depuis des années."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Dev, liens vrac et un bug d'encodage mémorable",
+     "paragraphs": [
+      [
+       {
+        "t": "La veille hebdo de Camille Roux recense 31 actus dev, de TinyJS à Electron en passant par Anthropic et Scion"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". C'est le format que je préfère pour ce genre de contenu : pas de tri éditorial lourd, juste la matière brute de la semaine, à piocher selon ses besoins. Domopi complète avec sa collection de liens tech du mois"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ", moins dense mais utile pour les trucs qu'on a loupés."
+       }
+      ],
+      [
+       {
+        "t": "Mention spéciale, involontaire, à PXLBBQ : leur test de Tales of Eternia Remastered"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": " est arrivé dans mon flux avec un titre truffé de caractères zalgo, des diacritiques empilés qui rendent le texte illisible. Je ne sais pas si c'est un bug de flux RSS ou une blague de rédaction, mais ça illustre bien à quel point l'agrégation de contenu reste fragile dès qu'un encodage part en vrille quelque part dans la chaîne."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Jeu vidéo : sorties, remasters et une bonne grosse pépite coop'",
+     "paragraphs": [
+      [
+       {
+        "t": "Grosse journée pour le jeu vidéo avec plusieurs annonces chez PXLBBQ. Drova II – Torn Lands revient dans son Autre Monde"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": ", pendant que Forge of the Fae sort une bande-annonce calant sa sortie en mars 2027"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": ". When Sirens Fall Silent, de Wired Productions et du studio LKA, se confirme sur PS5 et Xbox Series"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": ". Rien d'affolant dans le lot, mais le calendrier des sorties horror et narratives se remplit tranquillement pour 2027."
+       }
+      ],
+      [
+       {
+        "t": "Ce qui m'a fait sourire par contre, c'est Too Angry to Clean"
+       },
+       {
+        "cite": 10
+       },
+       {
+        "t": ", ce jeu coop où il faut nettoyer après la bagarre finale d'une prophétie accomplie, sauf que la flemme l'emporte et qu'on finit par tout casser encore plus. L'idée est bête et excellente à la fois. Côté sorties plus attendues, Final Fantasy Resonance arrive le 22 octobre avec son HD-2D et ses combats au tour par tour"
+       },
+       {
+        "cite": 11
+       },
+       {
+        "t": ", et PXLBBQ a aussi testé Le Grinch 2 à la rescousse de Noël"
+       },
+       {
+        "cite": 12
+       },
+       {
+        "t": ", où la bestiole verte se rachète une conduite. Pas franchement le jeu de l'année, mais ça fait partie du paysage de fin d'année qu'on connaît tous."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "RFC 10055: Configuring UDP Sockets for Explicit Congestion Notification (ECN) for Common Platforms",
+     "url": "https://www.bortzmeyer.org/10055.html",
+     "feed": "Blog de Stéphane Bortzmeyer"
+    },
+    {
+     "n": 2,
+     "title": "Chat Control et Palantir : le circuit des signalements des messageries Européennes",
+     "url": "https://ostraca.fr/blog/chat-control-palantir-ncmec-signalements/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 3,
+     "title": "Self-Host Weekly (16 October 2026)",
+     "url": "https://selfh.st/weekly/2026-10-16/",
+     "feed": "selfh.st"
+    },
+    {
+     "n": 4,
+     "title": "Veille #78 - 31 actus dev qu'il ne fallait pas rater cette semaine",
+     "url": "https://www.camilleroux.com/tinyjs-electron-anthropic-scion-veille-78/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 5,
+     "title": "Liens Tech - Octobre 2026",
+     "url": "https://domopi.eu/liens-tech-octobre-2026/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 6,
+     "title": "Test : Tales of Eternia Remastered – le retour d'un classique",
+     "url": "https://pxlbbq.com/test-t%ef%b8%82al%ef%b8%86es-of%ef%b8%80-et%ef%b8%89ernia%ef%b8%8e-rem%ef%b8%89a%ef%b8%84s%ef%b8%81te%ef%b8%85r%ef%b8%85ed-le-retou%ef%b8%81r-d%ef%b8%80un%ef%b8%82-classique/",
+     "feed": "PXLBBQ"
+    },
+    {
+     "n": 7,
+     "title": "Drova II – Torn Lands : retour dans l'Autre Monde",
+     "url": "https://pxlbbq.com/drova-ii-torn-lands-retour-dans-lautre-monde/",
+     "feed": "PXLBBQ"
+    },
+    {
+     "n": 8,
+     "title": "Forge of the Fae : la bande-annonce annonce mars 2027",
+     "url": "https://pxlbbq.com/forge-of-the-fae-la-bande-annonce-annonce-mars-2027/",
+     "feed": "PXLBBQ"
+    },
+    {
+     "n": 9,
+     "title": "When Sirens Fall Silent confirmé sur PS5 et Xbox Series",
+     "url": "https://pxlbbq.com/when-sirens-fall-silent-confirme-sur-ps5-et-xbox-series/",
+     "feed": "PXLBBQ"
+    },
+    {
+     "n": 10,
+     "title": "Too angry to clean : le jeu coop' où on doit nettoyer après la bagarre mais… flemme, on casse tout !",
+     "url": "https://pxlbbq.com/too-angry-to-clean-le-jeu-coop-ou-on-doit-nettoyer-apres-la-bagarre-mais-flemme-on-casse-tout/",
+     "feed": "PXLBBQ"
+    },
+    {
+     "n": 11,
+     "title": "Final Fantasy Resonance : date, prix et infos avant la sortie",
+     "url": "https://www.blogamer.fr/final-fantasy-resonance-date-prix-et-infos-avant-la-sortie/",
+     "feed": "Blogamer.fr"
+    },
+    {
+     "n": 12,
+     "title": "Test : Le Grinch 2 À la rescousse de Noël – la bestiole verte se rachète une conduite",
+     "url": "https://pxlbbq.com/test-le-grinch-2-a-la-rescousse-de-noel-la-bestiole-verte-se-rachete-une-conduite/",
+     "feed": "PXLBBQ"
+    }
+   ]
+  },
   {
    "date": "2026-10-16",
    "label": "vendredi 16 octobre 2026",
@@ -2855,227 +3053,6 @@
      "n": 9,
      "title": "Rencontre avec Guy Hendrix Dyas, chef décorateur (partie 3 : Steve Jobs, Passengers, Pablo Larraín et Masters of the Universe)",
      "url": "https://culturaddict.com/rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe",
-     "feed": "Culturaddict"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-22",
-   "label": "mardi 22 septembre 2026",
-   "title": "Le numérique, entre fuite et réparation",
-   "sections": [
-    {
-     "name": "Tech & Internet",
-     "paragraphs": [
-      [
-       {
-        "t": "Ploum pose une question qui dérange"
-       },
-       {
-        "cite": 1
-       },
-       {
-        "t": " : faut-il fuir le numérique ou le reconquérir ? Il répond à Sandra sur le minimalisme numérique en refusant la fausse alternative. Pas de nostalgie du sans-écran, pas de techno-optimisme béat non plus. Juste l'idée qu'on peut choisir ses outils au lieu de les subir. C'est le genre de billet qui remet les pieds sur terre après une semaine de notifications."
-       },
-       {
-        "t": " Dans un registre plus terre-à-terre, Grise Bouille s'attaque aux dark patterns du téléphone"
-       },
-       {
-        "cite": 2
-       },
-       {
-        "t": ", et c'est toujours aussi drôle et juste : la haine ne vient pas de l'objet mais de tout ce qu'on a empilé dessus pour capter notre attention."
-       }
-      ],
-      [
-       {
-        "t": "Côté outillage, la newsletter RudeOps du 21 septembre couvre un menu copieux : Cilium, Kubernetes, OpenTofu, IPv6, SRE, IA"
-       },
-       {
-        "cite": 3
-       },
-       {
-        "t": ". Rien de spectaculaire annoncé, mais c'est justement le genre de veille qu'on garde sous le coude. Unicode passe en version 18 avec 13 007 caractères de plus, dont son lot d'emojis inutiles"
-       },
-       {
-        "cite": 4
-       },
-       {
-        "t": " ; LinuxFr résume ça très bien en parlant de bocal à cornichons, sans prétendre que c'est révolutionnaire. Et si vous cherchez à flasher une liseuse chinoise à 30 balles avec esptool, un tuto existe déjà"
-       },
-       {
-        "cite": 5
-       },
-       {
-        "t": "."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Libre & communauté",
-     "paragraphs": [
-      [
-       {
-        "t": "LinuxFr enchaîne les dépêches cette semaine : une revue de presse de rentrée bien fournie"
-       },
-       {
-        "cite": 6
-       },
-       {
-        "t": ", celle de l'April sur l'actualité Internet"
-       },
-       {
-        "cite": 7
-       },
-       {
-        "t": ", et un appel à participer aux Journées Nationales de la Réparation du 15 au 18 octobre, portées par Make.org et HOP"
-       },
-       {
-        "cite": 8
-       },
-       {
-        "t": ". Toujours la même mécanique bénévole qui tourne, semaine après semaine, sans faire de bruit."
-       },
-       {
-        "t": " Le podcast Projets Libres a profité du State of the Map à Paris pour interviewer l'association OpenStreetMap France"
-       },
-       {
-        "cite": 9
-       },
-       {
-        "t": ", et pour les amateurs de maths qui aiment le libre jusque dans les manuels, le Frido 2026 est sorti : toute la mathématique reprise depuis les entiers, sous licence FDL"
-       },
-       {
-        "cite": 10
-       },
-       {
-        "t": ". Un projet d'une ambition presque folle, mené dans l'ombre depuis des années."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Écrans & culture",
-     "paragraphs": [
-      [
-       {
-        "t": "Le Blog du Cinéma signe une critique élogieuse de Primetime, avec un Robert Pattinson habité face à la mise en scène vertigineuse de Lance Oppenheim"
-       },
-       {
-        "cite": 11
-       },
-       {
-        "t": ". Widow's Bay, de son côté, rafle des Emmy et reprend logiquement la tête du classement streaming"
-       },
-       {
-        "cite": 12
-       },
-       {
-        "t": ", confirmation sans surprise que le prestige télévisuel continue de payer côté audience."
-       },
-       {
-        "t": " Culturaddict conclut sa série d'entretiens avec le chef décorateur Guy Hendrix Dyas, qui revient sur Steve Jobs, Passengers et Masters of the Universe"
-       },
-       {
-        "cite": 13
-       },
-       {
-        "t": ", et publie aussi une rencontre avec le compositeur David Newman, dont les partitions ont bercé pas mal d'enfances (Anastasia, Matilda, L'Âge de Glace)"
-       },
-       {
-        "cite": 14
-       },
-       {
-        "t": ". Deux formats longs, du genre qu'on garde pour un dimanche sans rien de prévu."
-       }
-      ]
-     ]
-    }
-   ],
-   "sources": [
-    {
-     "n": 1,
-     "title": "Fuir le numérique ou bien le reconquérir ?",
-     "url": "https://ploum.net/2026-09-21-fuir_ou_reconquerir.html",
-     "feed": "Ploum.net"
-    },
-    {
-     "n": 2,
-     "title": "Je hais (toujours) le téléphone",
-     "url": "https://grisebouille.net/je-hais-toujours-le-telephone?utm_source=GBRSS",
-     "feed": "Grise Bouille"
-    },
-    {
-     "n": 3,
-     "title": "Newsletter du 21 Septembre 2026",
-     "url": "https://www.rudeops.com/newsletters/2026-09-21",
-     "feed": "RudeOps"
-    },
-    {
-     "n": 4,
-     "title": "Bonjour les cornichons, Unicode vient de sortir en version 18",
-     "url": "https://linuxfr.org/news/bonjour-les-cornichons-unicode-vient-de-sortir-en-version-18",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 5,
-     "title": "Flasher CrossPoint Reader sur la mini-liseuse XTEINK X4 Classic avec esptool",
-     "url": "https://blog.flozz.fr/2026/09/21/flasher-crosspoint-reader-sur-la-mini-liseuse-xteink-x4-classic-avec-esptool/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 6,
-     "title": "📰 Revue de presse — septembre 2026",
-     "url": "https://linuxfr.org/news/revue-de-presse-septembre-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 7,
-     "title": "Revue de presse de l'April pour la semaine 38 de l'année 2026",
-     "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-38-de-l-annee-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 8,
-     "title": "L'April invite à participer avec des événements aux Journées Nationales de la Réparation, du 15 au 18 octobre 2026",
-     "url": "https://linuxfr.org/news/l-april-invite-a-participer-avec-des-evenements-aux-journees-nationales-de-la-reparation-du-15-au-18-octobre-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 9,
-     "title": "L'association OpenStreetMap France - Podcast Projets Libres épisode 74",
-     "url": "https://linuxfr.org/news/l-association-openstreetmap-france-podcast-projets-libres-episode-74",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 10,
-     "title": "Le Frido 2026 est disponible",
-     "url": "https://linuxfr.org/news/le-frido-2026-est-disponible",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 11,
-     "title": "Primetime, une étude acérée du bien et du mal",
-     "url": "https://www.leblogducinema.com/critique-film/primetime-avis-65540321/",
-     "feed": "Le Blog Du Cinéma"
-    },
-    {
-     "n": 12,
-     "title": "Widow's Bay sacré aux Emmy, la série reprend logiquement la tête du classement streaming",
-     "url": "https://www.leblogducinema.com/actualites/breves/classement-streaming-widows-bay-emmy-65540331/",
-     "feed": "Le Blog Du Cinéma"
-    },
-    {
-     "n": 13,
-     "title": "Rencontre avec Guy Hendrix Dyas, chef décorateur (partie 3 : Steve Jobs, Passengers, Pablo Larraín et Masters of the Universe)",
-     "url": "https://culturaddict.com/rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe",
-     "feed": "Culturaddict"
-    },
-    {
-     "n": 14,
-     "title": "Rencontre avec le compositeur David Newman (« Anastasia », « Matilda », « L'âge de Glace », …)",
-     "url": "https://culturaddict.com/rencontre-avec-le-compositeur-david-newman-anastasia-matilda-lage-de-glace/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-le-compositeur-david-newman-anastasia-matilda-lage-de-glace",
      "feed": "Culturaddict"
     }
    ]

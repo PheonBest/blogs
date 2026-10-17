@@ -1,0 +1,198 @@
+{
+ "date": "2026-10-17",
+ "label": "samedi 17 octobre 2026",
+ "title": "Un RFC sur l'ECN, des guillemets zalgo qui cassent l'URL, et beaucoup de JRPG sur la pile",
+ "sections": [
+  {
+   "name": "Réseaux & auto-hébergement",
+   "paragraphs": [
+    [
+     {
+      "t": "Stéphane Bortzmeyer décortique le RFC 10055"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", et c'est le genre de texte que j'aime particulièrement chez lui : pas un protocole de plus, mais un mode d'emploi. Le document explique comment activer la notification de congestion explicite (ECN) sur les sockets UDP, selon les plateformes. Rien de spectaculaire, mais c'est exactement ce qui manque souvent dans les RFC : du concret, plateforme par plateforme, pour un mécanisme qui existe depuis longtemps mais reste mal activé par défaut."
+     }
+    ],
+    [
+     {
+      "t": "Côté veille plus large, Ostraca détaille le circuit des signalements sur les messageries européennes et le rôle de Palantir et du NCMEC là-dedans"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Un sujet qui mérite qu'on s'y attarde vu le retour permanent de Chat Control sur la table. Et pour ceux qui gèrent leur propre infra, le Self-Host Weekly du 16 octobre résume bien l'ambiance du moment avec sa punchline en intro"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": " : tu meurs open source, ou tu vis assez longtemps pour devenir open core. Ça fait sourire jaune, mais ça décrit pas mal de projets qu'on suit depuis des années."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Dev, liens vrac et un bug d'encodage mémorable",
+   "paragraphs": [
+    [
+     {
+      "t": "La veille hebdo de Camille Roux recense 31 actus dev, de TinyJS à Electron en passant par Anthropic et Scion"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". C'est le format que je préfère pour ce genre de contenu : pas de tri éditorial lourd, juste la matière brute de la semaine, à piocher selon ses besoins. Domopi complète avec sa collection de liens tech du mois"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", moins dense mais utile pour les trucs qu'on a loupés."
+     }
+    ],
+    [
+     {
+      "t": "Mention spéciale, involontaire, à PXLBBQ : leur test de Tales of Eternia Remastered"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": " est arrivé dans mon flux avec un titre truffé de caractères zalgo, des diacritiques empilés qui rendent le texte illisible. Je ne sais pas si c'est un bug de flux RSS ou une blague de rédaction, mais ça illustre bien à quel point l'agrégation de contenu reste fragile dès qu'un encodage part en vrille quelque part dans la chaîne."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Jeu vidéo : sorties, remasters et une bonne grosse pépite coop'",
+   "paragraphs": [
+    [
+     {
+      "t": "Grosse journée pour le jeu vidéo avec plusieurs annonces chez PXLBBQ. Drova II – Torn Lands revient dans son Autre Monde"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ", pendant que Forge of the Fae sort une bande-annonce calant sa sortie en mars 2027"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". When Sirens Fall Silent, de Wired Productions et du studio LKA, se confirme sur PS5 et Xbox Series"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ". Rien d'affolant dans le lot, mais le calendrier des sorties horror et narratives se remplit tranquillement pour 2027."
+     }
+    ],
+    [
+     {
+      "t": "Ce qui m'a fait sourire par contre, c'est Too Angry to Clean"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": ", ce jeu coop où il faut nettoyer après la bagarre finale d'une prophétie accomplie, sauf que la flemme l'emporte et qu'on finit par tout casser encore plus. L'idée est bête et excellente à la fois. Côté sorties plus attendues, Final Fantasy Resonance arrive le 22 octobre avec son HD-2D et ses combats au tour par tour"
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": ", et PXLBBQ a aussi testé Le Grinch 2 à la rescousse de Noël"
+     },
+     {
+      "cite": 12
+     },
+     {
+      "t": ", où la bestiole verte se rachète une conduite. Pas franchement le jeu de l'année, mais ça fait partie du paysage de fin d'année qu'on connaît tous."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "RFC 10055: Configuring UDP Sockets for Explicit Congestion Notification (ECN) for Common Platforms",
+   "url": "https://www.bortzmeyer.org/10055.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 2,
+   "title": "Chat Control et Palantir : le circuit des signalements des messageries Européennes",
+   "url": "https://ostraca.fr/blog/chat-control-palantir-ncmec-signalements/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "Self-Host Weekly (16 October 2026)",
+   "url": "https://selfh.st/weekly/2026-10-16/",
+   "feed": "selfh.st"
+  },
+  {
+   "n": 4,
+   "title": "Veille #78 - 31 actus dev qu'il ne fallait pas rater cette semaine",
+   "url": "https://www.camilleroux.com/tinyjs-electron-anthropic-scion-veille-78/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Liens Tech - Octobre 2026",
+   "url": "https://domopi.eu/liens-tech-octobre-2026/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 6,
+   "title": "Test : Tales of Eternia Remastered – le retour d'un classique",
+   "url": "https://pxlbbq.com/test-t%ef%b8%82al%ef%b8%86es-of%ef%b8%80-et%ef%b8%89ernia%ef%b8%8e-rem%ef%b8%89a%ef%b8%84s%ef%b8%81te%ef%b8%85r%ef%b8%85ed-le-retou%ef%b8%81r-d%ef%b8%80un%ef%b8%82-classique/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 7,
+   "title": "Drova II – Torn Lands : retour dans l'Autre Monde",
+   "url": "https://pxlbbq.com/drova-ii-torn-lands-retour-dans-lautre-monde/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 8,
+   "title": "Forge of the Fae : la bande-annonce annonce mars 2027",
+   "url": "https://pxlbbq.com/forge-of-the-fae-la-bande-annonce-annonce-mars-2027/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 9,
+   "title": "When Sirens Fall Silent confirmé sur PS5 et Xbox Series",
+   "url": "https://pxlbbq.com/when-sirens-fall-silent-confirme-sur-ps5-et-xbox-series/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 10,
+   "title": "Too angry to clean : le jeu coop' où on doit nettoyer après la bagarre mais… flemme, on casse tout !",
+   "url": "https://pxlbbq.com/too-angry-to-clean-le-jeu-coop-ou-on-doit-nettoyer-apres-la-bagarre-mais-flemme-on-casse-tout/",
+   "feed": "PXLBBQ"
+  },
+  {
+   "n": 11,
+   "title": "Final Fantasy Resonance : date, prix et infos avant la sortie",
+   "url": "https://www.blogamer.fr/final-fantasy-resonance-date-prix-et-infos-avant-la-sortie/",
+   "feed": "Blogamer.fr"
+  },
+  {
+   "n": 12,
+   "title": "Test : Le Grinch 2 À la rescousse de Noël – la bestiole verte se rachète une conduite",
+   "url": "https://pxlbbq.com/test-le-grinch-2-a-la-rescousse-de-noel-la-bestiole-verte-se-rachete-une-conduite/",
+   "feed": "PXLBBQ"
+  }
+ ]
+}
