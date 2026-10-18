@@ -1,6 +1,93 @@
 {
- "updated_at": "2026-10-17T08:14:13Z",
+ "updated_at": "2026-10-18T08:30:59Z",
  "entries": [
+  {
+   "date": "2026-10-18",
+   "label": "dimanche 18 octobre 2026",
+   "title": "Un lycéen, un logiciel libre, et pas grand-chose d'autre",
+   "sections": [
+    {
+     "name": "Libre & bureautique",
+     "paragraphs": [
+      [
+       {
+        "t": "Libera Suite entre en bêta publique"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ", et c'est le genre d'annonce qui mérite qu'on s'y attarde deux minutes. La suite s'appuie sur Euro-Office et vise Linux, Windows et macOS avec un traitement de texte et un tableur pour l'instant. Rien de renversant dans la description, mais une suite bureautique libre et locale qui tente sa chance face à Microsoft et Google, ça reste assez rare pour être noté. On verra à l'usage si la bêta tient la route ou si elle rejoint le cimetière des alternatives prometteuses jamais finies."
+       }
+      ],
+      [
+       {
+        "t": "Côté agenda, la semaine 43 rassemble comme d'habitude install parties, conférences et ateliers du mouvement Libre"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ". Rien à en dire de spécial, si ce n'est que ça continue, semaine après semaine, porté par des bénévoles plutôt que par des levées de fonds."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Dessin, production et une question qui dérange",
+     "paragraphs": [
+      [
+       {
+        "t": "David Revoy publie son rapport mensuel pour septembre 2026"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ". C'est un rendez-vous habituel du blog, mais ça vaut toujours le coup d'y jeter un œil pour qui suit l'écosystème Krita et le travail d'illustration libre au long cours."
+       }
+      ],
+      [
+       {
+        "t": "Et puis il y a ce texte de Philosophie Magazine qui pose une question qu'on évite d'habitude"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": " : la violence lycéenne peut-elle être légitime ? Pas de résumé possible ici, la description est vide, mais le titre seul suffit à piquer la curiosité. C'est le genre d'article qui sort du flux tech habituel, et c'est tant mieux."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Libera Suite, une suite bureautique libre et locale fondée sur Euro-Office, passe en bêta publique",
+     "url": "https://linuxfr.org/news/libera-suite-une-suite-bureautique-libre-et-locale-fondee-sur-euro-office-passe-en-beta-publique",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 2,
+     "title": "Agenda du Libre pour la semaine 43 de l'année 2026",
+     "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-43-de-l-annee-2026",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 3,
+     "title": "Monthly production report for September 2026",
+     "url": "https://www.davidrevoy.com/article1180/monthly-production-report-for-september-2026",
+     "feed": "David Revoy"
+    },
+    {
+     "n": 4,
+     "title": "La violence lycéenne est-elle légitime ?",
+     "url": "https://www.philomag.com/articles/la-violence-lyceenne-est-elle-legitime",
+     "feed": "Philosophie Magazine"
+    }
+   ]
+  },
   {
    "date": "2026-10-17",
    "label": "samedi 17 octobre 2026",
@@ -2892,168 +2979,6 @@
      "title": "Guide FC 27 Ultimate Team : quand faut-il dépenser ses crédits ?",
      "url": "https://jesuisungameur.com/2026/09/24/fc-27-ultimate-team-quand-depenser-credits/",
      "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "label": "mercredi 23 septembre 2026",
-   "title": "Cette semaine, la niche gagne : Linux avale l'Android, le vélo devient philosophie",
-   "sections": [
-    {
-     "name": "Linux, du sérieux et du bricolage",
-     "paragraphs": [
-      [
-       {
-        "t": "Valve continue son travail de sape sur l'écosystème fermé d'Android : avec Lepton, les jeux Android tournent maintenant sous Linux"
-       },
-       {
-        "cite": 1
-       },
-       {
-        "t": ". Ce n'est pas la fonctionnalité qui fait le plus de bruit chez Valve, mais c'est celle qui compte : c'est la même logique que Proton, appliquée à un nouveau silo. Dans un genre plus utilitaire, Repomanager s'attaque à un problème que tout admin sys connaît sans l'aimer, monter des dépôts deb et rpm sans y passer l'après-midi"
-       },
-       {
-        "cite": 2
-       },
-       {
-        "t": "."
-       }
-      ],
-      [
-       {
-        "t": "Deux billets plus personnels aussi, du genre qu'on ne trouve que sur des blogs perso. Quelqu'un a redécouvert le protocole Gemini, l'a trouvé proche de Gopher, et a fini par recréer une navigation en 3D façon GopherVR"
-       },
-       {
-        "cite": 3
-       },
-       {
-        "t": ". Et un autre a monté sa liseuse Xteink X4 Pro entièrement sur une stack libre"
-       },
-       {
-        "cite": 4
-       },
-       {
-        "t": ". Rien de révolutionnaire, mais ça fait plaisir de voir que la culture du bidouillage n'a pas disparu avec les forums des années 2000."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Philo Mag creuse trois sujets qui n'ont rien à voir entre eux",
-     "paragraphs": [
-      [
-       {
-        "t": "Philosophie Magazine enchaîne trois angles improbables. D'abord Ivan Illich, présenté comme un pionnier du vélo"
-       },
-       {
-        "cite": 5
-       },
-       {
-        "t": ", ce qui sonne comme une private joke jusqu'à ce qu'on se souvienne que le bonhomme critiquait déjà la vitesse motorisée dans les années 70. Ensuite Julian Baggini qui revient sur l'école anglaise et son retour aux fondamentaux : bons résultats Pisa, mais à prendre avec des pincettes selon lui"
-       },
-       {
-        "cite": 6
-       },
-       {
-        "t": ", ce qui est une façon polie de dire que les classements internationaux mentent souvent par omission."
-       }
-      ],
-      [
-       {
-        "t": "Le troisième, sur l'histoire culturelle de l'IA, cherche à retracer les origines d'un mythe moderne"
-       },
-       {
-        "cite": 7
-       },
-       {
-        "t": ". Sujet casse-gueule tant l'IA charrie déjà son lot de discours emphatiques, mais l'angle historique plutôt que technique change la donne. Je n'ai pas le détail du contenu, seulement le titre, mais l'idée de traiter l'IA comme un objet mythologique plutôt qu'un simple outil me semble la bonne porte d'entrée."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Cinéma : un essai qui mord, une interview qui traîne",
-     "paragraphs": [
-      [
-       {
-        "t": "Culturaddict publie un essai sur Citizen Vigilante et ce que l'auteur appelle l'idiocratisation du cinéma « de droite » et de son public"
-       },
-       {
-        "cite": 8
-       },
-       {
-        "t": ", avec un avertissement en préambule sur le caractère politique du texte. Rare de voir ce genre d'angle assumé sans détour dans la presse ciné francophone, ça change des papiers qui évitent soigneusement de se positionner."
-       }
-      ],
-      [
-       {
-        "t": "Même site, troisième et dernière partie de l'entretien avec le chef décorateur Guy Hendrix Dyas, sur Steve Jobs, Passengers, Pablo Larraín et Masters of the Universe"
-       },
-       {
-        "cite": 9
-       },
-       {
-        "t": ". Une série d'entretiens longue, sans doute la plus riche du lot côté cinéma cette semaine, mais qui demande d'avoir suivi les deux parties précédentes pour en profiter pleinement."
-       }
-      ]
-     ]
-    }
-   ],
-   "sources": [
-    {
-     "n": 1,
-     "title": "Lepton : Valve fait tourner les jeux Android sous Linux",
-     "url": "https://www.it-connect.fr/valve-lepton-jeux-android-linux/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 2,
-     "title": "Créer facilement des repos deb et rpm avec Repomanager",
-     "url": "https://www.linuxdocs.net/guides/repomanager.html",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 3,
-     "title": "Geminispace VR",
-     "url": "https://olivier.dossmann.net/2026/09/geminispace-vr/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 4,
-     "title": "Ebook : la liseuse Xteink X4 Pro dans une stack libre",
-     "url": "https://www.fredix.xyz/2026/09/ebook-liseuse-xteink/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 5,
-     "title": "Pourquoi Ivan Illich est-il un pionnier du vélo ?",
-     "url": "https://www.philomag.com/articles/pourquoi-ivan-illich-est-il-un-pionnier-du-velo",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 6,
-     "title": "Julian Baggini : \"L'école anglaise a opéré un retour aux fondamentaux, mais ses bons résultats Pisa doivent être pris avec des pincettes\"",
-     "url": "https://www.philomag.com/articles/julian-baggini-lecole-anglaise-opere-un-retour-aux-fondamentaux-mais-ses-bons-resultats",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 7,
-     "title": "\"Histoire culturelle de l'IA\" : retracer les origines d'un mythe moderne",
-     "url": "https://www.philomag.com/articles/histoire-culturelle-de-lia-retracer-les-origines-dun-mythe-moderne",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 8,
-     "title": "Essai: Citizen Vigilante, De l'idiocratisation du cinéma « de droite » et de son public",
-     "url": "https://culturaddict.com/essai-citizen-vigilante-de-lidiocratisation-du-cinema-de-droite-et-de-son-public/?utm_source=rss&utm_medium=rss&utm_campaign=essai-citizen-vigilante-de-lidiocratisation-du-cinema-de-droite-et-de-son-public",
-     "feed": "Culturaddict"
-    },
-    {
-     "n": 9,
-     "title": "Rencontre avec Guy Hendrix Dyas, chef décorateur (partie 3 : Steve Jobs, Passengers, Pablo Larraín et Masters of the Universe)",
-     "url": "https://culturaddict.com/rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-guy-hendrix-dyas-chef-decorateur-partie-3-steve-jobs-passengers-pablo-larrain-et-masters-of-the-universe",
-     "feed": "Culturaddict"
     }
    ]
   }

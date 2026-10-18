@@ -1,0 +1,87 @@
+{
+ "date": "2026-10-18",
+ "label": "dimanche 18 octobre 2026",
+ "title": "Un lycéen, un logiciel libre, et pas grand-chose d'autre",
+ "sections": [
+  {
+   "name": "Libre & bureautique",
+   "paragraphs": [
+    [
+     {
+      "t": "Libera Suite entre en bêta publique"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", et c'est le genre d'annonce qui mérite qu'on s'y attarde deux minutes. La suite s'appuie sur Euro-Office et vise Linux, Windows et macOS avec un traitement de texte et un tableur pour l'instant. Rien de renversant dans la description, mais une suite bureautique libre et locale qui tente sa chance face à Microsoft et Google, ça reste assez rare pour être noté. On verra à l'usage si la bêta tient la route ou si elle rejoint le cimetière des alternatives prometteuses jamais finies."
+     }
+    ],
+    [
+     {
+      "t": "Côté agenda, la semaine 43 rassemble comme d'habitude install parties, conférences et ateliers du mouvement Libre"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Rien à en dire de spécial, si ce n'est que ça continue, semaine après semaine, porté par des bénévoles plutôt que par des levées de fonds."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Dessin, production et une question qui dérange",
+   "paragraphs": [
+    [
+     {
+      "t": "David Revoy publie son rapport mensuel pour septembre 2026"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". C'est un rendez-vous habituel du blog, mais ça vaut toujours le coup d'y jeter un œil pour qui suit l'écosystème Krita et le travail d'illustration libre au long cours."
+     }
+    ],
+    [
+     {
+      "t": "Et puis il y a ce texte de Philosophie Magazine qui pose une question qu'on évite d'habitude"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " : la violence lycéenne peut-elle être légitime ? Pas de résumé possible ici, la description est vide, mais le titre seul suffit à piquer la curiosité. C'est le genre d'article qui sort du flux tech habituel, et c'est tant mieux."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Libera Suite, une suite bureautique libre et locale fondée sur Euro-Office, passe en bêta publique",
+   "url": "https://linuxfr.org/news/libera-suite-une-suite-bureautique-libre-et-locale-fondee-sur-euro-office-passe-en-beta-publique",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "Agenda du Libre pour la semaine 43 de l'année 2026",
+   "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-43-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Monthly production report for September 2026",
+   "url": "https://www.davidrevoy.com/article1180/monthly-production-report-for-september-2026",
+   "feed": "David Revoy"
+  },
+  {
+   "n": 4,
+   "title": "La violence lycéenne est-elle légitime ?",
+   "url": "https://www.philomag.com/articles/la-violence-lyceenne-est-elle-legitime",
+   "feed": "Philosophie Magazine"
+  }
+ ]
+}
