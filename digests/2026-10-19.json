@@ -1,0 +1,65 @@
+{
+ "date": "2026-10-19",
+ "label": "lundi 19 octobre 2026",
+ "title": "Semaine calme : un agenda, une revue de liens, et une case de BD",
+ "sections": [
+  {
+   "name": "Veille & communauté",
+   "paragraphs": [
+    [
+     {
+      "t": "Peu de matière aujourd'hui, mais les habitués du genre sont là. Le Journal du Hacker publie sa revue de liens hebdomadaire"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", sans détail sur le contenu cette fois, et LinuxFr relaie l'Agenda du Libre pour la semaine 43"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", le rendez-vous classique pour qui cherche un meetup ou une install party près de chez soi. Rien à commenter sur le fond puisque les descriptions sont vides, mais ce sont deux piliers utiles du petit écosystème francophone, le genre de ressource qu'on ne lit jamais en entier mais qu'on est content de voir passer chaque semaine."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Culture",
+   "paragraphs": [
+    [
+     {
+      "t": "Grise Bouille continue sa série sur les clichés de films d'action avec un nouvel épisode consacré aux « méthodes musclées »"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", cette fois sur le thème du time-lapse. Le ton promet encore une pique sur le réalisme à la Hollywood. Pas grand-chose à ajouter sans avoir vu la planche, mais la régularité de la série (on en est à l'épisode 14) mérite d'être saluée."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Méthodes musclées",
+   "url": "https://grisebouille.net/methodes-musclees?utm_source=GBRSS",
+   "feed": "Grise Bouille"
+  },
+  {
+   "n": 2,
+   "title": "Liens intéressants Journal du hacker semaine #42",
+   "url": "https://blog.journalduhacker.net/index.php?article609/liens-interessants-journal-du-hacker-semaine-42-2026",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "Agenda du Libre pour la semaine 43 de l'année 2026",
+   "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-43-de-l-annee-2026",
+   "feed": "Journal du Hacker"
+  }
+ ]
+}
