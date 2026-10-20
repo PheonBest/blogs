@@ -1,6 +1,88 @@
 {
- "updated_at": "2026-10-19T09:33:29Z",
+ "updated_at": "2026-10-20T09:05:52Z",
  "entries": [
+  {
+   "date": "2026-10-20",
+   "label": "mardi 20 octobre 2026",
+   "title": "Cette semaine, le libre discute entre lui et le jeu vidéo invente de nouvelles façons de perdre son âme",
+   "sections": [
+    {
+     "name": "Libre & communauté",
+     "paragraphs": [
+      [
+       {
+        "t": "L'April continue son rythme de croisière avec l'épisode 288 de « Libre à vous ! », consacré cette fois au parcours de Julie Rymer, de l'association BIRU"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Le format interview, un peu à contre-courant du côté très factuel qu'on trouve ailleurs dans l'écosystème, donne de la texture à ce qui reste souvent abstrait : le logiciel libre vu depuis une trajectoire individuelle plutôt qu'un communiqué. La revue de presse hebdomadaire de l'association suit son cours"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ", fidèle à son rôle de poste de veille plus que de média à sensations."
+       }
+      ],
+      [
+       {
+        "t": "Sur LinuxFr, Tenzu se présente comme l'héritier de Taiga pour la gestion de projet collaborative, avec ses tableaux Kanban en ligne"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ". Le terrain est connu : outils de gestion de projet open source, il y en a une bonne dizaine qui prétendent remplacer Trello ou Jira sans les inconvénients du propriétaire. Ce qui retient l'attention ici, c'est la filiation assumée avec Taiga plutôt qu'un repositionnement marketing. Reste à voir si Tenzu tiendra la distance sur la maintenance, le vrai nerf de la guerre pour ce genre de projet communautaire."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Jeu vidéo & liens du moment",
+     "paragraphs": [
+      [
+       {
+        "t": "The Devil's Due annonce sa sortie Steam pour le 10 novembre, et le pitch a au moins le mérite de sortir du lot : un roguelite de poker où la triche devient un outil de jeu légitime pour sauver son âme"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Le poker en roguelite n'est pas un concept neuf, Balatro ayant largement ouvert la voie, mais l'angle « triche obligatoire » change la proposition morale du truc. On verra à l'usage si le système tient sur la durée ou si c'est un gimmick qui s'essouffle au bout de deux runs."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Parcours libriste de Julie Rymer — « Libre à vous ! » du 13 octobre 2026 — Podcasts et références",
+     "url": "https://linuxfr.org/news/parcours-libriste-de-julie-rymer-libre-a-vous-du-13-octobre-2026-podcasts-et-references",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 2,
+     "title": "Tenzu, héritier de Taiga pour la gestion collaborative de projets",
+     "url": "https://linuxfr.org/news/tenzu-heritier-de-taiga-pour-la-gestion-collaborative-de-projets",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 3,
+     "title": "Revue de presse de l'April pour la semaine 42 de l'année 2026",
+     "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-42-de-l-annee-2026",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 4,
+     "title": "The Devil's Due : le roguelite de poker sortira le 10 novembre !",
+     "url": "https://jesuisungameur.com/2026/10/19/the-devils-due-roguelite-poker-steam/",
+     "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+    }
+   ]
+  },
   {
    "date": "2026-10-19",
    "label": "lundi 19 octobre 2026",
@@ -2701,163 +2783,6 @@
      "title": "Bien dans son corps ? Dialogue entre Margaux Cassan et Claire Marin",
      "url": "https://www.philomag.com/articles/bien-dans-son-corps-dialogue-entre-margaux-cassan-et-claire-marin",
      "feed": "Philosophie Magazine"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-25",
-   "label": "vendredi 25 septembre 2026",
-   "title": "Une IA qui s'aligne, une RFC qui recadre, et Village qui rejoue les hits",
-   "sections": [
-    {
-     "name": "Standards & Infra",
-     "paragraphs": [
-      [
-       {
-        "t": "Bortzmeyer décortique la RFC 10050, qui vient border JSContact"
-       },
-       {
-        "cite": 1
-       },
-       {
-        "t": ". JSContact, c'est le format pensé pour stocker des infos de contact sur une personne ou une entité, mais la norme générique laissait trop de marge d'interprétation selon le protocole utilisé (CardDAV, JMAP...). Cette RFC pose des profils spécifiques pour combler les trous. Rien de spectaculaire, mais c'est le genre de travail de plomberie qui évite des incompatibilités silencieuses plus tard. Dans le même registre \"outils pour faire tourner des systèmes proprement\", Kaliop lance la première DevOps Experience Conf' le 15 octobre en ligne"
-       },
-       {
-        "cite": 2
-       },
-       {
-        "t": ", avec du cloud souverain, de l'observabilité et du platform engineering au programme. Trois thèmes qui reviennent sans cesse cette année, la question étant toujours de savoir si le \"souverain\" reste un argument marketing ou une vraie contrainte d'architecture."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Dev au quotidien",
-     "paragraphs": [
-      [
-       {
-        "t": "La newsletter Laravel au Quotidien enchaîne les sorties : Laravel 13.33, un piège identifié sur Livewire, et Pest 5.1 qui monte en puissance"
-       },
-       {
-        "cite": 3
-       },
-       {
-        "t": ". Rien d'individuellement renversant, mais c'est ce format court et régulier qui rend service : on sait qu'un piège Livewire vient d'être documenté sans avoir à fouiller un changelog de 200 lignes."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Corps, IA et autres objets philosophiques",
-     "paragraphs": [
-      [
-       {
-        "t": "Philosophie Magazine sort son nouveau numéro sur \"Comment habiter mon corps ?\""
-       },
-       {
-        "cite": 4
-       },
-       {
-        "t": ", et décline le thème sur plusieurs angles : l'édito d'Alexandre Lacroix file la métaphore du corps comme paysage"
-       },
-       {
-        "cite": 5
-       },
-       {
-        "t": ", un article demande si on a plusieurs corps"
-       },
-       {
-        "cite": 6
-       },
-       {
-        "t": ", pendant qu'un autre pose la question de l'alignement des IA comme enjeu du siècle"
-       },
-       {
-        "cite": 7
-       },
-       {
-        "t": ". Ce dernier papier m'intéresse plus que les autres : l'alignement, dans le débat IA, est souvent traité comme un problème d'ingénierie (faire en sorte que le modèle ne dise pas de bêtises), alors que la question posée ici semble plus large, presque politique. Reste à voir si le magazine va au-delà du cadrage habituel ou s'il ne fait que rejouer, en plus philosophique, le débat qu'on connaît déjà sur les réseaux."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Jeux et écrans",
-     "paragraphs": [
-      [
-       {
-        "t": "Culturaddict continue son test en plusieurs parties de Resident Evil Village sur Switch 2"
-       },
-       {
-        "cite": 8
-       },
-       {
-        "t": ", avec cette question centrale : le jeu est-il un vrai épisode 4 déguisé, ou une redite du virage plus resserré amorcé par la saga ? Sur un registre bien plus modeste, PXLBBQ démonte The Alighieri Circle: Dante's Bloodline, et le titre de leur papier dit tout : \"le poète a transmis un avertissement à sa descendance, le jeu transmet surtout des couloirs\""
-       },
-       {
-        "cite": 9
-       },
-       {
-        "t": ". Une punchline méchante mais qui donne envie de lire la suite plutôt que le jeu."
-       }
-      ]
-     ]
-    }
-   ],
-   "sources": [
-    {
-     "n": 1,
-     "title": "RFC 10050: Protocol-Specific Profiles for JSContact",
-     "url": "https://www.bortzmeyer.org/10050.html",
-     "feed": "Blog de Stéphane Bortzmeyer"
-    },
-    {
-     "n": 2,
-     "title": "DevOps Experience Conf' : cloud souverain, observabilité et platform engineering, le 15 octobre en ligne",
-     "url": "https://linuxfr.org/news/devops-experience-conf-cloud-souverain-observabilite-et-platform-engineering-le-15-octobre-en-ligne",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 3,
-     "title": "Laravel 13.33, Piège Livewire, Pest 5.1 supercostaud — Laravel au Quotidien #065",
-     "url": "https://laravel-au-quotidien.happyto.dev/p/laravel-13-33-piege-livewire-pest-5-1-supercostaud-laravel-au-quotidien-065",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 4,
-     "title": "\"Comment habiter mon corps ?\" Le nouveau numéro de Philosophie magazine sort ce jeudi !",
-     "url": "https://www.philomag.com/articles/comment-habiter-mon-corps-le-nouveau-numero-de-philosophie-magazine-sort-ce-jeudi",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 5,
-     "title": "Notre corps est un paysage : l'édito d'Alexandre Lacroix",
-     "url": "https://www.philomag.com/articles/notre-corps-est-un-paysage-ledito-dalexandre-lacroix",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 6,
-     "title": "Avons-nous plusieurs corps ?",
-     "url": "https://www.philomag.com/articles/avons-nous-plusieurs-corps",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 7,
-     "title": "L'\"alignement\" des IA, enjeu du siècle ?",
-     "url": "https://www.philomag.com/articles/lalignement-des-ia-enjeu-du-siecle",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 8,
-     "title": "Resident Evil Village : un faux épisode 4 en kit ou double ? (4/5)",
-     "url": "https://culturaddict.com/resident-evil-village-un-faux-episode-4-en-kit-ou-double-4-5/?utm_source=rss&utm_medium=rss&utm_campaign=resident-evil-village-un-faux-episode-4-en-kit-ou-double-4-5",
-     "feed": "Culturaddict"
-    },
-    {
-     "n": 9,
-     "title": "Test : The Alighieri Circle: Dante's Bloodline – Visite guidée en enfer",
-     "url": "https://pxlbbq.com/test-the-alighieri-circle-dantes-bloodline-visite-guidee-en-enfer/",
-     "feed": "PXLBBQ"
     }
    ]
   }

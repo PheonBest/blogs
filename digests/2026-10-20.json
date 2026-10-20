@@ -1,0 +1,82 @@
+{
+ "date": "2026-10-20",
+ "label": "mardi 20 octobre 2026",
+ "title": "Cette semaine, le libre discute entre lui et le jeu vidéo invente de nouvelles façons de perdre son âme",
+ "sections": [
+  {
+   "name": "Libre & communauté",
+   "paragraphs": [
+    [
+     {
+      "t": "L'April continue son rythme de croisière avec l'épisode 288 de « Libre à vous ! », consacré cette fois au parcours de Julie Rymer, de l'association BIRU"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Le format interview, un peu à contre-courant du côté très factuel qu'on trouve ailleurs dans l'écosystème, donne de la texture à ce qui reste souvent abstrait : le logiciel libre vu depuis une trajectoire individuelle plutôt qu'un communiqué. La revue de presse hebdomadaire de l'association suit son cours"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", fidèle à son rôle de poste de veille plus que de média à sensations."
+     }
+    ],
+    [
+     {
+      "t": "Sur LinuxFr, Tenzu se présente comme l'héritier de Taiga pour la gestion de projet collaborative, avec ses tableaux Kanban en ligne"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Le terrain est connu : outils de gestion de projet open source, il y en a une bonne dizaine qui prétendent remplacer Trello ou Jira sans les inconvénients du propriétaire. Ce qui retient l'attention ici, c'est la filiation assumée avec Taiga plutôt qu'un repositionnement marketing. Reste à voir si Tenzu tiendra la distance sur la maintenance, le vrai nerf de la guerre pour ce genre de projet communautaire."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Jeu vidéo & liens du moment",
+   "paragraphs": [
+    [
+     {
+      "t": "The Devil's Due annonce sa sortie Steam pour le 10 novembre, et le pitch a au moins le mérite de sortir du lot : un roguelite de poker où la triche devient un outil de jeu légitime pour sauver son âme"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". Le poker en roguelite n'est pas un concept neuf, Balatro ayant largement ouvert la voie, mais l'angle « triche obligatoire » change la proposition morale du truc. On verra à l'usage si le système tient sur la durée ou si c'est un gimmick qui s'essouffle au bout de deux runs."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Parcours libriste de Julie Rymer — « Libre à vous ! » du 13 octobre 2026 — Podcasts et références",
+   "url": "https://linuxfr.org/news/parcours-libriste-de-julie-rymer-libre-a-vous-du-13-octobre-2026-podcasts-et-references",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "Tenzu, héritier de Taiga pour la gestion collaborative de projets",
+   "url": "https://linuxfr.org/news/tenzu-heritier-de-taiga-pour-la-gestion-collaborative-de-projets",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Revue de presse de l'April pour la semaine 42 de l'année 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-42-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "The Devil's Due : le roguelite de poker sortira le 10 novembre !",
+   "url": "https://jesuisungameur.com/2026/10/19/the-devils-due-roguelite-poker-steam/",
+   "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+  }
+ ]
+}
