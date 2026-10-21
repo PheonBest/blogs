@@ -1,0 +1,133 @@
+{
+ "date": "2026-10-21",
+ "label": "mercredi 21 octobre 2026",
+ "title": "DNS fait maison, Kanban libre et une clé à 256 combinaisons : la routine du libre cette semaine",
+ "sections": [
+  {
+   "name": "Sécurité & Infra",
+   "paragraphs": [
+    [
+     {
+      "t": "Le genre de bug qui donne des sueurs froides : eMudhra, autorité de certification, a laissé huit CA signer avec une clé qui n'avait que 256 valeurs possibles"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Autant dire une serrure à trois chiffres sur un coffre-fort. L'article d'Ostraca détaille la révocation qui a suivi, et c'est le genre de rappel utile : la chaîne de confiance du web repose sur des maillons qui peuvent être très fragiles, même chez des acteurs censés être audités."
+     }
+    ],
+    [
+     {
+      "t": "Côté système, flozz raconte une saga qui traîne depuis plus de dix ans : son PC sous GNOME refuse toujours de se mettre en veille quand il rabat l'écran"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". Dix ans. Ce n'est pas un bug, c'est une relation toxique avec son ordinateur portable. Si vous pensiez que ce problème avait été réglé depuis Wayland ou je ne sais quelle version de systemd, détrompez-vous : certains classiques du libre ne meurent jamais, ils changent juste de nom de paquet."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Outils et bidouilles",
+   "paragraphs": [
+    [
+     {
+      "t": "Tenzu se présente comme l'héritier de Taiga pour la gestion de projet en Kanban collaboratif"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". Le marché des alternatives libres à Trello/Jira ne désemplit pas, et c'est tant mieux : la dépêche LinuxFr vaut le coup d'œil pour voir où en est ce fork après la quasi-disparition du projet original."
+     }
+    ],
+    [
+     {
+      "t": "Dans le registre « on patche sa vie avec un Raspberry Pi », BarkDog 1.0 tient le journal des nuisances sonores du voisinage"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". Un journal de type DNS fait maison complète le tableau : un lecteur de LinuxFr demande comment les autres résolvent leurs requêtes DNS"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", et le fil de commentaires promet d'être plus instructif que la question elle-même. C'est ça, la force du Journal du Hacker : des trucs de niche, montés par une seule personne, qui finissent par éclairer des pratiques que personne ne documente ailleurs."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Vie du libre",
+   "paragraphs": [
+    [
+     {
+      "t": "L'April publie sa revue de presse hebdomadaire"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", et Libre à vous ! donne la parole à Julie Rymer de BIRU sur son parcours libriste"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ". Rien de spectaculaire, mais c'est le genre de veille qu'on oublie de lire et qu'on regrette ensuite d'avoir loupée : des parcours individuels, des luttes associatives, le tissu de ce qui fait tenir l'écosystème entre deux CVE retentissantes."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "eMudhra : huit autorités de certification signaient avec une clé de 256 valeurs possibles",
+   "url": "https://ostraca.fr/blog/emudhra-cles-autorites-de-certification-revoquees-2026/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 2,
+   "title": "GNOME : Mon PC refuse toujours de se mettre en veille lorsque je rabats l'écran, et ça fait plus de 10 ans que ça dure !",
+   "url": "https://blog.flozz.fr/2026/10/21/gnome-mon-pc-refuse-toujours-de-se-mettre-en-veille-lorsque-je-rabats-lecran-et-ca-fait-plus-de-10-ans-que-ca-dure/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "Tenzu, héritier de Taiga pour la gestion collaborative de projets",
+   "url": "https://linuxfr.org/news/tenzu-heritier-de-taiga-pour-la-gestion-collaborative-de-projets",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "BarkDog 1.0, un Raspberry Pi qui tient le journal des nuisances sonores",
+   "url": "https://linuxfr.org/news/barkdog-1-0-un-raspberry-pi-qui-tient-le-journal-des-nuisances-sonores",
+   "feed": "Journal du Hacker, Dépêches LinuxFr.org"
+  },
+  {
+   "n": 5,
+   "title": "Et toi, tu résous comment tes requêtes DNS ?",
+   "url": "https://linuxfr.org/users/gbetous/journaux/et-toi-tu-resous-comment-tes-requetes-dns",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 6,
+   "title": "Revue de presse de l'April pour la semaine 42 de l'année 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-42-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 7,
+   "title": "Parcours libriste de Julie Rymer — « Libre à vous ! » du 13 octobre 2026 — Podcasts et références",
+   "url": "https://linuxfr.org/news/parcours-libriste-de-julie-rymer-libre-a-vous-du-13-octobre-2026-podcasts-et-references",
+   "feed": "Dépêches LinuxFr.org"
+  }
+ ]
+}
