@@ -1,6 +1,156 @@
 {
- "updated_at": "2026-10-21T09:05:40Z",
+ "updated_at": "2026-10-23T09:03:54Z",
  "entries": [
+  {
+   "date": "2026-10-23",
+   "label": "vendredi 23 octobre 2026",
+   "title": "EA ferme BioWare, eMudhra plombe les certificats, et le libre fête ses dix ans sans grandir",
+   "sections": [
+    {
+     "name": "Sécurité : la semaine où la confiance s'est fissurée",
+     "paragraphs": [
+      [
+       {
+        "t": "La faille eMudhra continue de faire des dégâts. L'autorité de certification indienne a vu huit certificats TLS compromis, et le récap hebdo d'Erreur 403 liste aussi des sites publics français coupés après des failles PHP"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Stéphane Bortzmeyer, de son côté, prend le temps d'expliquer froidement ce que ça signifie concrètement : on peut générer de vrais/faux certificats, c'est-à-dire des certificats qui passeront toutes les vérifications techniques tout en étant totalement frauduleux"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ". C'est le genre de billet qui démonte en deux paragraphes l'idée qu'un cadenas vert suffit à faire confiance à un site."
+       }
+      ],
+      [
+       {
+        "t": "Dans un registre plus geek du quotidien, un billet raconte l'installation d'un client WebDAV sur une liseuse Xteink X4 via un système de plugins SD"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ". Rien de spectaculaire, mais ça illustre bien le fossé entre le monde des CA compromises à l'échelle planétaire et celui du bricolage perso pour accéder à sa bibliothèque numérique depuis un appareil fermé. Les deux mondes coexistent, et les deux comptent."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Libre et institutions : dix ans de la loi, et toujours pas d'obligation",
+     "paragraphs": [
+      [
+       {
+        "t": "L'article 16 de la loi pour une République numérique fête ses dix ans, et le bilan est amer : il se contente d'« encourager » les administrations à utiliser du logiciel libre, sans jamais les y contraindre"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ". Le papier de LinuxFr pose la bonne question : faut-il enfin passer d'une logique d'encouragement à une logique contraignante ? Dix ans à espérer que les administrations changent d'elles-mêmes, pour un résultat qu'on devine mitigé, ça ressemble beaucoup à une loi écrite pour calmer un débat plutôt que pour produire un effet."
+       }
+      ],
+      [
+       {
+        "t": "Autre signal qui mérite qu'on s'y arrête : un opérateur DNS annonce la fin de son service en France dans un billet au titre pudique, « Ce n'est qu'un au revoir »"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ". Pas de détails fournis ici sur les raisons exactes, mais le choix du mot « au revoir » plutôt qu'« adieu » laisse deviner un départ contraint plus qu'un choix tranquille."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Jeu vidéo : BioWare tombe, le reste s'essouffle",
+     "paragraphs": [
+      [
+       {
+        "t": "La vraie nouvelle de la semaine, c'est la fermeture de BioWare par EA"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", annoncée le 21 octobre. Trente ans d'histoire du RPG occidental (Baldur's Gate, Mass Effect, Dragon Age) qui s'arrêtent net. Le studio avait déjà encaissé plusieurs vagues de licenciements ces dernières années, donc l'annonce ne surprend pas vraiment ceux qui suivaient le dossier, mais ça reste un symbole lourd : encore un studio légendaire sacrifié par un éditeur qui a fini par ne plus savoir quoi en faire."
+       }
+      ],
+      [
+       {
+        "t": "Pendant ce temps, le test de Final Fantasy Resonance parle d'un « retour à la maison qui fait du bien »"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": ", soit l'exact inverse de ce que vit BioWare : une licence qui revient à ses fondamentaux plutôt que de se réinventer sans cesse. Et Call of Duty Modern Warfare 4 débarque le même jour avec son lot habituel de campagne, multi 6v6 et DMZ"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": ", sans grande surprise annoncée. Trois actualités, trois trajectoires : un studio qui ferme, une série qui se rassure, une autre qui tourne sa manivelle. Le jeu vidéo version 2026 ressemble de plus en plus à une industrie qui gère son existant plutôt qu'elle n'en invente."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Actualité Cybersécurité de la semaine du 19/10/2026",
+     "url": "https://newsletter.erreur403.fr/p/erreur-403-98-sites-publics-coupes-face-aux-failles-php-et-huit-certificats-tls-emudhra-compromis",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 2,
+     "title": "On peut générer de vrais/faux certificats",
+     "url": "https://www.bortzmeyer.org/emudhra.html",
+     "feed": "Blog de Stéphane Bortzmeyer"
+    },
+    {
+     "n": 3,
+     "title": "Liseuses Xteink - Client WebDAV via SD plugins",
+     "url": "https://olivier.dossmann.net/2026/10/2026_xteink_sd_plugins/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 4,
+     "title": "Logiciel libre: « Passer d'une logique d'encouragement à une logique contraignante »",
+     "url": "https://linuxfr.org/news/logiciel-libre-passer-d-une-logique-d-encouragement-a-une-logique-contraignante",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 5,
+     "title": "Ce n'est qu'un au revoir, la France",
+     "url": "https://quad9.net/fr/news/blog/au-revoir-france/",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 6,
+     "title": "EA ferme BioWare : la fin d'un studio légendaire du RPG",
+     "url": "https://pxlbbq.com/e%ef%b8%82a-f%ef%b8%86erme%ef%b8%80-bi%ef%b8%89oware%ef%b8%8e-la%ef%b8%89-f%ef%b8%84i%ef%b8%81n-d%ef%b8%85%ef%b8%85un-studio-le%ef%b8%81ge%ef%b8%80nda%ef%b8%82ir%ef%b8%84e-du%ef%b8%8b-rpg/",
+     "feed": "PXLBBQ"
+    },
+    {
+     "n": 7,
+     "title": "Test : Final Fantasy Resonance – le retour à la maison qui fait du bien",
+     "url": "https://pxlbbq.com/test-final-fantasy-resonance-le-retour-a-la-maison-qui-fait-du-bien/",
+     "feed": "PXLBBQ"
+    },
+    {
+     "n": 8,
+     "title": "Call of Duty Modern Warfare 4 : prix, éditions et nouveautés",
+     "url": "https://www.blogamer.fr/call-of-duty-modern-warfare-4-prix-editions-et-nouveautes/",
+     "feed": "Blogamer.fr"
+    }
+   ]
+  },
   {
    "date": "2026-10-21",
    "label": "mercredi 21 octobre 2026",
@@ -2661,163 +2811,6 @@
      "n": 3,
      "title": "Poison et remède : le pouvoir inégalé du \"pharmakon\"",
      "url": "https://www.philomag.com/articles/poison-et-remede-le-pouvoir-inegale-du-pharmakon",
-     "feed": "Philosophie Magazine"
-    }
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "label": "lundi 28 septembre 2026",
-   "title": "Cette semaine, le libre fait de la figuration à côté du cinéma d'horreur",
-   "sections": [
-    {
-     "name": "Libre & infra",
-     "paragraphs": [
-      [
-       {
-        "t": "L'agenda du Libre recense les rendez-vous de la semaine 40"
-       },
-       {
-        "cite": 1
-       },
-       {
-        "t": ", et GNOME confirme sa présence au Capitole du Libre à Toulouse mi-novembre"
-       },
-       {
-        "cite": 2
-       },
-       {
-        "t": ". Deux annonces qui se ressemblent : pas de scoop, juste le rappel que la machine associative tourne, tranquille, sans avoir besoin de faire du bruit pour ça."
-       }
-      ],
-      [
-       {
-        "t": "Plus surprenant : PokerTH s'approche de ses 20 ans et a visiblement survécu à plusieurs générations de frameworks, avec un client Qt/QML repensé et des portages Android et web"
-       },
-       {
-        "cite": 3
-       },
-       {
-        "t": ". C'est le genre de projet qu'on oublie puis qu'on retrouve, toujours vivant contre toute attente. Côté certifications, RudeOps propose de réviser KCNA et KCSA"
-       },
-       {
-        "cite": 4
-       },
-       {
-        "t": ", utile si Kubernetes fait partie du quotidien, moins passionnant si on cherche autre chose qu'une checklist d'examen."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Écrans et pages",
-     "paragraphs": [
-      [
-       {
-        "t": "Culturaddict s'entretient avec Caroline Fahrer, cheffe costumière sur Resident Evil"
-       },
-       {
-        "cite": 5
-       },
-       {
-        "t": ", et c'est le genre d'angle qui manque souvent : le costume comme outil narratif, pas comme accessoire. Dans un registre plus queer et plus trash, Le Blog du Cinéma passe en revue Teenage Sex and Death at Camp Miasma, la relecture par Jane Schoenbrun du slasher eighties"
-       },
-       {
-        "cite": 6
-       },
-       {
-        "t": ". Deux façons de regarder l'horreur par le petit bout de la lorgnette, costumes d'un côté, réinvention de genre de l'autre, et les deux fonctionnent."
-       }
-      ],
-      [
-       {
-        "t": "Sur Steam, Shinjuku Anomaly promet un roman visuel d'horreur nocturne à Tokyo"
-       },
-       {
-        "cite": 7
-       },
-       {
-        "t": ", pile dans l'ambiance de saison. Rien d'inédit dans le concept, mais l'horreur japonaise en visual novel reste un filon qui fonctionne quand l'écriture suit."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Penser à côté",
-     "paragraphs": [
-      [
-       {
-        "t": "Philosophie Magazine enchaîne deux textes utiles cette semaine : Charles Pépin répond à la question de l'ami qui fait fausse route"
-       },
-       {
-        "cite": 8
-       },
-       {
-        "t": ", et un article revient sur la façon dont Aristote a fini par prendre le dessus sur Platon dans l'histoire des idées"
-       },
-       {
-        "cite": 9
-       },
-       {
-        "t": ". Rien à voir avec la tech, et c'est justement pour ça que ça fait du bien dans un flux du jour dominé par les release notes."
-       }
-      ]
-     ]
-    }
-   ],
-   "sources": [
-    {
-     "n": 1,
-     "title": "Agenda du Libre pour la semaine 40 de l'année 2026",
-     "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-40-de-l-annee-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 2,
-     "title": "La fondation GNOME au Capitole du Libre (Toulouse, 14 et 15 novembre 2026)",
-     "url": "https://linuxfr.org/news/la-fondation-gnome-au-capitole-du-libre-toulouse-14-et-15-novembre-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 3,
-     "title": "PokerTH approche ses 20 ans : QML, Android, Web et une communauté toujours active",
-     "url": "https://linuxfr.org/news/pokerth-approche-ses-20-ans-qml-android-web-et-une-communaute-toujours-active",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 4,
-     "title": "Réviser les certifications KCNA et KCSA",
-     "url": "https://www.rudeops.com/certifications",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 5,
-     "title": "Entretien avec Caroline Fahrer, cheffe costumière de « Resident Evil »",
-     "url": "https://culturaddict.com/entretien-avec-caroline-fahrer-cheffe-costumiere-de-resident-evil/?utm_source=rss&utm_medium=rss&utm_campaign=entretien-avec-caroline-fahrer-cheffe-costumiere-de-resident-evil",
-     "feed": "Culturaddict"
-    },
-    {
-     "n": 6,
-     "title": "Teenage Sex and Death at Camp Miasma : que vaut la revisite queer des films d'horreur des années 80 ?",
-     "url": "https://www.leblogducinema.com/critique-film/teenage-sex-death-camp-miasma-65540357/",
-     "feed": "Le Blog Du Cinéma"
-    },
-    {
-     "n": 7,
-     "title": "Shinjuku Anomaly : le roman visuel d'horreur arrive sur Steam",
-     "url": "https://pxlbbq.com/shinjuku-anomaly-le-roman-visuel-dhorreur-arrive-sur-steam/",
-     "feed": "PXLBBQ"
-    },
-    {
-     "n": 8,
-     "title": "Que faire quand un ami vous semble faire fausse route ? Charles Pépin vous répond",
-     "url": "https://www.philomag.com/articles/que-faire-quand-un-ami-vous-semble-faire-fausse-route-charles-pepin-vous-repond",
-     "feed": "Philosophie Magazine"
-    },
-    {
-     "n": 9,
-     "title": "Comment Aristote a-t-il pris sa revanche sur Platon ?",
-     "url": "https://www.philomag.com/articles/comment-aristote-t-il-pris-sa-revanche-sur-platon",
      "feed": "Philosophie Magazine"
     }
    ]
