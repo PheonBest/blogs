@@ -30,7 +30,7 @@ its rules are inlined in `generate_digest.py`'s prompt instead.
 | ---- | ---- |
 | `fetch_feeds.py` | Pulls the francophone tech RSS feeds. `python3 fetch_feeds.py <days> <categories>` → TSV on stdout. Pure stdlib. |
 | `sources.yml` | Feed list + categories, read by `fetch_feeds.py`. |
-| `generate_digest.py` | Runs `fetch_feeds.py`, sends the articles + the Boileau guide to OpenRouter in one call, prints the entry JSON on stdout. `python3 generate_digest.py <repo-root> <step_days>` |
+| `generate_digest.py` | Runs `fetch_feeds.py`, sends the articles + the Boileau guide to OpenRouter in one call, prints the entry JSON on stdout. `python3 generate_digest.py <repo-root> <days>`. `<days>` is the look-back window; the workflow passes the gap since the last published digest (min `step_days`, max 30). From 3 days up it runs in catch-up mode: one model call per ~40 articles, merged with renumbered citations, and any article left uncited is appended under "Aussi publié" so no link of the window is lost |
 | `veille-summary.md` | The procedure `generate_digest.py`'s prompt is based on. Used directly by the manual `/veille-summary` skill locally; not read by the CI workflow. |
 | `boileau.md` | AI-tic removal guide, embedded in `generate_digest.py`'s prompt. Vendored from `alxbd/boileau` (MIT — see `boileau.LICENSE`). |
 | `update_archive.py` | Writes `digests/<date>.json` + updates `digests/index.json`, commits and pushes to the current branch (rebase + one retry). `printf '%s' "$JSON" \| python3 update_archive.py <repo-root>` |

@@ -6,6 +6,12 @@ name: veille-summary
 # Output: one file per day under digests/, plus digests/index.json (listing)
 # and digests/config.json (cadence in days, read by the guard step below).
 #
+# Catch-up: the digest covers everything since the last published one (the
+# newest date in digests/index.json), capped at MAX_LOOKBACK_DAYS. Not derived
+# from the Actions run history on purpose: a run skipped by the cadence guard,
+# or a failed push, still ends "success"/"failure" there without telling what
+# was actually published. index.json is the source of truth.
+#
 # Moved here from Gloweet/gitops-demo on 2026-09-11 (that repo is GitOps-only;
 # this is the actual publish target — a public repo the fork's Glance widget
 # reads unauthenticated via raw.githubusercontent.com).
@@ -37,18 +43,25 @@ jobs:
     outputs:
       should_run: ${{ steps.check.outputs.should_run }}
       step_days: ${{ steps.check.outputs.step_days }}
+      lookback_days: ${{ steps.check.outputs.lookback_days }}
     steps:
       - uses: actions/checkout@v4
       - name: Check cadence (digests/config.json step_days vs. last digest date)
         id: check
+        env:
+          MAX_LOOKBACK_DAYS: "30"
         run: |
           step_days=$(jq -r '.step_days // 1' digests/config.json)
           last_date=$(jq -r '.entries[0].date // empty' digests/index.json)
           today=$(date -u +%Y-%m-%d)
+          lookback=$step_days
           if [ -z "$last_date" ]; then
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           else
             days_since=$(( ( $(date -u -d "$today" +%s) - $(date -u -d "$last_date" +%s) ) / 86400 ))
+            # Cover the whole gap since the last digest, never less than step_days.
+            lookback=$(( days_since > step_days ? days_since : step_days ))
+            lookback=$(( lookback > MAX_LOOKBACK_DAYS ? MAX_LOOKBACK_DAYS : lookback ))
             if [ "$days_since" -ge "$step_days" ]; then
               echo "should_run=true" >> "$GITHUB_OUTPUT"
             else
@@ -57,6 +70,8 @@ jobs:
             fi
           fi
           echo "step_days=$step_days" >> "$GITHUB_OUTPUT"
+          echo "lookback_days=$lookback" >> "$GITHUB_OUTPUT"
+          echo "lookback_days=$lookback (last digest: ${last_date:-none})"
 
   digest:
     needs: guard
@@ -64,6 +79,7 @@ jobs:
     # button) bypass the cadence guard: the user explicitly asked for a digest.
     if: github.event_name == 'workflow_dispatch' || needs.guard.outputs.should_run == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 30 # catch-up windows make one model call per ~40 articles
     steps:
       - uses: actions/checkout@v4
         with:
@@ -78,5 +94,5 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }} # optional, defaults to anthropic/claude-sonnet-5
         run: |
-          python3 scripts/veille/generate_digest.py "$(pwd)" "${{ needs.guard.outputs.step_days }}" > /tmp/entry.json
+          python3 scripts/veille/generate_digest.py "$(pwd)" "${{ needs.guard.outputs.lookback_days }}" > /tmp/entry.json
           python3 scripts/veille/update_archive.py "$(pwd)" < /tmp/entry.json
