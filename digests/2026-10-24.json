@@ -1,0 +1,139 @@
+{
+ "date": "2026-10-24",
+ "label": "samedi 24 octobre 2026",
+ "title": "Une semaine à moitié éteinte : l'IA s'invite partout, le reste tourne au ralenti",
+ "sections": [
+  {
+   "name": "Dev & self-host",
+   "paragraphs": [
+    [
+     {
+      "t": "Côté technique, deux habitués font le taf comme chaque semaine. Le "
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": " de selfh.st porte un titre qui résume bien l'ambiance ("
+     },
+     {
+      "t": "« Shell shocked »"
+     },
+     {
+      "t": "), sans qu'on sache ce qui s'est passé exactement vu la description vide. La "
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": " de Camille Roux, elle, est toujours aussi touffue : 34 actus condensées, de Stripe à OpenRouter en passant par xTool et l'anti-slop. C'est le genre de veille qui fait gagner du temps à tout le monde, même si on n'a toujours aucun détail sur ce qu'elle contient précisément."
+     }
+    ],
+    [
+     {
+      "t": "Pas grand-chose à en tirer de plus aujourd'hui : deux rendez-vous solides, mais les descriptions trop courtes du flux ne permettent pas de creuser. Ça reste une bonne excuse pour aller lire les deux en entier plutôt que de se contenter d'un résumé."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "L'IA s'invite à la fac et au bureau",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine continue d'interroger l'IA sous l'angle du travail, et le constat est amer. L'article sur les "
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": " pointe un paradoxe qui mérite qu'on s'y arrête : ce sont souvent les plus jeunes salariés qui poussent l'adoption de ces outils, sans forcément l'avoir choisi. Pression des pairs, pression hiérarchique, ou simple réflexe générationnel ? Le titre laisse entendre qu'ils sont moteurs malgré eux, ce qui change pas mal la lecture qu'on fait habituellement de ce sujet, où les jeunes sont plutôt vus comme preneurs d'initiative que comme rouages."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Expos et ciné : classiques revisités",
+   "paragraphs": [
+    [
+     {
+      "t": "Sur le volet culturel, deux pistes du côté de la philo et une bonne nouvelle pour les cinéphiles. Philosophie Magazine couvre l'exposition "
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ", où Ali Cherri s'empare de l'absurde camusien, et une lecture de "
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", qui relie Pompéi à des questions de jouissance et de mortalité. Deux angles qui donnent envie d'aller voir sans qu'on ait plus de matière que le titre pour en juger."
+     }
+    ],
+    [
+     {
+      "t": "Le Blog Du Cinéma, lui, revient sur trois "
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": " ressortis en 4K, de l'horreur shakespearienne à autre chose (la description coupe net, dommage). Et pour les amateurs de survival horror, la critique du "
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": " signée Je Suis Un Gameur tranche avec l'accueil tiède habituel des adaptations de jeux vidéo : film drôle, fidèle aux sensations du jeu, malgré des limites assumées. C'est rare qu'une adaptation Resident Evil fasse l'unanimité, même avec des bémols."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Self-Host Weekly (23 October 2026)",
+   "url": "https://selfh.st/weekly/2026-10-23/",
+   "feed": "selfh.st"
+  },
+  {
+   "n": 2,
+   "title": "Veille #79 - 34 actus qu'il ne fallait pas rater cette semaine",
+   "url": "https://www.camilleroux.com/stripe-openrouter-xtool-anti-slop-veille-79/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "Les jeunes, catalyseurs de l'IA au travail malgré eux",
+   "url": "https://www.philomag.com/articles/les-jeunes-catalyseurs-de-lia-au-travail-malgre-eux",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 4,
+   "title": "Exposition \"Today is OK\" : l'absurde camusien magnifié par Ali Cherri",
+   "url": "https://www.philomag.com/articles/exposition-today-ok-labsurde-camusien-magnifie-par-ali-cherri",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 5,
+   "title": "\"La Gradiva\" : vivre, jouir, mourir et philosopher à Pompéi",
+   "url": "https://www.philomag.com/articles/la-gradiva-vivre-jouir-mourir-et-philosopher-pompei",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 6,
+   "title": "Kurosawa et Mifune : trois films, trois visages",
+   "url": "https://www.leblogducinema.com/analyse/kurosawa-mifune-trois-classiques-65540570/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 7,
+   "title": "Critique de Resident Evil (2026) : enfin du vrai survival horror !",
+   "url": "https://jesuisungameur.com/2026/10/23/critique-resident-evil-2026/",
+   "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+  }
+ ]
+}
