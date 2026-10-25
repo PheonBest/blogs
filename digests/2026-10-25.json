@@ -1,0 +1,65 @@
+{
+ "date": "2026-10-25",
+ "label": "dimanche 25 octobre 2026",
+ "title": "Mardi calme : décentralisation, procrastination et absurde",
+ "sections": [
+  {
+   "name": "Dev & Communauté",
+   "paragraphs": [
+    [
+     {
+      "t": "Un podcast de Projets Libres se penche sur un vieux rêve du web indépendant : faire de son WordPress une vraie porte d'entrée vers le fediverse"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". L'idée tient en une phrase : récupérer les interactions sociales (likes, commentaires, partages) directement sur son propre site plutôt que de les laisser enfermées chez Meta ou X. Rien de révolutionnaire techniquement, mais ça rejoint un mouvement de fond chez les irréductibles du blogging : reprendre la main sur ses contenus sans sacrifier la portée sociale. Le genre de sujet qui parle surtout à ceux qui tiennent encore un blog en 2026, mais qui mérite d'être creusé si vous êtes de ceux-là."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Philo du mardi",
+   "paragraphs": [
+    [
+     {
+      "t": "Deux textes de Philosophie Magazine aujourd'hui, et aucun ne vient avec un résumé"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", donc on se fie aux titres. Le premier interroge la procrastination étudiante : fatalité biologique, symptôme d'époque, ou simple excuse qu'on se raconte avant un examen ? Le second"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": " regarde l'exposition « Today is OK » d'Ali Cherri, où l'absurde camusien se retrouve mis en image. Deux angles très différents, l'un sur la psychologie du quotidien, l'autre sur l'art contemporain, mais un même fil : comment on habite le temps qui passe, qu'on le fuie en remettant à demain ou qu'on le regarde en face dans une galerie."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "WordPress, ta maison sur le web social décentralisé - Podcast Projets Libres",
+   "url": "https://linuxfr.org/news/wordpress-ta-maison-sur-le-web-social-decentralise-podcast-projets-libres",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "La procrastination étudiante est-elle une fatalité ?",
+   "url": "https://www.philomag.com/articles/la-procrastination-etudiante-est-elle-une-fatalite",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 3,
+   "title": "Exposition “Today is OK” : l'absurde camusien magnifié par Ali Cherri",
+   "url": "https://www.philomag.com/articles/exposition-today-ok-labsurde-camusien-magnifie-par-ali-cherri",
+   "feed": "Philosophie Magazine"
+  }
+ ]
+}
