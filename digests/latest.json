@@ -1,6 +1,118 @@
 {
- "updated_at": "2026-10-25T08:55:14Z",
+ "updated_at": "2026-10-26T09:37:51Z",
  "entries": [
+  {
+   "date": "2026-10-26",
+   "label": "lundi 26 octobre 2026",
+   "title": "Un vendredi calme : GTA 6 fait du bruit, le reste attend",
+   "sections": [
+    {
+     "name": "Sorties et calendrier",
+     "paragraphs": [
+      [
+       {
+        "t": "GTA 6 confirme sa date : 19 novembre 2026, avec préchargement dès le 12"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": ". Rockstar fait durer le suspense depuis si longtemps que le guide complet des éditions et précommandes ressemble presque à un service public. Rien de surprenant dans le contenu, mais le timing compte : ça tombe juste avant la vague de sorties cinéma de fin d'année, où Dune, Avengers et Les Misérables se disputent les écrans"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ". Deux industries du divertissement qui calent leurs grosses cartouches sur la même fenêtre de fin d'année, ce n'est pas un hasard, c'est juste le calendrier commercial qui tourne toujours pareil."
+       }
+      ],
+      [
+       {
+        "t": "Dans un tout autre registre, l'Alsace prépare ses marchés de Noël 2026"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": ", et ça fait un drôle de contraste de lire ça juste après GTA 6. D'un côté le AAA le plus attendu de la décennie, de l'autre le vin chaud et les guirlandes. Les deux agendas de fin d'année, version pixel et version pain d'épices."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Lectures du jour",
+     "paragraphs": [
+      [
+       {
+        "t": "Grise Bouille s'attaque au tableau périodique avec sa dose habituelle d'absurde scientifique"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": ", pendant que Philosophie Magazine se demande depuis quand traiter quelqu'un d'« humain » est devenu un compliment"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ". Question qui mérite d'être posée : à l'heure où on complimente une IA pour sa réponse "
+       },
+       {
+        "t": "« humaine »"
+       },
+       {
+        "t": ", le mot a visiblement changé de sens en cours de route. Le Journal du Hacker sort sa revue de liens hebdomadaire"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", sans détail dans la description cette fois, mais la régularité du rendez-vous reste le vrai intérêt."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "GTA 6 : date de sortie, prix et précommandes, tout savoir",
+     "url": "https://www.blogamer.fr/gta-6-date-de-sortie-prix-et-precommandes-tout-savoir/",
+     "feed": "Blogamer.fr"
+    },
+    {
+     "n": 2,
+     "title": "Dune, Avengers, Hope… Le dernier acte de 2026 s'annonce chargé",
+     "url": "https://www.leblogducinema.com/actualites/breves/sorties-cinema-fin-2026-65540575/",
+     "feed": "Le Blog Du Cinéma"
+    },
+    {
+     "n": 3,
+     "title": "Alsace : les marchés de Noël 2026",
+     "url": "https://www.coze.fr/2026/10/alsace-les-marches-de-noel-2026/",
+     "feed": "Coze  -  Magazine et Agenda culturel alsacien"
+    },
+    {
+     "n": 4,
+     "title": "Le cent-dix-neuvième élément",
+     "url": "https://grisebouille.net/le-119e-element?utm_source=GBRSS",
+     "feed": "Grise Bouille"
+    },
+    {
+     "n": 5,
+     "title": "Comment “humain” est‑il devenu un compliment ?",
+     "url": "https://www.philomag.com/articles/comment-humain-est-il-devenu-un-compliment",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 6,
+     "title": "Liens intéressants Journal du hacker semaine #43",
+     "url": "https://blog.journalduhacker.net/index.php?article610/liens-interessants-journal-du-hacker-semaine-43-2026",
+     "feed": "Journal du Hacker"
+    }
+   ]
+  },
   {
    "date": "2026-10-25",
    "label": "dimanche 25 octobre 2026",
@@ -2682,115 +2794,6 @@
      "title": "Test Pummel Party sur PS5 : le party game parfait pour vos soirées entre potes",
      "url": "https://www.blogamer.fr/test-pummel-party-sur-ps5-le-party-game-parfait-pour-vos-soirees-entre-potes/",
      "feed": "Blogamer.fr"
-    }
-   ]
-  },
-  {
-   "date": "2026-10-04",
-   "label": "dimanche 4 octobre 2026",
-   "title": "Rails sous le feu des questions, rsync sous celui de l'IA",
-   "sections": [
-    {
-     "name": "Dev",
-     "paragraphs": [
-      [
-       {
-        "t": "Michael Bensoussan pose la question qui revient tous les deux ou trois ans dans l'écosystème Ruby : Rails est-il fini ?"
-       },
-       {
-        "cite": 1
-       },
-       {
-        "t": " Le genre de titre qui fait cliquer, mais le sujet reste légitime : entre Node, Go et la montée des frameworks type Phoenix, Rails doit régulièrement justifier sa place. Dommage que le TSV ne donne pas plus de chair sur l'argumentaire, parce que ce débat mérite mieux qu'un simple titre."
-       }
-      ],
-      [
-       {
-        "t": "Côté système, LinuxFr se penche sur rsync, Debian et l'IA dans une même dépêche"
-       },
-       {
-        "cite": 2
-       },
-       {
-        "t": ", un croisement qui sonne presque comme une private joke pour qui suit le vibe coding de près. rsync, c'est le genre d'outil increvable, présent partout, dont personne ne parle jusqu'à ce qu'un contexte le remette sur le devant de la scène. Voir Debian et le vibe coding dans la même phrase donne presque le vertige : deux mondes qui n'étaient pas censés se rencontrer."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Cinéma",
-     "paragraphs": [
-      [
-       {
-        "t": "Le Blog du Cinéma n'est pas tendre avec Digger, le dernier Iñárritu porté par un Tom Cruise méconnaissable : « fourre-tout esthétique mais indigeste », 125 minutes de satire qui semble avoir perdu le réalisateur en chemin"
-       },
-       {
-        "cite": 3
-       },
-       {
-        "t": ". Sans avoir vu le film, difficile de ne pas sentir dans ce titre l'agacement classique devant un cinéaste qui en fait trop pour dire finalement peu."
-       }
-      ],
-      [
-       {
-        "t": "Même média, tonalité différente avec une comparaison entre Joker et A Normal Family"
-       },
-       {
-        "cite": 4
-       },
-       {
-        "t": " : deux films qui partent d'une scène quasi identique puis divergent totalement sur ce qu'ils racontent de la valeur d'une vie en société. L'angle est bon, le genre d'analyse qui donne envie de revoir les deux films côte à côte plutôt que séparément."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Idées",
-     "paragraphs": [
-      [
-       {
-        "t": "Philosophie Magazine interroge l'arpentage, cette pratique de lecture collective qu'on ressort régulièrement comme remède à la désertion des livres"
-       },
-       {
-        "cite": 5
-       },
-       {
-        "t": ". La question posée dans le titre, « la solution miracle pour réapprendre à lire ? », sent le doute plus que l'adhésion, ce qui est plutôt rassurant : ce n'est jamais une seule méthode qui sauve la lecture, et se méfier des solutions miracles reste une bonne hygiène intellectuelle."
-       }
-      ]
-     ]
-    }
-   ],
-   "sources": [
-    {
-     "n": 1,
-     "title": "Rails est-il vraiment fini ?",
-     "url": "https://michaelbensoussan.com/posts/rails-est-il-fini/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 2,
-     "title": "Debian, IA, vibe coding & rsync : la croisée des chemins ?",
-     "url": "https://linuxfr.org/news/debian-ia-vibe-coding-rsync-la-croisee-des-chemins",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 3,
-     "title": "Digger, fourre-tout esthétique mais indigeste",
-     "url": "https://www.leblogducinema.com/critique-film/digger-inarritu-tom-cruise-65540413/",
-     "feed": "Le Blog Du Cinéma"
-    },
-    {
-     "n": 4,
-     "title": "Joker et A Normal Family : ce que vaut une vie selon la société",
-     "url": "https://www.leblogducinema.com/analyse/joker-a-normal-family-65540401/",
-     "feed": "Le Blog Du Cinéma"
-    },
-    {
-     "n": 5,
-     "title": "\"L'arpentage\", la solution miracle pour réapprendre à lire ?",
-     "url": "https://www.philomag.com/articles/larpentage-la-solution-miracle-pour-reapprendre-lire",
-     "feed": "Philosophie Magazine"
     }
    ]
   }
