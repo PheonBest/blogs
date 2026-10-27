@@ -1,6 +1,228 @@
 {
- "updated_at": "2026-10-26T09:37:51Z",
+ "updated_at": "2026-10-27T09:33:54Z",
  "entries": [
+  {
+   "date": "2026-10-27",
+   "label": "mardi 27 octobre 2026",
+   "title": "Un agent IA local, des éléments chimiques imaginaires, et un festival Lumière volé par les frères Coen",
+   "sections": [
+    {
+     "name": "Tech & Internet libre",
+     "paragraphs": [
+      [
+       {
+        "t": "Pas grand-chose de spectaculaire côté infra cette semaine, mais du solide pour qui aime creuser. Le tuto qui retient l'attention montre comment brancher opencode sur un LLM tournant en local via llama.cpp"
+       },
+       {
+        "cite": 1
+       },
+       {
+        "t": " — exactement le genre de setup qui permet de coder avec un agent IA sans envoyer ses prompts chez OpenAI. La newsletter RudeOps du jour couvre à peu près tout le spectre ops : monitoring, Kubernetes, Docker, Git, eBPF, sécurité, carrière"
+       },
+       {
+        "cite": 2
+       },
+       {
+        "t": ", un concentré utile si on n'a pas le temps de tout suivre au fil de l'eau."
+       }
+      ],
+      [
+       {
+        "t": "Côté veille communautaire, la revue de presse de l'April"
+       },
+       {
+        "cite": 3
+       },
+       {
+        "t": " et les liens du Journal du Hacker"
+       },
+       {
+        "cite": 4
+       },
+       {
+        "t": " font leur travail habituel de tri. Plus notable : les Journées Open Food Facts, les 13 et 14 novembre à Paris"
+       },
+       {
+        "cite": 5
+       },
+       {
+        "t": ", où la communauté qui maintient la base alimentaire ouverte se retrouve en présentiel. Et la lettre XMPP de septembre, traduite depuis l'anglais"
+       },
+       {
+        "cite": 6
+       },
+       {
+        "t": ", rappelle qu'un protocole de messagerie décentralisé vieux de vingt ans est toujours vivant, porté par des gens qui refusent obstinément de laisser Meta et Discord posséder toute la conversation."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Cinéma : le Festival Lumière vole la vedette",
+     "paragraphs": [
+      [
+       {
+        "t": "Le vrai morceau du jour, c'est le compte-rendu du Festival Lumière 2026"
+       },
+       {
+        "cite": 7
+       },
+       {
+        "t": " : cinq séances, et la bonne surprise des frères Coen venus en invités. C'est le genre d'article qui donne envie d'y être l'an prochain plutôt que de se contenter du résumé. Pendant ce temps, le top streaming de la semaine reste plus tiède"
+       },
+       {
+        "cite": 8
+       },
+       {
+        "t": " : Sacrifice et Lupin dominent, Harry Potter et Carrie suivent, rien qui bouscule vraiment les habitudes de visionnage du moment."
+       }
+      ],
+      [
+       {
+        "t": "Deux sorties méritent un coup d'œil. La Tentazione, drame italien à suspense adapté d'une pièce de théâtre"
+       },
+       {
+        "cite": 9
+       },
+       {
+        "t": ", et surtout l'interview de l'équipe effets spéciaux du Resident Evil de Zach Cregger"
+       },
+       {
+        "cite": 10
+       },
+       {
+        "t": ", qui creuse enfin les coulisses techniques d'une adaptation jeu vidéo qui a visiblement marqué les esprits cette année."
+       }
+      ]
+     ]
+    },
+    {
+     "name": "Philo, BD et chroniques décalées",
+     "paragraphs": [
+      [
+       {
+        "t": "Philosophie Magazine frappe deux fois aujourd'hui, et les deux valent le détour. Eva Illouz établit un parallèle entre Heidegger et le vote du 27 octobre"
+       },
+       {
+        "cite": 11
+       },
+       {
+        "t": ", pendant qu'un autre article se demande comment « humain » est devenu un compliment"
+       },
+       {
+        "cite": 12
+       },
+       {
+        "t": " plutôt qu'une simple description — question qui en dit long sur l'époque, posée sans brandir le mot « révolution »."
+       }
+      ],
+      [
+       {
+        "t": "Côté lecture, la critique de La vérité de Pinocchio décrit une BD qui interroge l'identité et le regard des autres à travers le mythe du pantin"
+       },
+       {
+        "cite": 13
+       },
+       {
+        "t": ". Et Grise Bouille continue sa série sur le tableau périodique avec un cent-dix-neuvième élément inventé de toutes pièces"
+       },
+       {
+        "cite": 14
+       },
+       {
+        "t": ", entre feu, eau, air et terre : toujours aussi efficace pour faire sourire sans prétendre enseigner la chimie."
+       }
+      ]
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "n": 1,
+     "title": "Agent IA : Utiliser opencode avec un LLM Local (llama.cpp)",
+     "url": "https://www.linuxtricks.fr/wiki/agent-ia-utiliser-opencode-avec-un-llm-local-llama-cpp",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 2,
+     "title": "Newsletter du 26 Octobre 2026",
+     "url": "https://www.rudeops.com/newsletters/2026-10-26",
+     "feed": "RudeOps"
+    },
+    {
+     "n": 3,
+     "title": "Revue de presse de l'April pour la semaine 43 de l'année 2026",
+     "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-43-de-l-annee-2026",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 4,
+     "title": "Liens intéressants Journal du hacker semaine #43",
+     "url": "https://blog.journalduhacker.net/index.php?article610/liens-interessants-journal-du-hacker-semaine-43-2026",
+     "feed": "Journal du Hacker"
+    },
+    {
+     "n": 5,
+     "title": "Journées Open Food Facts 2026 - 13/14 novembre - Paris",
+     "url": "https://linuxfr.org/news/journees-open-food-facts-2026-13-14-novembre-paris",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 6,
+     "title": "Lettre d'information XMPP de septembre 2026",
+     "url": "https://linuxfr.org/news/lettre-d-information-xmpp-de-septembre-2026",
+     "feed": "Dépêches LinuxFr.org"
+    },
+    {
+     "n": 7,
+     "title": "Festival Lumière 2026 : une semaine de cinéma, et les Coen en invités surprise",
+     "url": "https://www.leblogducinema.com/analyse/festival-lumiere-2026-compte-rendu-65540580/",
+     "feed": "Le Blog Du Cinéma"
+    },
+    {
+     "n": 8,
+     "title": "Streaming : Sacrifice et Lupin prennent le pouvoir, Poudlard et Carrie à leurs trousses",
+     "url": "https://www.leblogducinema.com/analyse/top-10-streaming-19-25-octobre-2026-65540588/",
+     "feed": "Le Blog Du Cinéma"
+    },
+    {
+     "n": 9,
+     "title": "Sortie du film italien la Tentazione au cinéma",
+     "url": "https://culturaddict.com/sortie-de-la-tentazione-au-cinema/?utm_source=rss&utm_medium=rss&utm_campaign=sortie-de-la-tentazione-au-cinema",
+     "feed": "Culturaddict"
+    },
+    {
+     "n": 10,
+     "title": "Interview avec l'équipe effets spéciaux de « Resident Evil »",
+     "url": "https://culturaddict.com/interview-avec-lequipe-effets-speciaux-de-resident-evil/?utm_source=rss&utm_medium=rss&utm_campaign=interview-avec-lequipe-effets-speciaux-de-resident-evil",
+     "feed": "Culturaddict"
+    },
+    {
+     "n": 11,
+     "title": "Eva Illouz : \"C'est Heidegger qui vote le 27 octobre !\"",
+     "url": "https://www.philomag.com/articles/eva-illouz-cest-heidegger-qui-vote-le-27-octobre",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 12,
+     "title": "Comment \"humain\" est‑il devenu un compliment ?",
+     "url": "https://www.philomag.com/articles/comment-humain-est-il-devenu-un-compliment",
+     "feed": "Philosophie Magazine"
+    },
+    {
+     "n": 13,
+     "title": "La vérité de Pinocchio : un conte sublime qui nous tend un miroir !",
+     "url": "https://jesuisungameur.com/2026/10/26/critique-la-verite-de-pinocchio-bande-dessinee-grand-angle/",
+     "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+    },
+    {
+     "n": 14,
+     "title": "Le cent-dix-neuvième élément",
+     "url": "https://grisebouille.net/le-119e-element?utm_source=GBRSS",
+     "feed": "Grise Bouille"
+    }
+   ]
+  },
   {
    "date": "2026-10-26",
    "label": "lundi 26 octobre 2026",
@@ -2625,175 +2847,6 @@
      "title": "Où il sera question de Cover Thumbnailer et de dark patterns téléphoniques",
      "url": "https://blog.flozz.fr/2026/10/06/journal-de-bord-9-ou-il-sera-question-de-cover-thumbnailer-et-de-dark-patterns-telephoniques/",
      "feed": "Journal du Hacker"
-    }
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "label": "lundi 5 octobre 2026",
-   "title": "Markdown contre LLM, rsync contre vibe coding : la semaine où le libre se défend",
-   "sections": [
-    {
-     "name": "Dev & Sécu",
-     "paragraphs": [
-      [
-       {
-        "t": "Stéphane Bortzmeyer remet les pendules à l'heure sur Markdown"
-       },
-       {
-        "cite": 1
-       },
-       {
-        "t": ". Son argument : non, un traitement de texte n'est pas la seule façon civilisée d'écrire, et le texte brut structuré a encore toute sa place face au réflexe \"je demande à un LLM de me pondre ça\". C'est le genre de rappel sec et utile qu'on attend de lui, sans détour ni marketing."
-       }
-      ],
-      [
-       {
-        "t": "Sur LinuxFr, une dépêche interroge Debian à la croisée de l'IA, du vibe coding et de rsync"
-       },
-       {
-        "cite": 2
-       },
-       {
-        "t": ", preuve que même les projets les plus établis du libre doivent composer avec la vague \"code généré\" qui arrive de toutes parts. Et pour s'y retrouver dans le jargon qui va avec, Hoppr publie un lexique prompt/tokens/MCP/harness"
-       },
-       {
-        "cite": 3
-       },
-       {
-        "t": " qui tombe au bon moment : les mots s'empilent plus vite que les définitions stables."
-       }
-      ],
-      [
-       {
-        "t": "Côté sécu, un article explique comment auditer son Wi-Fi avec Kali et Wireshark en allant plus loin que la simple capture de poignée de main"
-       },
-       {
-        "cite": 4
-       },
-       {
-        "t": ", ce qui manquait effectivement dans le paysage francophone. Pratique, concret, pas de blabla."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Veille & agenda du libre",
-     "paragraphs": [
-      [
-       {
-        "t": "Le Journal du Hacker livre sa sélection hebdomadaire de liens"
-       },
-       {
-        "cite": 5
-       },
-       {
-        "t": ", et LinuxFr son agenda du libre pour la semaine 41"
-       },
-       {
-        "cite": 6
-       },
-       {
-        "t": ", avec en prime le best-of des journaux les mieux notés de septembre"
-       },
-       {
-        "cite": 7
-       },
-       {
-        "t": ". Rien de renversant, mais c'est le genre de rendez-vous qu'on est content de retrouver chaque semaine, justement parce qu'il ne cherche pas à être renversant."
-       }
-      ]
-     ]
-    },
-    {
-     "name": "Jeux, BD et culture du jour",
-     "paragraphs": [
-      [
-       {
-        "t": "Grise Bouille part en quête de l'Élu dans une BD fantasy qui recycle sciemment ses propres vannes"
-       },
-       {
-        "cite": 8
-       },
-       {
-        "t": ", et le test de Silent Hill Townfall sur PXLBBQ"
-       },
-       {
-        "cite": 9
-       },
-       {
-        "t": " continue d'explorer cette idée que la série fait maintenant de la Brume avec la culpabilité collective. Pummel Party sur PS5 se contente d'être ce qu'il promet : un party game à l'ambiance sympa malgré des graphismes qui ont pris de l'âge"
-       },
-       {
-        "cite": 10
-       },
-       {
-        "t": ", honnête pour 17 euros entre quatre manettes."
-       }
-      ]
-     ]
-    }
-   ],
-   "sources": [
-    {
-     "n": 1,
-     "title": "From Markup to Markdown",
-     "url": "https://www.bortzmeyer.org/from-markup-to-markdown.html",
-     "feed": "Blog de Stéphane Bortzmeyer"
-    },
-    {
-     "n": 2,
-     "title": "Debian, IA, vibe coding & rsync : la croisée des chemins ?",
-     "url": "https://linuxfr.org/news/debian-ia-vibe-coding-rsync-la-croisee-des-chemins",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 3,
-     "title": "Prompt, tokens, MCP, harness... le lexique IA à connaître en 2026",
-     "url": "https://blog.hoppr.tech/blogs/2026-08-19-prompt-tokens-mcp-harness-le-lexique-ia-a-connaitre-en-2026",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 4,
-     "title": "Kali et Wireshark : mettez votre Wi-Fi sur écoute avant les autres",
-     "url": "https://jurojin.net/auditer-son-reseau-wifi-avec-kali-et-wireshark/",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 5,
-     "title": "Liens intéressants Journal du hacker semaine #40",
-     "url": "https://blog.journalduhacker.net/index.php?article607/liens-interessants-journal-du-hacker-semaine-40-2026",
-     "feed": "Journal du Hacker"
-    },
-    {
-     "n": 6,
-     "title": "Agenda du Libre pour la semaine 41 de l'année 2026",
-     "url": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-41-de-l-annee-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 7,
-     "title": "🪶 Les journaux LinuxFr.org les mieux notés de septembre 2026",
-     "url": "https://linuxfr.org/news/les-journaux-linuxfr-org-les-mieux-notes-de-septembre-2026",
-     "feed": "Dépêches LinuxFr.org"
-    },
-    {
-     "n": 8,
-     "title": "En quête de l'Élu",
-     "url": "https://grisebouille.net/en-quete-de-lelu?utm_source=GBRSS",
-     "feed": "Grise Bouille"
-    },
-    {
-     "n": 9,
-     "title": "Test : Silent Hill Townfall – Quand le traumatisme de tous et la culpabilité de certains déclenchent la Brume",
-     "url": "https://pxlbbq.com/test-silent-hill-townfall-quand-le-traumatisme-de-tous-et-la-culpabilite-de-certains-declenchent-la-brume/",
-     "feed": "PXLBBQ"
-    },
-    {
-     "n": 10,
-     "title": "Test Pummel Party sur PS5 : le party game parfait pour vos soirées entre potes",
-     "url": "https://www.blogamer.fr/test-pummel-party-sur-ps5-le-party-game-parfait-pour-vos-soirees-entre-potes/",
-     "feed": "Blogamer.fr"
     }
    ]
   }

@@ -1,0 +1,222 @@
+{
+ "date": "2026-10-27",
+ "label": "mardi 27 octobre 2026",
+ "title": "Un agent IA local, des éléments chimiques imaginaires, et un festival Lumière volé par les frères Coen",
+ "sections": [
+  {
+   "name": "Tech & Internet libre",
+   "paragraphs": [
+    [
+     {
+      "t": "Pas grand-chose de spectaculaire côté infra cette semaine, mais du solide pour qui aime creuser. Le tuto qui retient l'attention montre comment brancher opencode sur un LLM tournant en local via llama.cpp"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": " — exactement le genre de setup qui permet de coder avec un agent IA sans envoyer ses prompts chez OpenAI. La newsletter RudeOps du jour couvre à peu près tout le spectre ops : monitoring, Kubernetes, Docker, Git, eBPF, sécurité, carrière"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", un concentré utile si on n'a pas le temps de tout suivre au fil de l'eau."
+     }
+    ],
+    [
+     {
+      "t": "Côté veille communautaire, la revue de presse de l'April"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": " et les liens du Journal du Hacker"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": " font leur travail habituel de tri. Plus notable : les Journées Open Food Facts, les 13 et 14 novembre à Paris"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", où la communauté qui maintient la base alimentaire ouverte se retrouve en présentiel. Et la lettre XMPP de septembre, traduite depuis l'anglais"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", rappelle qu'un protocole de messagerie décentralisé vieux de vingt ans est toujours vivant, porté par des gens qui refusent obstinément de laisser Meta et Discord posséder toute la conversation."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Cinéma : le Festival Lumière vole la vedette",
+   "paragraphs": [
+    [
+     {
+      "t": "Le vrai morceau du jour, c'est le compte-rendu du Festival Lumière 2026"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": " : cinq séances, et la bonne surprise des frères Coen venus en invités. C'est le genre d'article qui donne envie d'y être l'an prochain plutôt que de se contenter du résumé. Pendant ce temps, le top streaming de la semaine reste plus tiède"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": " : Sacrifice et Lupin dominent, Harry Potter et Carrie suivent, rien qui bouscule vraiment les habitudes de visionnage du moment."
+     }
+    ],
+    [
+     {
+      "t": "Deux sorties méritent un coup d'œil. La Tentazione, drame italien à suspense adapté d'une pièce de théâtre"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ", et surtout l'interview de l'équipe effets spéciaux du Resident Evil de Zach Cregger"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": ", qui creuse enfin les coulisses techniques d'une adaptation jeu vidéo qui a visiblement marqué les esprits cette année."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Philo, BD et chroniques décalées",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine frappe deux fois aujourd'hui, et les deux valent le détour. Eva Illouz établit un parallèle entre Heidegger et le vote du 27 octobre"
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": ", pendant qu'un autre article se demande comment « humain » est devenu un compliment"
+     },
+     {
+      "cite": 12
+     },
+     {
+      "t": " plutôt qu'une simple description — question qui en dit long sur l'époque, posée sans brandir le mot « révolution »."
+     }
+    ],
+    [
+     {
+      "t": "Côté lecture, la critique de La vérité de Pinocchio décrit une BD qui interroge l'identité et le regard des autres à travers le mythe du pantin"
+     },
+     {
+      "cite": 13
+     },
+     {
+      "t": ". Et Grise Bouille continue sa série sur le tableau périodique avec un cent-dix-neuvième élément inventé de toutes pièces"
+     },
+     {
+      "cite": 14
+     },
+     {
+      "t": ", entre feu, eau, air et terre : toujours aussi efficace pour faire sourire sans prétendre enseigner la chimie."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Agent IA : Utiliser opencode avec un LLM Local (llama.cpp)",
+   "url": "https://www.linuxtricks.fr/wiki/agent-ia-utiliser-opencode-avec-un-llm-local-llama-cpp",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 2,
+   "title": "Newsletter du 26 Octobre 2026",
+   "url": "https://www.rudeops.com/newsletters/2026-10-26",
+   "feed": "RudeOps"
+  },
+  {
+   "n": 3,
+   "title": "Revue de presse de l'April pour la semaine 43 de l'année 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-43-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Liens intéressants Journal du hacker semaine #43",
+   "url": "https://blog.journalduhacker.net/index.php?article610/liens-interessants-journal-du-hacker-semaine-43-2026",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Journées Open Food Facts 2026 - 13/14 novembre - Paris",
+   "url": "https://linuxfr.org/news/journees-open-food-facts-2026-13-14-novembre-paris",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 6,
+   "title": "Lettre d'information XMPP de septembre 2026",
+   "url": "https://linuxfr.org/news/lettre-d-information-xmpp-de-septembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 7,
+   "title": "Festival Lumière 2026 : une semaine de cinéma, et les Coen en invités surprise",
+   "url": "https://www.leblogducinema.com/analyse/festival-lumiere-2026-compte-rendu-65540580/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 8,
+   "title": "Streaming : Sacrifice et Lupin prennent le pouvoir, Poudlard et Carrie à leurs trousses",
+   "url": "https://www.leblogducinema.com/analyse/top-10-streaming-19-25-octobre-2026-65540588/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 9,
+   "title": "Sortie du film italien la Tentazione au cinéma",
+   "url": "https://culturaddict.com/sortie-de-la-tentazione-au-cinema/?utm_source=rss&utm_medium=rss&utm_campaign=sortie-de-la-tentazione-au-cinema",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 10,
+   "title": "Interview avec l'équipe effets spéciaux de « Resident Evil »",
+   "url": "https://culturaddict.com/interview-avec-lequipe-effets-speciaux-de-resident-evil/?utm_source=rss&utm_medium=rss&utm_campaign=interview-avec-lequipe-effets-speciaux-de-resident-evil",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 11,
+   "title": "Eva Illouz : \"C'est Heidegger qui vote le 27 octobre !\"",
+   "url": "https://www.philomag.com/articles/eva-illouz-cest-heidegger-qui-vote-le-27-octobre",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 12,
+   "title": "Comment \"humain\" est‑il devenu un compliment ?",
+   "url": "https://www.philomag.com/articles/comment-humain-est-il-devenu-un-compliment",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 13,
+   "title": "La vérité de Pinocchio : un conte sublime qui nous tend un miroir !",
+   "url": "https://jesuisungameur.com/2026/10/26/critique-la-verite-de-pinocchio-bande-dessinee-grand-angle/",
+   "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+  },
+  {
+   "n": 14,
+   "title": "Le cent-dix-neuvième élément",
+   "url": "https://grisebouille.net/le-119e-element?utm_source=GBRSS",
+   "feed": "Grise Bouille"
+  }
+ ]
+}
