@@ -1,0 +1,184 @@
+{
+ "date": "2026-10-28",
+ "label": "mercredi 28 octobre 2026",
+ "title": "DNS piraté, cartes FC27 recyclées : la veille libre tient la boutique",
+ "sections": [
+  {
+   "name": "Infra & logiciel libre",
+   "paragraphs": [
+    [
+     {
+      "t": "Stéphane Bortzmeyer revient sur le piratage de trois domaines de premier niveau entre le 22 et le 27 septembre"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ", et son billet vaut surtout pour ce qu'il corrige : plusieurs commentaires erronés ont circulé sur ce que ce genre d'attaque implique vraiment pour un cctld. C'est le genre de remise à plat qu'on aimerait lire plus souvent dès qu'un sujet DNS sort du cercle des spécialistes."
+     },
+     {
+      "t": " Dans un registre plus associatif, l'April publie sa revue de presse hebdomadaire sur Internet"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ", et Libre à vous ! enchaîne avec son café libre du 20 octobre, mélange d'actualités chaudes et de ton relax"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". La lettre XMPP de septembre, traduite par l'équipe de LinuxFr, complète le tableau pour qui suit encore les protocoles ouverts de messagerie"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": "."
+     }
+    ],
+    [
+     {
+      "t": "À noter aussi, le Capitole du Libre revient les 14 et 15 novembre à Toulouse, conférence qui tient depuis 2011"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ". Pas grand-chose de neuf dans cette annonce, mais la régularité de l'événement en dit long sur la solidité de l'écosystème libre francophone, loin des effets d'annonce."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Cinéma : portraits et sorties",
+   "paragraphs": [
+    [
+     {
+      "t": "Deux entretiens Culturaddict sortent du lot cette semaine. Stephen Schwartz, le créateur de \"Wicked\", s'est livré lors d'un passage à Gand"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ", et le format interview permet d'aller un peu plus loin qu'une simple promo de sortie. Paul Austerberry, chef décorateur oscarisé pour \"La Forme de l'eau\", raconte dans la première partie de sa rencontre ses débuts et son passage par des films de genre comme \"30 jours de nuit\""
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ", avant les blockbusters de super-héros. Ce sont ces trajectoires de techniciens qu'on croise peu, et qui disent souvent plus sur un film que les acteurs qu'on interviewe en boucle."
+     }
+    ],
+    [
+     {
+      "t": "Sortie plus confidentielle avec \"La Tentazione\", drame à suspense italien de Nicolangelo Gelormini adapté d'une pièce de théâtre"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". Côté streaming, le top 10 de la semaine du 19 au 25 octobre voit \"Sacrifice\" et \"Lupin\" dominer, chassés par Poudlard et Carrie"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ", un classement qui montre surtout que les plateformes jouent toujours la carte sûre du familier contre la nouveauté."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Un peu de tout le reste",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine pose une question qui mériterait plus qu'un titre d'article : faut-il interdire le mensonge en politique"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": " ? Dommage que la description soit vide, le sujet donnait de la matière. Côté jeu vidéo, un guide pratique explique comment recycler ses cartes et doublons dans FC 27 Ultimate Team via les DCE"
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": ", utile si vous avez laissé traîner un inventaire sans vous en occuper depuis la sortie."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Piratage de trois domaines de premier niveau",
+   "url": "https://www.bortzmeyer.org/piratage-trois-cctld.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 2,
+   "title": "Revue de presse de l'April pour la semaine 43 de l'année 2026",
+   "url": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-43-de-l-annee-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Au café libre - « Libre à vous ! » du 20 octobre 2026 - Podcasts et références",
+   "url": "https://linuxfr.org/news/au-cafe-libre-libre-a-vous-du-20-octobre-2026-podcasts-et-references",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Lettre d'information XMPP de septembre 2026",
+   "url": "https://linuxfr.org/news/lettre-d-information-xmpp-de-septembre-2026",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 5,
+   "title": "Le Capitole du Libre, la conférence sur le libre à Toulouse depuis 2011 - Podcast Projets Libres",
+   "url": "https://linuxfr.org/news/le-capitole-du-libre-la-conference-sur-le-libre-a-toulouse-depuis-2011-podcast-projets-libres",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 6,
+   "title": "Rencontre avec Stephen Schwartz, créateur de « Wicked »",
+   "url": "https://culturaddict.com/interview-stephen-schwartz-createur-de-wicked/?utm_source=rss&utm_medium=rss&utm_campaign=interview-stephen-schwartz-createur-de-wicked",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 7,
+   "title": "Rencontre avec Paul Austerberry, chef décorateur (première partie : débuts, La forme de l'eau, 30 jours de nuit et films de super-héros)",
+   "url": "https://culturaddict.com/rencontre-avec-paul-austerberry-chef-decorateur-premiere-partie-debuts-la-forme-de-leau-30-jours-de-nuit-et-films-de-super-heros/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-paul-austerberry-chef-decorateur-premiere-partie-debuts-la-forme-de-leau-30-jours-de-nuit-et-films-de-super-heros",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 8,
+   "title": "Sortie du film italien la Tentazione au cinéma",
+   "url": "https://culturaddict.com/sortie-de-la-tentazione-au-cinema/?utm_source=rss&utm_medium=rss&utm_campaign=sortie-de-la-tentazione-au-cinema",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 9,
+   "title": "Streaming : Sacrifice et Lupin prennent le pouvoir, Poudlard et Carrie à leurs trousses",
+   "url": "https://www.leblogducinema.com/analyse/top-10-streaming-19-25-octobre-2026-65540588/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 10,
+   "title": "Faut-il interdire le mensonge en politique ?",
+   "url": "https://www.philomag.com/articles/faut-il-interdire-le-mensonge-en-politique",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 11,
+   "title": "DCE FC 27 : comment recycler ses cartes et ses doublons ?",
+   "url": "https://jesuisungameur.com/2026/10/27/guide-dce-fc-27-cartes-doublons/",
+   "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+  }
+ ]
+}
