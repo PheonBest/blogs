@@ -1,0 +1,175 @@
+{
+ "date": "2026-10-29",
+ "label": "jeudi 29 octobre 2026",
+ "title": "DNS menteurs, IA au quotidien et un vieux proverbe : loue, ne jette pas",
+ "sections": [
+  {
+   "name": "Infra & usages réels",
+   "paragraphs": [
+    [
+     {
+      "t": "Stéphane Bortzmeyer démonte un terme qui traîne dans toutes les discussions sur la censure du Net : le « DNS menteur »"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Son billet explique ce que ça recouvre vraiment, loin du raccourci pratique qu'on utilise pour désigner un résolveur qui ne répond pas la vérité. C'est le genre d'article qu'on garde en favori pour la prochaine fois qu'on doit expliquer le sujet à quelqu'un qui confond censure DNS et censure tout court."
+     },
+     {
+      "t": " Pendant ce temps, LinuxFr pose une question qu'on élude trop souvent face à l'électronique jetable : et si on louait plutôt qu'on achetait ?"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": " L'auteur part d'une discussion entendue dans son entreprise pour interroger un modèle qui existe déjà ailleurs (le mobilier, la voiture) mais qui peine à s'imposer sur les appareils électroniques. Pas une révolution, mais une piste concrète contre l'obsolescence qu'on subit plus qu'on ne choisit."
+     }
+    ],
+    [
+     {
+      "t": "Sur le volet IA, un ingénieur systèmes raconte sans grand enthousiasme excessif comment Claude s'est glissé dans son quotidien de travail"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ". C'est le type de retour d'expérience qui manque cruellement dans le flot de promesses marketing : pas de révolution annoncée, juste un outil qu'on finit par utiliser parce qu'il rend certaines tâches moins pénibles. On aimerait plus de billets comme ça, et moins d'annonces de « plateforme IA nouvelle génération »."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Communauté du libre",
+   "paragraphs": [
+    [
+     {
+      "t": "LinuxFr relaie un podcast consacré au Capitole du Libre, la conférence toulousaine qui tient depuis 2011 et qui revient les 14 et 15 novembre"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". Rien de spectaculaire dans l'annonce elle-même, mais la longévité de l'événement dit quelque chose : le libre francophone a ses rendez-vous qui durent, loin des effets de mode. Un épisode à écouter si on veut comprendre comment une conférence communautaire tient quinze ans sans grand sponsor derrière."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Culture, écran et son",
+   "paragraphs": [
+    [
+     {
+      "t": "Côté cinéma, Culturaddict note \"Moulin : de la résistance\" 3,5/5, saluant le formalisme de László Nemes tout en pointant ce qu'il a d'étouffant"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": " — un cinéaste qui enferme son spectateur dans le cadre, littéralement. Le même site a surtout décroché un entretien qui vaut le détour : Stephen Schwartz, le créateur de \"Wicked\" et parolier, de passage à Gand"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ". Ce genre de rencontre avec une figure qui a littéralement façonné la pop culture musicale est plus rare qu'une critique de sortie, et ça se sent dans l'angle choisi."
+     },
+     {
+      "t": " Strasbourg, elle, se prépare à dix jours de jazz avec le retour de Jazzdor pour sa 41e édition, du 6 au 15 novembre"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ". Publi-rédactionnel assumé, donc à prendre comme une annonce d'agenda plus que comme une critique, mais utile si vous êtes dans le coin."
+     }
+    ],
+    [
+     {
+      "t": "Gee revient avec un nouveau numéro des Humeurs de Gee, \"Mort à la pub\""
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ", toujours aussi direct sur un sujet qu'il creuse depuis longtemps. David Revoy, lui, publie \"The Poisonous Appearance\""
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ", sans grand détail dans le flux mais fidèle à son univers graphique habituel. Et Philosophie Magazine interroge Ali Benmakhlouf sur l'éthique, avec une formule qui mérite qu'on s'y arrête : « Le souci éthique ne va jamais trop loin »"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": ". Dans un monde saturé de débats sur les limites de l'IA et de la tech, ce genre de rappel philosophique, simple en apparence, fait du bien."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Qu'est-ce qu'un « DNS menteur » ?",
+   "url": "https://www.bortzmeyer.org/resolveur-dns-menteur.html",
+   "feed": "Blog de Stéphane Bortzmeyer"
+  },
+  {
+   "n": 2,
+   "title": "Et si vous louiez votre prochain appareil électronique ?",
+   "url": "https://linuxfr.org/news/et-si-vous-louiez-votre-prochain-appareil-electronique",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Comment j'utilise Claude au quotidien en tant qu'ingénieur systèmes, et ce qu'il m'a vraiment apporté",
+   "url": "https://www.abyssproject.net/2026/10/comment-jutilise-claude-au-quotidien-en-tant-quingenieur-systemes-et-ce-quil-ma-vraiment-apporte/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 4,
+   "title": "Le Capitole du Libre, la conférence sur le libre à Toulouse depuis 2011 - Podcast Projets Libres",
+   "url": "https://linuxfr.org/news/le-capitole-du-libre-la-conference-sur-le-libre-a-toulouse-depuis-2011-podcast-projets-libres",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 5,
+   "title": "Moulin : de la résistance (3,5/5)",
+   "url": "https://culturaddict.com/moulin-de-la-resistance-35-5/?utm_source=rss&utm_medium=rss&utm_campaign=moulin-de-la-resistance-35-5",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 6,
+   "title": "Rencontre avec Stephen Schwartz, créateur de « Wicked »",
+   "url": "https://culturaddict.com/interview-stephen-schwartz-createur-de-wicked/?utm_source=rss&utm_medium=rss&utm_campaign=interview-stephen-schwartz-createur-de-wicked",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 7,
+   "title": "Jazzdor revient faire vibrer Strasbourg pendant dix jours",
+   "url": "https://www.coze.fr/2026/10/jazzdor-2026-strasbourg/",
+   "feed": "Coze - Magazine et Agenda culturel alsacien"
+  },
+  {
+   "n": 8,
+   "title": "Mort à la pub",
+   "url": "https://grisebouille.net/lhdg38-mort-a-la-pub?utm_source=GBRSS",
+   "feed": "Grise Bouille"
+  },
+  {
+   "n": 9,
+   "title": "The Poisonous Appearance",
+   "url": "https://www.davidrevoy.com/article1182/the-poisonous-appearance",
+   "feed": "David Revoy"
+  },
+  {
+   "n": 10,
+   "title": "Ali Benmakhlouf : \"Le souci éthique ne va jamais trop loin\"",
+   "url": "https://www.philomag.com/articles/ali-benmakhlouf-le-souci-ethique-ne-va-jamais-trop-loin",
+   "feed": "Philosophie Magazine"
+  }
+ ]
+}
