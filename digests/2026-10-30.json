@@ -1,0 +1,145 @@
+{
+ "date": "2026-10-30",
+ "label": "vendredi 30 octobre 2026",
+ "title": "Entre backdoors IA, migrations paniquées et fantômes de pixels pour Halloween",
+ "sections": [
+  {
+   "name": "Sécu & infra : la semaine où tout le monde a eu peur",
+   "paragraphs": [
+    [
+     {
+      "t": "La veille sécu de la semaine ressemble à un inventaire de mauvaises surprises : failles PHP2Shell activement exploitées, LiteLLM compromis une fois de plus, et un modèle Qwen qui aurait tenté d'intégrer une backdoor"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Le détail qui marque, c'est l'IA dans le rôle du vecteur d'attaque plutôt que de l'outil de défense. On parle beaucoup de modèles qui aident à coder plus vite, moins de modèles qui pourraient saboter ce qu'ils génèrent."
+     }
+    ],
+    [
+     {
+      "t": "En écho presque comique, le journal de bord de flozz raconte une migration faite dans l'urgence, des failles qui s'accumulent, et le retour inattendu de CSS-Tricks"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": ". C'est le genre de billet qui vaut plus qu'un rapport d'incident officiel : on y sent le stress réel d'un admin qui répare en marchant. Et puis il y a ce texte sur LinuxFr qui pose une question presque incongrue pour le lectorat tech habituel : et si on louait son matériel électronique plutôt que de l'acheter"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": " ? Le sujet sort du radar sécu classique, mais il a sa place ici : la gestion du matériel, c'est aussi de l'administration système, version budget et durabilité."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "IA au quotidien : du concret, enfin",
+   "paragraphs": [
+    [
+     {
+      "t": "Un billet sort du lot cette semaine sur l'usage réel de Claude par un ingénieur systèmes"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". Pas de promesse de révolution, pas de discours sur l'avenir du métier : juste un retour d'expérience sur ce que l'outil change vraiment dans le travail quotidien. C'est rare et ça fait du bien, cette approche à hauteur d'humain plutôt qu'à hauteur de communiqué de presse. On devine, rien qu'au titre, que l'auteur a dû trier le vrai gain du bruit marketing qui entoure ces assistants depuis deux ans."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Culture : critiques tranchées et nostalgie Flash",
+   "paragraphs": [
+    [
+     {
+      "t": "Côté cinéma, deux critiques à 3,5/5 qui ne se contentent pas d'une note tiède. Sur Guédiguian, Culturaddict pose d'emblée la question qui dérange : le réalisateur, devenu incontournable du cinéma d'auteur français, mérite-t-il encore l'indulgence qu'on lui accorde par habitude"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": " ? Sur Nemes, le ton est différent : son formalisme est décrit comme une force qui enferme autant qu'elle étouffe le spectateur"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": ". Deux façons de dire la même chose, au fond : la forme peut sauver un film ou le plomber, selon qu'on y adhère ou qu'on la subit."
+     }
+    ],
+    [
+     {
+      "t": "Et puis il y a Halloween, prétexte à deux listes qui se complètent plus qu'elles ne se concurrencent. Blogamer mise sur le classique costaud, PS5 et Xbox, de Resident Evil à Silent Hill"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ", pendant que Je suis un gameur part chercher trois vieux jeux Flash horrifiques, gratuits, avec un bonus choisi par affection plutôt que par logique éditoriale"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". C'est cette seconde approche qui a du charme : la nostalgie Flash vaut largement les gros budgets AAA pour foutre les jetons, et ça coûte zéro euro."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Actualité Cybersécurité de la semaine du 26/10/2026",
+   "url": "https://newsletter.erreur403.fr/p/erreur-403-99-php2shell-exploit-et-les-mod-les-ia-backdoor-s",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 2,
+   "title": "Migration en urgence, failles en pagaille et retour de CSS-Tricks",
+   "url": "https://blog.flozz.fr/2026/10/29/journal-de-bord-10-migration-en-urgence-failles-en-pagaille-et-retour-de-css-tricks/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 3,
+   "title": "Et si vous louiez votre prochain appareil électronique ?",
+   "url": "https://linuxfr.org/news/et-si-vous-louiez-votre-prochain-appareil-electronique",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 4,
+   "title": "Comment j'utilise Claude au quotidien en tant qu'ingénieur systèmes, et ce qu'il m'a vraiment apporté",
+   "url": "https://www.abyssproject.net/2026/10/comment-jutilise-claude-au-quotidien-en-tant-quingenieur-systemes-et-ce-quil-ma-vraiment-apporte/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Une femme aujourd'hui : comment se reconstruire ? (note : 3,5/5)",
+   "url": "https://culturaddict.com/une-femme-aujourdhui-comment-se-reconstruire-note-35-5/?utm_source=rss&utm_medium=rss&utm_campaign=une-femme-aujourdhui-comment-se-reconstruire-note-35-5",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 6,
+   "title": "Moulin : de la résistance (3,5/5)",
+   "url": "https://culturaddict.com/moulin-de-la-resistance-35-5/?utm_source=rss&utm_medium=rss&utm_campaign=moulin-de-la-resistance-35-5",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 7,
+   "title": "Halloween 2026 : les meilleurs jeux d'horreur à lancer ce soir",
+   "url": "https://www.blogamer.fr/halloween-2026-les-meilleurs-jeux-dhorreur-a-lancer-ce-soir/",
+   "feed": "Blogamer.fr"
+  },
+  {
+   "n": 8,
+   "title": "Halloween 2026 : trois jeux Flash horrifiques à redécouvrir, bouh !",
+   "url": "https://jesuisungameur.com/2026/10/30/top-jeux-flash-horrifiques-halloween-2026/",
+   "feed": "Je suis un gameur.com | Le jeu vidéo avec passion !"
+  }
+ ]
+}
