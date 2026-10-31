@@ -1,0 +1,183 @@
+{
+ "date": "2026-10-31",
+ "label": "samedi 31 octobre 2026",
+ "title": "Un hadron qui secoue macOS, un plagiat qui secoue la philo",
+ "sections": [
+  {
+   "name": "Dev & Ops",
+   "paragraphs": [
+    [
+     {
+      "t": "LinuxFr sort l'arme lourde du jour avec Hadron, présenté comme le futur de macOS qui « court-circuite tout macOS »"
+     },
+     {
+      "cite": 1
+     },
+     {
+      "t": ". Le texte s'ouvre sur une définition physique du hadron (particule composite tenue par l'interaction forte), histoire de prévenir qu'on va sans doute parler de bidouille système plutôt que de produit fini. Toujours chez LinuxFr, un billet plus terre-à-terre pose la question qu'on élude trop souvent : et si on louait son prochain appareil électronique plutôt que de l'acheter"
+     },
+     {
+      "cite": 2
+     },
+     {
+      "t": " ? L'auteur part d'un groupe de veille interne découvert chez son employeur bancaire, ce genre de détail qui donne un vrai ancrage à la réflexion sur l'obsolescence et le renouvellement du parc matériel."
+     }
+    ],
+    [
+     {
+      "t": "Côté veille pure, la semaine est costaude. Camille Roux livre sa 80e édition avec 24 actus, Claude Code multijoueur et Quad9 en vedette"
+     },
+     {
+      "cite": 3
+     },
+     {
+      "t": ", pendant que Flozz raconte un épisode nettement moins glamour : migration en urgence, failles qui s'accumulent, et le retour inattendu de CSS-Tricks"
+     },
+     {
+      "cite": 4
+     },
+     {
+      "t": ". C'est le genre de journal de bord qu'on lit pour se rassurer qu'on n'est pas seul à galérer un vendredi soir. Et pour ceux qui préfèrent héberger chez eux plutôt que chez les autres, le Self-Host Weekly du jour s'appelle sobrement « Trick-or-tokens »"
+     },
+     {
+      "cite": 5
+     },
+     {
+      "t": ", calembour d'Halloween oblige."
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Philo & culture, même combat contre le flou",
+   "paragraphs": [
+    [
+     {
+      "t": "Philosophie Magazine enchaîne les sujets qui grattent. D'abord cette question presque triviale mais pas tant que ça : pourquoi les jeunes raffolent-ils de La Bohème ou Hier encore, des chansons écrites bien avant leur naissance"
+     },
+     {
+      "cite": 6
+     },
+     {
+      "t": " ? Ensuite, plus grinçant, l'entrée en scène du « plag-IA », terme qui résume à lui seul l'angoisse du moment académique et créatif"
+     },
+     {
+      "cite": 7
+     },
+     {
+      "t": ". Et pour finir, un billet au titre qui ne cache rien de son jugement : Hope, un foutoir monstre"
+     },
+     {
+      "cite": 8
+     },
+     {
+      "t": ". Trois textes, trois registres, mais un même fil : on n'a jamais autant interrogé ce qui fait qu'une œuvre tient, ou pas."
+     }
+    ],
+    [
+     {
+      "t": "Le cinéma n'est pas en reste. The Social Reckoning promet des dialogues qui claquent façon Sorkin, mais Le Blog Du Cinéma est clair : Fincher n'est pas au rendez-vous"
+     },
+     {
+      "cite": 9
+     },
+     {
+      "t": ". Chez Culturaddict, deux textes se répondent presque : un portrait du compositeur Jérôme Rebotier, révélé par sa musique pour Le Comte de Monte-Cristo"
+     },
+     {
+      "cite": 10
+     },
+     {
+      "t": ", et une critique en demi-teinte (3,5/5) du nouveau Guédiguian, Une femme aujourd'hui"
+     },
+     {
+      "cite": 11
+     },
+     {
+      "t": ", sur la question de la reconstruction après un drame. Pour ceux qui préfèrent se faire peur plutôt que réfléchir ce soir, Blogamer a sorti sa sélection Halloween des meilleurs jeux d'horreur, de Resident Evil à Silent Hill"
+     },
+     {
+      "cite": 12
+     },
+     {
+      "t": "."
+     }
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "Hadron, le futur de macOS court-circuite tout macOS",
+   "url": "https://linuxfr.org/news/hadron-le-futur-de-macos-court-circuite-tout-macos",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 2,
+   "title": "Et si vous louiez votre prochain appareil électronique ?",
+   "url": "https://linuxfr.org/news/et-si-vous-louiez-votre-prochain-appareil-electronique",
+   "feed": "Dépêches LinuxFr.org"
+  },
+  {
+   "n": 3,
+   "title": "Veille 80 - 24 actus qu'il ne fallait pas rater cette semaine",
+   "url": "https://www.camilleroux.com/claude-code-multijoueur-quad9-layerfs-veille-80/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 4,
+   "title": "Migration en urgence, failles en pagaille et retour de CSS-Tricks",
+   "url": "https://blog.flozz.fr/2026/10/29/journal-de-bord-10-migration-en-urgence-failles-en-pagaille-et-retour-de-css-tricks/",
+   "feed": "Journal du Hacker"
+  },
+  {
+   "n": 5,
+   "title": "Self-Host Weekly (30 October 2026)",
+   "url": "https://selfh.st/weekly/2026-10-30/",
+   "feed": "selfh.st"
+  },
+  {
+   "n": 6,
+   "title": "\"La Bohème\", \"Hier encore\"… Pourquoi les jeunes adorent les chansons de vieux ?",
+   "url": "https://www.philomag.com/articles/la-boheme-hier-encore-pourquoi-les-jeunes-adorent-les-chansons-de-vieux",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 7,
+   "title": "Bienvenue dans l'ère du \"plag-IA\"",
+   "url": "https://www.philomag.com/articles/bienvenue-dans-lere-du-plag-ia",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 8,
+   "title": "\"Hope\", un foutoir monstre",
+   "url": "https://www.philomag.com/articles/hope-un-foutoir-monstre",
+   "feed": "Philosophie Magazine"
+  },
+  {
+   "n": 9,
+   "title": "The Social Reckoning : Sorkin parle, Fincher manque",
+   "url": "https://www.leblogducinema.com/critique-film/the-social-reckoning-avis-65540595/",
+   "feed": "Le Blog Du Cinéma"
+  },
+  {
+   "n": 10,
+   "title": "Rencontre avec le compositeur Jérôme Rebotier (« Le prénom », « Papa ou Maman », « Le comte de Monte-Cristo », …)",
+   "url": "https://culturaddict.com/rencontre-avec-le-compositeur-jerome-rebotier-le-prenom-papa-ou-maman-le-comte-de-monte-cristo/?utm_source=rss&utm_medium=rss&utm_campaign=rencontre-avec-le-compositeur-jerome-rebotier-le-prenom-papa-ou-maman-le-comte-de-monte-cristo",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 11,
+   "title": "Une femme aujourd'hui : comment se reconstruire ? (note : 3,5/5)",
+   "url": "https://culturaddict.com/une-femme-aujourdhui-comment-se-reconstruire-note-35-5/?utm_source=rss&utm_medium=rss&utm_campaign=une-femme-aujourdhui-comment-se-reconstruire-note-35-5",
+   "feed": "Culturaddict"
+  },
+  {
+   "n": 12,
+   "title": "Halloween 2026 : les meilleurs jeux d'horreur à lancer ce soir",
+   "url": "https://www.blogamer.fr/halloween-2026-les-meilleurs-jeux-dhorreur-a-lancer-ce-soir/",
+   "feed": "Blogamer.fr"
+  }
+ ]
+}
